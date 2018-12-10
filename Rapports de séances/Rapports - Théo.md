@@ -4,16 +4,17 @@
     <p>Pour le commencement de notre projet, j'ai tout d'abord par créer notre github, et assisté mon partenaire pour le cahier des charges, que vous pouvez retrouver dans un dossier.
     Afin de mieux nous organiser, j'ai decouper le travail à effectué en plusieur fonctions pour pouvoir se concentrer sur chaque tâche et ne pas s'éparpiller;
     exemple des Porgrammes:0-Main, 1-Capteur, 2-Servo , etc...
-    </p>
+    </p></li>
  
-  <ul><h3>Organisation des futur branchements:</h3></ul>
+  <li><ul><h3>Organisation des futur branchements:</h3></ul>
     <p> Dans le but de pouvoir penser à tout nos composant et leur utilité et le fonctionnement globale de notre system, j'ai fait quelque schéma a completer si besoin sur les branchement de nos deux Cartes avec chaque composant.
     Vous pouvez trouver ceci ci-dessous</p>
     <img src=../Ressources/cablage.jpg>
    <p>On peut donc y lire a gauche le clablage relatif au branchement dans notre boite a feutre et a gauche les branchements relatif a notre boite ou se situe notre prédiction ( le lapin ).
     Les composants semble tous y etre même si il reste a determiner les valeurs des resistances et des batteries.</p>
-  </ul>
-  <ul><h3>Programme 1-Capteurs:</h3></ul>
+  </ul></li>
+  
+  <li><ul><h3>Programme 1-Capteurs:</h3></ul>
   <p> J'ai donc commencer par écrire notre premier prorammmes consistant a detecter lorsqu'un feutre sera retirer du pots. Dons lorsque le caoteur detecte qu'il n'y a plus d'objet.
  Selon le marqueur choisit, le capteur en question se déclanche et retourne une valeur.
  Nous verrons si cela fonctionne à l'arrivée du matériel, pour que nous puissions faire les branchements.
