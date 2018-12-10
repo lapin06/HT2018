@@ -1,7 +1,7 @@
 <h2> Séance 1 - 10/12/18 - Commencement du projet </h2>
 <li>   
   <ul><h3>Preparation des preparatifs:</h3></ul>
-    <p>Pour le commencement de notre projet, j'ai commencé par créer notre github, et assisté mon partenaire pour le cahier des charges, que vous pouvez retrouver dans un dossier.
+    <p>Pour le commencement de notre projet, j'ai tout d'abord par créer notre github, et assisté mon partenaire pour le cahier des charges, que vous pouvez retrouver dans un dossier.
     Afin de mieux nous organiser, j'ai decouper le travail à effectué en plusieur fonctions pour pouvoir se concentrer sur chaque tâche et ne pas s'éparpiller;
     exemple des Porgrammes:0-Main, 1-Capteur, 2-Servo , etc...
     </p>
