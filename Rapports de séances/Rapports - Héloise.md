@@ -1,4 +1,3 @@
-html
 # Rapport du 10/12/18
   <br>
   Aujourd'hui nous avons démarré notre projet qui s'intitule "Color Rabbit prediction".
