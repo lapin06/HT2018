@@ -9,7 +9,7 @@
   <ul><h3>Organisation des futur branchements:</h3></ul>
     <p> Dans le but de pouvoir penser à tout nos composant et leur utilité et le fonctionnement globale de notre system, j'ai fait quelque schéma a completer si besoin sur les branchement de nos deux Cartes avec chaque composant.
     Vous pouvez trouver ceci ci-dessous</p>
-    <img src=../../Ressources/cablage.jpg>
+    <img src=../Ressources/cablage.jpg>
    <p>On peut donc y lire a gauche le clablage relatif au branchement dans notre boite a feutre et a gauche les branchements relatif a notre boite ou se situe notre prédiction ( le lapin ).
     Les composants semble tous y etre même si il reste a determiner les valeurs des resistances et des batteries.</p>
   </ul>
