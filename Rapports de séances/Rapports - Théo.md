@@ -1,13 +1,13 @@
 <h2> Séance 1 - 10/12/18 - Commencement du projet </h2>
 <li>
   <ul><h3>Preparation des preparatifs:</h3></ul>
-    <p>Pour le commencement de notre projet, j'ai commencé par créer notre github, et assisté mon partenaire pour le cahier des charges, que vous retrpuverais dans un dossier.
-    Afin de mieux nous organiser, j'ai decouper le travail a effectué en plusieur fonctions pour pouvoir concentré sur chaque tache et ne pas s'éparpiller;
-    ex des Porgrammes: Capteur, Text a anoncé, Servo , etc...
+    <p>Pour le commencement de notre projet, j'ai commencé par créer notre github, et assisté mon partenaire pour le cahier des charges, que vous pouvez retrouver dans un dossier.
+    Afin de mieux nous organiser, j'ai decouper le travail à effectué en plusieur fonctions pour pouvoir se concentrer sur chaque tâche et ne pas s'éparpiller;
+    exemple des Porgrammes:0-Main, 1-Capteur, 2-Servo , etc...
     </p>
-    
+ 
   <ul><h3>Organisation des futur branchement:</h3></ul>
-    <p> Dans le but de pouvoir penser a tout nos composant et leur utilité et le fonctionnement globale de notre system, j'ai fait quelque schéma a completer si besoin sur les branchement de nos deux Cartes avec chaque composant.
+    <p> Dans le but de pouvoir penser à tout nos composant et leur utilité et le fonctionnement globale de notre system, j'ai fait quelque schéma a completer si besoin sur les branchement de nos deux Cartes avec chaque composant.
     Vous pouvez trouver ceci ci-dessous</p>
     <img src=cablage>
    <p>On peut donc y lire a gauche le clablage relatif au branchement dans notre boite a feutre et a gauche les branchements relatif a notre boite ou se situe notre prédiction ( le lapin ).
