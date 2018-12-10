@@ -7,6 +7,6 @@
  <ul><h3>Cahier des charges</h3></ul>
   <p>Ensuite j'ai réalisé le cahier des charges correspondant au projet, celui-ci sera aussi disponible dans le répertoire principal (temps: 1h15) </p>
   
-  <ul><h3> communication Arduino </h3></ul>
+  <ul><h3> Communication Arduino </h3></ul>
   <p>Dans la dernière demi heure j'ai commencé à faire des recherches sur comment faire parler une carte Arduino, ce qui est une grande partie de notre projet. j'ai trouvé assez rapidement le code relatif à cela, mais pour le réaliser il faut importer la librairie tolkiez, j'ai alors rencontré un problème de compilation avec cette librairie. je résoudrai surement ce problème chez moi ou la séance suivante. L'idée est la suivante: le Lapin et en fait celui qui va parler tout le long du tour ( ce tour n'a pas besoin de d'interactions avec nous pour fonctionner), cela implique qu'il devra lui même désigner quels parties colorier, il dira bonjour etc... </p>
   </li>
