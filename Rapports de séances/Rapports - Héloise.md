@@ -1,4 +1,4 @@
-'''html
+html
 # Rapport du 10/12/18
   <br>
   Aujourd'hui nous avons démarré notre projet qui s'intitule "Color Rabbit prediction".
@@ -8,4 +8,3 @@
   Ensuite j'ai réalisé le cahier des charges correspondant au tour de magie (1h15)
   <br>
   Dans la dernière demi heure j'ai commencé à faire des recherches sur comment faire parler une carte Arduino, ce qui est une grande partie de notre projet. j'ai trouvé assez rapidement le code relatif à cela, mais pour le réaliser il faut importer la librairie tolkiez, j'ai alors rencontré un problème de compilation avec cette librairie. je résoudrai surement ce problème chez moi ou la séance suivante.
-'''
