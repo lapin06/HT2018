@@ -35,8 +35,8 @@
 <li>   <ul><h3>Etudes des comportements des Capteurs et mise en situation</h3></ul>
     <p> Suite a une mise en situation des 4 feutres et des 4 marqueurs nous remarquons quelques imprevus:</p>
   <li><ul> Si les Capteurs sont plonger dans de l'oscurité ou en exposition à la lumiere, la distance de détéction du feutre n'est pas la meme. Vous pouvez en effet voir ceci ci dessous.</ul>
-    <ul>Tout les capteurs ne sont pas sensible exactement de la même maniere.</ul>
-    <ul>La taille des capteur est plus imposante que prevu du a la carte a puce.</ul>
+    <li><ul>Tout les capteurs ne sont pas sensible exactement de la même maniere.</ul></li>
+    <li><ul>La taille des capteur est plus imposante que prevu du a la carte a puce.</ul></li>
       
 Ainsi le positionnement des capteurs dans la boites est remise en question:
 <li><ul>Posé au fond du pot a crayon et orienté vers le ciel;
