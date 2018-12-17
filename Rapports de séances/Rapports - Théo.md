@@ -40,15 +40,16 @@
   <li><ul> Si les Capteurs sont plonger dans de l'oscurité ou en exposition à la lumiere, la distance de détéction du feutre n'est pas la meme. Vous pouvez en effet voir ceci ci dessous.</ul>
     <li><ul>Tout les capteurs ne sont pas sensible exactement de la même maniere.</ul></li>
     <li><ul>La taille des capteur est plus imposante que prevu du a la carte a puce.</ul></li>
-    <img src=../Ressources/Capteur_Etapes.png>
+    <img src=../Ressources/Capteur_Etapes.PNG>
       
 Ainsi le positionnement des capteurs dans la boites est remise en question:
-<li><ul>Posé au fond du pot a crayon et orienté vers le ciel;</ul>
-  <li><ul>avantage: fonctionne toujours</ul>
-    <ul>inconveniant: Risque d'etre visible par le spectateur</ul>
+<li>
+  <ul>Posé au fond du pot a crayon et orienté vers le ciel;</ul>
+  <p>       avantage:       fonctionne toujours</p>
+  <p>        inconveniant:  Risque d'etre visible par le spectateur</p>
   </li>
-  </ul>
-<ul>Plaqué contre une parois;<ul>
+  
+<ul>Plaqué contre une parois</ul>
   <p>       avantage:       Invisible pour le spectateur</p>
   <p>       inconveniant:   Une plus grosse boite est necessaire , quelques problemes pour certains capteur du a l'obscurité<p>
     </li>
