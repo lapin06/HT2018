@@ -22,15 +22,29 @@
   </p> 
   </li>
 
-
+<br>
+<br>
 <h2> Séance 2 - 17/12/18 - Les capteurs et differents calculs </h2>
 <li>   
   <ul><h3>Les branchements des Capteurs et Porgramme</h3></ul>
-    <p>
+    <p>Le materiel a été livré nous allos donc pouvoir commencer. Suite au programme fait précédemment, j'effectue les branchements que vous pouvez voir ci-dessous.</p>
+    <p> Je televerse donc le programme 1-LECTURE_CAPTEUR afin de voir si tout fonction. Tout fonctionne, si un feutre est retirer la littre ralatif au premier mot de la couleur s'affiche. Ainsi pour un feutre retirer nous avons la couleur qui a été choisis par le spectateur. Il faut cependant prendre en compte comportement du spectateur qui peut prendre deux feutres, pour essayer de nous faire echoucher. C'est la raison pourlaquelle j'ai rajouter une condition qui fait que si le feutre n'a pas été remis dans le pot ou si deux feutres ont été choisi un message s'affiche afin que le lapin dise subtilement au spectateur de ne choisir qu'un feutre. Attention ce message doit etre assez subtile pour que le spetctateur repose son feutre sans se rendre compte que nous savons qu'il a prit deux fautre sinon il n'y a plus d'interet a ce tour.</p>
     </p></li>
-    
+     <img src=cablage-feutre.png>
+     <br>
 <li>   <ul><h3>Etudes des comportements des Capteurs et mise en situation</h3></ul>
-    <p>
+    <p> Suite a une mise en situation des 4 feutres et des 4 marqueurs nous remarquons quelques imprevus:
+     -Si les Capteurs sont plonger dans de l'oscurité ou en exposition à la lumiere, la distance de détéction du feutre n'est pas la meme. Vous pouvez en effet voir ceci ci dessous.
+     -Tout les capteurs ne sont pas sensible exactement de la même maniere
+     -La taille des capteur est plus imposante que prevu du a la carte a puce.
+      
+Ainsi le positionnement des capteurs dans la boites est remise en question:
+-Posé au fond du pot a crayon et orienté vers le ciel;
+      avantage: fonctionne toujours
+      inconveniant: Risque d'etre visible par le spectateur
+-Plaqué contre une parois;
+      avantage: Invisible pour le spectateur
+      inconveniant: Une plus grosse boite est necessaire , quelques problemes pour certains capteur du a l'obscurité
     </p></li>
 
 <li>   
