@@ -33,19 +33,21 @@
      <img src=cablage-feutre.png>
      <br>
 <li>   <ul><h3>Etudes des comportements des Capteurs et mise en situation</h3></ul>
-    <p> Suite a une mise en situation des 4 feutres et des 4 marqueurs nous remarquons quelques imprevus:
-     -Si les Capteurs sont plonger dans de l'oscurité ou en exposition à la lumiere, la distance de détéction du feutre n'est pas la meme. Vous pouvez en effet voir ceci ci dessous.
-     -Tout les capteurs ne sont pas sensible exactement de la même maniere
-     -La taille des capteur est plus imposante que prevu du a la carte a puce.
+    <p> Suite a une mise en situation des 4 feutres et des 4 marqueurs nous remarquons quelques imprevus:</p>
+  <li><ul> Si les Capteurs sont plonger dans de l'oscurité ou en exposition à la lumiere, la distance de détéction du feutre n'est pas la meme. Vous pouvez en effet voir ceci ci dessous.</ul>
+    <ul>Tout les capteurs ne sont pas sensible exactement de la même maniere.</ul>
+    <ul>La taille des capteur est plus imposante que prevu du a la carte a puce.</ul>
       
 Ainsi le positionnement des capteurs dans la boites est remise en question:
--Posé au fond du pot a crayon et orienté vers le ciel;
-      avantage: fonctionne toujours
-      inconveniant: Risque d'etre visible par le spectateur
--Plaqué contre une parois;
-      avantage: Invisible pour le spectateur
-      inconveniant: Une plus grosse boite est necessaire , quelques problemes pour certains capteur du a l'obscurité
-    </p></li>
+<li><ul>Posé au fond du pot a crayon et orienté vers le ciel;
+  <li><ul>avantage: fonctionne toujours</ul>
+    <ul>inconveniant: Risque d'etre visible par le spectateur</ul>
+  </li>
+  </ul>
+<ul>Plaqué contre une parois;<ul>
+  <li><ul>avantage: Invisible pour le spectateur</ul>
+      <ul>inconveniant: Une plus grosse boite est necessaire , quelques problemes pour certains capteur du a l'obscurité</ul>
+    </li>
 
 <li>   
   <ul><h3>Quelques lois de mails</h3></ul>
