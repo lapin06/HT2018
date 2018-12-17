@@ -1,4 +1,4 @@
-# Séance 1 : 10/12/18 : Début du projet
+<h1>Séance 1 : 10/12/18 : Début du projet</h1>
 <h2> Aujourd'hui nous avons démarré notre projet qui s'intitule "Color Rabbit prediction"</h2>
  <li>
   <ul><h3> Organisation du travail </h3></ul>
@@ -11,7 +11,7 @@
   <p>Dans la dernière demi heure j'ai commencé à faire des recherches sur comment faire parler une carte Arduino, ce qui est une grande partie de notre projet. j'ai trouvé assez rapidement le code relatif à cela, mais pour le réaliser il faut importer la librairie tolkiez, j'ai alors rencontré un problème de compilation avec cette librairie. je résoudrai surement ce problème chez moi ou la séance suivante. L'idée est la suivante: le Lapin et en fait celui qui va parler tout le long du tour ( ce tour n'a pas besoin de d'interactions avec nous pour fonctionner), cela implique qu'il devra lui même désigner quels parties colorier, il dira bonjour etc... </p>
   </li>
 
-#Séance 2 : 17/02/18 : communication arduino
+<h1>Séance 2 : 17/02/18 : communicatio arduino avec Sparfun Voice box shield</h1>
 <li>
 <ul><h3> Utilisation de Sparkfun Voicebox Shield </h3>
 <p> J'ai abandoné l'idée d'utiliser la librairie tolkiez.h qui est une librairie permettant d'écrire un code pour faire parler la carte Arduino avec l'aide d'un haut parleur. En effet je n'arrivais pas à résoudre les problèmes de compilation.
