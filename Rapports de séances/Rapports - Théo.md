@@ -21,3 +21,22 @@
   Par ailleur, j'ai également commencé à relier la fonction 1-Capteur à la fonction 0-Main, en prenant en compte la valeur retourner par le capteur et la lire dans cette fonction princile qui agira en conséquence de ce choix, ceci reste à approfondir.
   </p> 
   </li>
+
+
+<h2> Séance 2 - 17/12/18 - Les capteurs et differents calculs </h2>
+<li>   
+  <ul><h3>Les branchements des Capteurs et Porgramme</h3></ul>
+    <p>
+    </p></li>
+    
+<li>   <ul><h3>Etudes des comportements des Capteurs et mise en situation</h3></ul>
+    <p>
+    </p></li>
+
+<li>   
+  <ul><h3>Quelques lois de mails</h3></ul>
+    <p>
+    </p></li>
+    
+    
+    
