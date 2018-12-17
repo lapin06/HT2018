@@ -30,7 +30,7 @@
     <p>Le materiel a été livré nous allos donc pouvoir commencer. Suite au programme fait précédemment, j'effectue les branchements que vous pouvez voir ci-dessous.</p>
     <p> Je televerse donc le programme 1-LECTURE_CAPTEUR afin de voir si tout fonction. Tout fonctionne, si un feutre est retirer la littre ralatif au premier mot de la couleur s'affiche. Ainsi pour un feutre retirer nous avons la couleur qui a été choisis par le spectateur. Il faut cependant prendre en compte comportement du spectateur qui peut prendre deux feutres, pour essayer de nous faire echoucher. C'est la raison pourlaquelle j'ai rajouter une condition qui fait que si le feutre n'a pas été remis dans le pot ou si deux feutres ont été choisi un message s'affiche afin que le lapin dise subtilement au spectateur de ne choisir qu'un feutre. Attention ce message doit etre assez subtile pour que le spetctateur repose son feutre sans se rendre compte que nous savons qu'il a prit deux fautre sinon il n'y a plus d'interet a ce tour.</p>
     </p></li>
-     <img src=cablage-feutre.png>
+     <img src=s2.png>
      <br>
      
      
@@ -39,7 +39,7 @@
   <li><ul> Si les Capteurs sont plonger dans de l'oscurité ou en exposition à la lumiere, la distance de détéction du feutre n'est pas la meme. Vous pouvez en effet voir ceci ci dessous.</ul>
     <li><ul>Tout les capteurs ne sont pas sensible exactement de la même maniere.</ul></li>
     <li><ul>La taille des capteur est plus imposante que prevu du a la carte a puce.</ul></li>
-    <img src:../../Ressources/Capteur_Etapes.png>
+    <img src:../Ressources/Capteur_Etapes.png>
       
 Ainsi le positionnement des capteurs dans la boites est remise en question:
 <li><ul>Posé au fond du pot a crayon et orienté vers le ciel;</ul>
