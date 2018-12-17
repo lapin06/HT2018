@@ -1,3 +1,4 @@
+
 <h2> Séance 1 - 10/12/18 - Commencement du projet </h2>
 <li>   
   <ul><h3>Les préparatifs:</h3></ul>
@@ -39,7 +40,7 @@
   <li><ul> Si les Capteurs sont plonger dans de l'oscurité ou en exposition à la lumiere, la distance de détéction du feutre n'est pas la meme. Vous pouvez en effet voir ceci ci dessous.</ul>
     <li><ul>Tout les capteurs ne sont pas sensible exactement de la même maniere.</ul></li>
     <li><ul>La taille des capteur est plus imposante que prevu du a la carte a puce.</ul></li>
-    <img src:../Ressources/Capteur_Etapes.png>
+    <img src=../Ressources/Capteur_Etapes.png>
       
 Ainsi le positionnement des capteurs dans la boites est remise en question:
 <li><ul>Posé au fond du pot a crayon et orienté vers le ciel;</ul>
