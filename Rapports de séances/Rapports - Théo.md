@@ -35,7 +35,7 @@
   <ul><h3>Les branchements des Capteurs et Porgramme</h3></ul>
     <p>Le materiel a été livré nous allos donc pouvoir commencer. Suite au programme fait précédemment, j'effectue les branchements que vous pouvez voir ci-dessous:</p>
   <img src=../Ressources/S2-Cap.PNG>
-  <p><em>------------------------------Cablage des Capteurs de la "boite a feutre"------------------------------------------------- </em></p>
+  <p><em>-----------------------------------------Cablage des Capteurs de la "boite a feutre"-------------------------------------------------- </em></p>
     <p> Je televerse donc le programme 1-LECTURE_CAPTEUR afin de voir si tout fonction. Tout fonctionne, si un feutre est retirer la littre ralatif au premier mot de la couleur s'affiche. Ainsi pour un feutre retirer nous avons la couleur qui a été choisis par le spectateur. Il faut cependant prendre en compte comportement du spectateur qui peut prendre deux feutres, pour essayer de nous faire echoucher. C'est la raison pourlaquelle j'ai rajouter une condition qui fait que si le feutre n'a pas été remis dans le pot ou si deux feutres ont été choisi un message s'affiche afin que le lapin dise subtilement au spectateur de ne choisir qu'un feutre. Attention ce message doit etre assez subtile pour que le spetctateur repose son feutre sans se rendre compte que nous savons qu'il a prit deux fautre sinon il n'y a plus d'interet a ce tour.</p>
     </p></li>
      
