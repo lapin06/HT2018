@@ -53,15 +53,15 @@ Ainsi le positionnement des capteurs dans la boites est remise en question:
   <p>       avantage:       fonctionne toujours</p>
   <p>        inconveniant:  Risque d'etre visible par le spectateur</p>
   <br>
-<ul>Plaqué contre une parois</ul>
+<ul>Plaqué contre une parois:</ul>
   <p>       avantage:       Invisible pour le spectateur</p>
   <p>       inconveniant:   Une plus grosse boite est necessaire , quelques problemes pour certains capteur du a l'obscurité<p>
     </li>
-
+    <p> La securité du fonctionnement du tour étant primordial. Nous obetons donc pour la methode 1 , a savoir dissimuler les capteur dans le fond du pot orienté vers le ciel, a nous de bien les camoufler. </p>
 <li>   
   <ul><h3> Modifiction de la fonction 1-Lecture_Capteur pour la préparation du Bluetooth</h3></ul
-    <p> Arès reflexions sur les capteurs, il faut présent penser a la structure logique de notre tour ( son dérouelment).Je decide donc de preparer les codes pour faires le liens entre les deux cartes arduino. En effet la carte arduino dans la boite à feutre va envoyer une lettre (fait par le programme précédent) par bluetooth a l'autre carte. En consequence l'autre Carte (Carte dans la boite du lapin) devra agir en consequence. Ceci m'amene donc a creer un code avec une succetion de "if" selon chaque action du spectateur.
-Le code semble etre pret, la connetion des Bluetooths sera pris en charge par mon binome
+    <p> Arès reflexions sur les capteurs, il faut à présent penser à la structure logique de notre tour ( son dérouelment).Je decide donc de preparer les codes pour faires le liens entre les deux cartes arduino. En effet la carte arduino dans la boite à feutre va envoyer une lettre (fait par le programme précédent) par bluetooth à l'autre carte. En consequence l'autre Carte (Carte dans la boite du lapin) devra agir selon la réponse. Ceci m'amène donc à créer un code avec une succetion de "if" selon chaque action du spectateur.
+Le code semble etre pret, même si non complet, la connection des Bluetooths sera pris en charge par mon binome.
     </p></li>
     
     
