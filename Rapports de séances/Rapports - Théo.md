@@ -13,7 +13,7 @@
     <p> Dans le but de pouvoir penser à tout nos composants, leur utilitée et le fonctionnement globale de notre system, j'ai fait quelques schémas à completer si besoin sur les branchement de nos deux Cartes avec chaque composant.
     Vous pouvez trouver ceci ci-dessous</p>
     <img src=../Ressources/cablage.jpg>
-  <p>--------------------------------------------Schéma Cablage selon boites ----------------------------------------------------------------</p>
+  <p>--------------------------------------------Schéma Cablage selon boites -------------------------------------------------------------</p>
   
    <p>On peut donc y lire à gauche le clablage relatif au branchement dans notre boite à feutre et à droite les branchements relatif à notre boite ou se situe notre prédiction ( le lapin ).
     Les composants semblent tous y être même si il reste à determiner les valeurs des resistances et des batteries.</p>
@@ -44,10 +44,7 @@
      
      
 <li>   <ul><h3>Etudes des comportements des Capteurs et mise en situation</h3></ul></li>
-    <p> Suite a une mise en situation des 4 feutres et des 4 marqueurs nous remarquons quelques imprevus:</p>
-  <li><ul> Si les Capteurs sont plonger dans de l'oscurité ou en exposition à la lumiere, la distance de détéction du feutre n'est pas la meme. Vous pouvez en effet voir ceci ci dessous.</ul>
-    <li><ul>Tout les capteurs ne sont pas sensible exactement de la même maniere.</ul></li>
-    <li><ul>La taille des capteur est plus imposante que prevu du a la carte a puce.</ul></li>
+    <p> Suite a une mise en situation des 4 feutres et des 4 marqueurs nous remarquons quelques imprevus. En effet, si les Capteurs sont plongés dans de l'oscurité ou en exposition à la lumiere, la distance de détéction du feutre n'est pas la même. De plus, tout les capteurs ne sont pas sensible exactement de la même maniere.Enfin, la taille des capteur est plus imposante que prevu du a la carte a puce, etc...
     <img src=../Ressources/Capteur_Etapes.PNG>
       <p><em>-------------------------------------------- Distance de detection des capteurs ------------------------------------------------</em></p>
 Ainsi le positionnement des capteurs dans la boites est remise en question:
@@ -55,7 +52,6 @@ Ainsi le positionnement des capteurs dans la boites est remise en question:
   <ul>Posé au fond du pot a crayon et orienté vers le ciel;</ul>
   <p>       avantage:       fonctionne toujours</p>
   <p>        inconveniant:  Risque d'etre visible par le spectateur</p>
-  </li>
   
 <ul>Plaqué contre une parois</ul>
   <p>       avantage:       Invisible pour le spectateur</p>
@@ -63,7 +59,8 @@ Ainsi le positionnement des capteurs dans la boites est remise en question:
     </li>
 
 <li>   
-  <ul><h3>Quelques lois de mails</h3></ul>
+  <ul><h3> Modifiction de la fonction 1-Lecture_Capteur pour la préparation du Bluetooth</h3></ul>
+  
     <p>
     </p></li>
     
