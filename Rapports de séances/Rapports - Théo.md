@@ -1,5 +1,6 @@
 
 
+
 <h2> Séance 1 - 10/12/18 - Commencement du projet </h2>
 <li>   
   <ul><h3>Les préparatifs:</h3></ul>
@@ -12,6 +13,7 @@
     <p> Dans le but de pouvoir penser à tout nos composants, leur utilitée et le fonctionnement globale de notre system, j'ai fait quelques schémas à completer si besoin sur les branchement de nos deux Cartes avec chaque composant.
     Vous pouvez trouver ceci ci-dessous</p>
     <img src=../Ressources/cablage.jpg>
+  <p>--------------------------------------------Schéma Cablage selon boites ----------------------------------------------------------------</p>
   
    <p>On peut donc y lire à gauche le clablage relatif au branchement dans notre boite à feutre et à droite les branchements relatif à notre boite ou se situe notre prédiction ( le lapin ).
     Les composants semblent tous y être même si il reste à determiner les valeurs des resistances et des batteries.</p>
@@ -47,7 +49,7 @@
     <li><ul>Tout les capteurs ne sont pas sensible exactement de la même maniere.</ul></li>
     <li><ul>La taille des capteur est plus imposante que prevu du a la carte a puce.</ul></li>
     <img src=../Ressources/Capteur_Etapes.PNG>
-      <p><em>Distance de detection des capteurs</em></p>
+      <p><em>-------------------------------------------- Distance de detection des capteurs ------------------------------------------------</em></p>
 Ainsi le positionnement des capteurs dans la boites est remise en question:
 <li>
   <ul>Posé au fond du pot a crayon et orienté vers le ciel;</ul>
