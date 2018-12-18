@@ -15,7 +15,7 @@
     <img src=../Ressources/Cablage2.png>
   <p>--------------------------------------------Schéma Cablage selon boites -------------------------------------------------------------</p>
   
-   <p>On peut donc y lire à gauche le clablage relatif au branchement dans notre boite à feutre et à droite les branchements relatif à notre boite ou se situe notre prédiction ( le lapin ).
+   <p>On peut donc y lire en haut le clablage relatif au branchement dans notre boite à feutre et en bas les branchements relatifs à notre boite ou se situe notre prédiction ( le lapin ).
     Les composants semblent tous y être même si il reste à determiner les valeurs des resistances et des batteries.</p>
   </ul></li>
   
@@ -38,13 +38,13 @@
     <p>Le materiel a été livré nous allos donc pouvoir commencer. Suite au programme fait précédemment, j'effectue les branchements que vous pouvez voir ci-dessous:</p>
   <img src=../Ressources/S2-Cap.PNG>
   <p><em>-----------------------------------------Cablage des Capteurs de la "boite a feutre"-------------------------------------------------- </em></p>
-    <p> Je televerse donc le programme 1-LECTURE_CAPTEUR afin de voir si tout fonction. Tout fonctionne, si un feutre est retirer la littre ralatif au premier mot de la couleur s'affiche. Ainsi pour un feutre retirer nous avons la couleur qui a été choisis par le spectateur. Il faut cependant prendre en compte comportement du spectateur qui peut prendre deux feutres, pour essayer de nous faire echoucher. C'est la raison pourlaquelle j'ai rajouter une condition qui fait que si le feutre n'a pas été remis dans le pot ou si deux feutres ont été choisi un message s'affiche afin que le lapin dise subtilement au spectateur de ne choisir qu'un feutre. Attention ce message doit etre assez subtile pour que le spetctateur repose son feutre sans se rendre compte que nous savons qu'il a prit deux fautre sinon il n'y a plus d'interet a ce tour.</p>
+    <p> Je televerse donc le programme 1-LECTURE_CAPTEUR afin de voir si tout fonctionne... Tout fonctionne, si un feutre est retirer la lettre relatif au premier à la premiere lettre du  mot de la couleur s'affiche. Ainsi pour un feutre retiré nous avons la couleur qui a été choisis par le spectateur. Il faut cependant prendre en compte comportement du spectateur qui peut prendre deux feutres, pour essayer de nous faire echoucher. C'est la raison pour laquelle j'ai rajouter une condition qui fait que si le feutre n'a pas été remis dans le pot ou si deux feutres ont été choisi un message s'affiche afin que le lapin dise subtilement au spectateur de ne choisir qu'un feutre. Attention ce message doit etre assez subtile pour que le spetctateur repose son feutre sans se rendre compte que nous savons qu'il a prit deux feutres sinon il n'y a plus d'interet à ce tour.</p>
     </p></li>
      
      
      
 <li>   <ul><h3>Etudes des comportements des Capteurs et mise en situation</h3></ul></li>
-    <p> Suite a une mise en situation des 4 feutres et des 4 marqueurs nous remarquons quelques imprevus. En effet, si les Capteurs sont plongés dans de l'oscurité ou en exposition à la lumiere, la distance de détéction du feutre n'est pas la même. De plus, tout les capteurs ne sont pas sensible exactement de la même maniere.Enfin, la taille des capteur est plus imposante que prevu du a la carte a puce, etc...
+    <p> Suite a une mise en situation des 4 feutres et des 4 marqueurs nous remarquons quelques imprevus. En effet, si les capteurs sont plongés dans de l'oscurité ou en exposition à la lumiere, la distance de détéction du feutre n'est pas la même. De plus, tout les capteurs ne sont pas sensible exactement de la même maniere.Enfin, la taille des capteur est plus imposante que prevu du à la carte a puce, etc...
     <img src=../Ressources/Capteur_Etapes.PNG>
       <p><em>-------------------------------------------- Distance de detection des capteurs ------------------------------------------------</em></p>
 Ainsi le positionnement des capteurs dans la boites est remise en question:
@@ -52,16 +52,16 @@ Ainsi le positionnement des capteurs dans la boites est remise en question:
   <ul>Posé au fond du pot a crayon et orienté vers le ciel;</ul>
   <p>       avantage:       fonctionne toujours</p>
   <p>        inconveniant:  Risque d'etre visible par le spectateur</p>
-  
+  <br>
 <ul>Plaqué contre une parois</ul>
   <p>       avantage:       Invisible pour le spectateur</p>
   <p>       inconveniant:   Une plus grosse boite est necessaire , quelques problemes pour certains capteur du a l'obscurité<p>
     </li>
 
 <li>   
-  <ul><h3> Modifiction de la fonction 1-Lecture_Capteur pour la préparation du Bluetooth</h3></ul>
-  
-    <p>
+  <ul><h3> Modifiction de la fonction 1-Lecture_Capteur pour la préparation du Bluetooth</h3></ul
+    <p> Arès reflexions sur les capteurs, il faut présent penser a la structure logique de notre tour ( son dérouelment).Je decide donc de preparer les codes pour faires le liens entre les deux cartes arduino. En effet la carte arduino dans la boite à feutre va envoyer une lettre (fait par le programme précédent) par bluetooth a l'autre carte. En consequence l'autre Carte (Carte dans la boite du lapin) devra agir en consequence. Ceci m'amene donc a creer un code avec une succetion de "if" selon chaque action du spectateur.
+Le code semble etre pret, la connetion des Bluetooths sera pris en charge par mon binome
     </p></li>
     
     
