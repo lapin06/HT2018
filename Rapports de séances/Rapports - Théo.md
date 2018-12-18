@@ -1,4 +1,5 @@
 
+
 <h2> Séance 1 - 10/12/18 - Commencement du projet </h2>
 <li>   
   <ul><h3>Les préparatifs:</h3></ul>
@@ -11,6 +12,7 @@
     <p> Dans le but de pouvoir penser à tout nos composants, leur utilitée et le fonctionnement globale de notre system, j'ai fait quelques schémas à completer si besoin sur les branchement de nos deux Cartes avec chaque composant.
     Vous pouvez trouver ceci ci-dessous</p>
     <img src=../Ressources/cablage.jpg>
+  <title> Cablage des Capteurs de la "boite a feutre" </title>
    <p>On peut donc y lire à gauche le clablage relatif au branchement dans notre boite à feutre et à droite les branchements relatif à notre boite ou se situe notre prédiction ( le lapin ).
     Les composants semblent tous y être même si il reste à determiner les valeurs des resistances et des batteries.</p>
   </ul></li>
@@ -33,6 +35,7 @@
   <ul><h3>Les branchements des Capteurs et Porgramme</h3></ul>
     <p>Le materiel a été livré nous allos donc pouvoir commencer. Suite au programme fait précédemment, j'effectue les branchements que vous pouvez voir ci-dessous:</p>
   <img src=../Ressources/S2-Cap.PNG>
+  <title>Distance de detection des capteurs</title>
     <p> Je televerse donc le programme 1-LECTURE_CAPTEUR afin de voir si tout fonction. Tout fonctionne, si un feutre est retirer la littre ralatif au premier mot de la couleur s'affiche. Ainsi pour un feutre retirer nous avons la couleur qui a été choisis par le spectateur. Il faut cependant prendre en compte comportement du spectateur qui peut prendre deux feutres, pour essayer de nous faire echoucher. C'est la raison pourlaquelle j'ai rajouter une condition qui fait que si le feutre n'a pas été remis dans le pot ou si deux feutres ont été choisi un message s'affiche afin que le lapin dise subtilement au spectateur de ne choisir qu'un feutre. Attention ce message doit etre assez subtile pour que le spetctateur repose son feutre sans se rendre compte que nous savons qu'il a prit deux fautre sinon il n'y a plus d'interet a ce tour.</p>
     </p></li>
      
