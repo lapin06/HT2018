@@ -26,4 +26,4 @@ Je me suis ensuite retrouvé face à un problème de compilation de nouveau, cet
 
 <p> Tout ce temps passé à essayer de résoudre les problèmes de compilation et à re-télécharger Arduino m'a fait perdre un temps précieux. Cependant aillant réussi à faire fonctionner le haut parleur, je pourrai rattraper tout ce temps pendant les vacances en écrivant le code pour faire parler arduino ( un code qu'il faut travailler car chaque lettre ou syllabe est codé d'une manière spéciale, et qui plus est, en anglais) . </p>
 
-<h4> je vous invite à aller voir la vidéo ou Spark nous dit bonjour à l'adresse suivante: <a href="https://www.youtube.com/watch?v=zQq6gc-LgdA"/> ou en cherchant sur youtube : <strong> color magic video sparkfun hello </strong> </h4>
+<h4> je vous invite à aller voir la vidéo ou Spark nous dit bonjour en clicant sur le lien suivant: <a href="https://www.youtube.com/watch?v=zQq6gc-LgdA"/> Sparfun hello </h4>
