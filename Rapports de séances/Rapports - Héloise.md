@@ -39,15 +39,15 @@ Nous avons pensé à une possibilité et nous demanderont la faisabilité de cel
  <p> Aujourd'hui nous avons pris la décision de faire la maquette de la boite de feutre étant donné que le code des capteurs était fait.
  Nous avons donc réalisé deux schémas car nous ne savions pas si nous devions faire une boite ronde ou carré ( l'avantage de la boite ronde était que celle-ci faisait plus naturellement pot de feutre). Vous pouvez voir les schemas ci-dessous avec les dimensions prises:
  
- <img src= ../Ressources/schema_boite_feutre_rectangle alt= boite rectangle>
- <img src= ../Ressources/schema_boite_feutre_ronde alt= boite ronde>
- <img src= ../Ressources/schema_boite_feutre_ronde_2 alt= boite ronde> </p>
+ <img src= ../Ressources/schema_boite_feutre_rectangle.JPG>
+ <img src= ../Ressources/schema_boite_feutre_ronde.JPG>
+ <img src= ../Ressources/schema_boite_feutre_ronde_2.JPG> </p>
  
  <ul><h3> fabrication de la maquette de la boite de feutre </h3></ul> 
  <p> Nous nous sommes renseigné hier pour savoir où réaliser notre maquette, par chance le gérant de l'atelier avait un créneau pour nous aujourd'hui. Nous sommes donc allé aux Templiers à l'atelier et nous avons demandé conseil sur la forme de la boite. Le spécialiste nous a conseillé la boite rectangle car cela serait beaucoup plus pratique et réalisable. Il nous a également montré comment créer notre patron grâce au logiciel "LibreCad" où au logiciel qui crée directement une boite avec les dimensions que l'on veut, de plus, les pièces sont découpées de telle sorte que l'on peut les assembler directement comme un puzzle.  Nous avons donc utilisé ce deuxième logiciel pour créer notre patron avec les bonnes mesures. Une vidéo du découpage nos pièces avec le laser est disponible sur notre chaine youtube. La boite est prète. Vous pouvez la voir ci-dessous:
  
- <img src= ../Ressources/boite_feutre_1 alt= maquette feutre>
- <img src= ../Ressources/boite_feutre_2 alt= maquette feutre> </p>
+ <img src= ../Ressources/boite_feutre_1.JPG>
+ <img src= ../Ressources/boite_feutre_2.JPG> </p>
  
  <ul><h3> Essai avec les bluetooth </h3></ul> 
  <p> Nous avons essayé de connecter les bluetooth entre eux, mais nous n'avons pas réussi à brancher le bluetooth "maitre" ( les fils ne rentraient pas) donc nous verrons la prochaine fois si on trouve une autre solution. 
