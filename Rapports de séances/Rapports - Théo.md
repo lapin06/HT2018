@@ -5,7 +5,8 @@
 <li>   
   <ul><h3>Les préparatifs:</h3></ul>
     <p>Pour le commencement de notre projet, "Color Rabbit Prediction", j'ai tout d'abord créé notre github, et assisté ma partenaire pour le cahier des charges, que vous pouvez retrouver dans un dossier, ainsi que notre graphique de Gantt.
-    Afin de mieux nous organiser, j'ai d2couper le travail à effectuer en plusieur fonctions pour pouvoir se concentrer sur chaque tâche et ne pas s'éparpiller;
+
+Afin de mieux nous organiser, j'ai d2couper le travail à effectuer en plusieur fonctions pour pouvoir se concentrer sur chaque tâche et ne pas s'éparpiller;
     exemple des Porgrammes:0-Main, 1-Capteur, 2-Servo , etc...
     </p></li>
  
@@ -57,12 +58,24 @@ Ainsi le positionnement des capteurs dans la boites est remise en question:
   <p>       avantage:       Invisible pour le spectateur</p>
   <p>       inconveniant:   Une plus grosse boite est necessaire , quelques problemes pour certains capteur du a l'obscurité<p>
     </li>
-    <p> La securité du fonctionnement du tour étant primordial. Nous choisissons donc pour la methode 1 , a savoir dissimuler les capteur dans le fond du pot orienté vers le ciel, a nous de bien les camoufler. </p>
+    <p> La securité du fonctionnement du tour  mais aussi concerver le secret étant primordial. Nous choisissons donc la methode 2 , a savoir dissimuler les capteur dans la paroi, à nous de bien les camoufler. </p>
 <li>   
   <ul><h3> Modifiction de la fonction 1-Lecture_Capteur pour la préparation du Bluetooth</h3></ul
     <p> Arès reflexions sur les capteurs, il faut à présent penser à la structure logique de notre tour ( son dérouelment).Je decide donc de preparer les codes pour faires le liens entre les deux cartes arduino. En effet la carte arduino dans la boite à feutre va envoyer une lettre (fait par le programme précédent) par bluetooth à l'autre carte. En consequence l'autre Carte (Carte dans la boite du lapin) devra agir selon la réponse. Ceci m'amène donc à créer un code avec une succetion de "if" selon chaque action du spectateur.
 Le code semble etre pret, même si non complet, la connection des Bluetooths sera pris en charge par mon binome.
     </p></li>
     
+    
+  <br>
+  <br>
+ <h2> Séance Bonus Vacance - 21/12/18 - Nos premières créations <h2>
+  <li> Conception de notre boite à feutre </li>
+  <p> Nous nous retrouvons aujourd'hui a la Fablab de la Telecom Valley sur le site des Templier pour réaliser notre boite un feutre. Je rappelle que le but de cette boite et de ressembler a un pot a feutre tout à fait classique, mais qui doit en realiter cacher tout notre premier assemblage que vous pouvez retrouver dans Séance 1 de mon rapport précédent. Suite au test effectué durant les séances précédentes je peux donc commencer à dresser un plan de notre Boite, en parallèle de ca mon Binome dresse également un autre plan pour que nous puissons choisir le plus facile à réaliser. Ainsi que le pot le plus naturel, non suspect. Passons a la réalisation.</p>
+  <p><em>----------------------------------------------1.Planification----------------------------------------------------------</em></p>
+  <p><em>----------------------------------------------2.Modélisation-----------------------------------------------------------</em></p>
+  <p><em>----------------------------------------------3.Découpage Laser--------------------------------------------------------</em></p>
+  <p><em>----------------------------------------------4.Assemenblage------------------------------------------------------------</em><p>
+  
+  
     
     
