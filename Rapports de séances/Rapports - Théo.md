@@ -78,6 +78,7 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   <p><em>--------------------------------------------------------2.Modélisation---------------------------------------------------------------</em></p>
    <img src=../Ressources/boite22.PNG>
   <p><em>--------------------------------------------------------3.Découpage Laser------------------------------------------------------------</em></p>
+  <link href=https://www.youtube.com/watch?v=cO1AD-aDM-o> video </link>
   <p><em>--------------------------------------------------------4.Assemenblage---------------------------------------------------------------</em><p>
    <img src=../Ressources/boite33.PNG>
  </li>
