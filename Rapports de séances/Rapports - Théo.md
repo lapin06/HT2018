@@ -47,7 +47,7 @@ Afin de mieux nous organiser, j'ai d2couper le travail à effectuer en plusieur 
 <li>   <ul><h3>Etudes des comportements des Capteurs et mise en situation</h3></ul></li>
     <p> Suite a une mise en situation des 4 feutres et des 4 marqueurs nous remarquons quelques imprevus. En effet, si les capteurs sont plongés dans de l'oscurité ou en exposition à la lumiere, la distance de détéction du feutre n'est pas la même. De plus, tout les capteurs ne sont pas sensible exactement de la même maniere.Enfin, la taille des capteur est plus imposante que prevu du à la carte a puce, etc...
     <img src=../Ressources/Capteur_Etapes.PNG>
-      <p><em>-------------------------------------------- Distance de detection des capteurs ------------------------------------------------</em></p>
+      <p><em>-------------------------------------------- Distance de detection des capteurs ---------------------------------------------------</em></p>
 Ainsi le positionnement des capteurs dans la boites est remise en question:
 <li>
   <ul>Posé au fond du pot a crayon et orienté vers le ciel;</ul>
@@ -75,13 +75,21 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   <br>
   <p><em>--------------------------------------------------------1.Planification--------------------------------------------------------------</em></p>
    <img src=../Ressources/boite11.PNG>
+   <p> Voici le plan de la maquette à réaliser. Nous sommes ici a échelle réelle (2 carreaux= 1 centimètre). Chaque composant a été mesuré et placé soigneusement selon sa taille et son utilisation pour maximiser la place.Nous ne connaissons toujours pas la batterie que nous allons choisir donc dans le doute non prenons un grand espace vide (relatif) si besoin.</p> 
+   
   <p><em>--------------------------------------------------------2.Modélisation---------------------------------------------------------------</em></p>
    <img src=../Ressources/boite22.PNG>
+   <p>Il est a présent temps de modeliser ceci grace a un lociel de generateur de boite cependant dans notre cas il y a une petite subtilité. Notre boite devant contenir les feutre nous devons donc l'ouvrir en créant un recipiant pour acceuillir les feutres. Nous créons donc deux boite l'une imbriqué dans l'autre comme vous pouvez le voir dans le resultat final</p>
+   
   <p><em>--------------------------------------------------------3.Découpage Laser------------------------------------------------------------</em></p>
   <img src=../Ressources/boite44.PNG>
-  <a href=https://www.youtube.com/watch?v=cO1AD-aDM-o> video </a>
+  <p> Une fois la modélisation faite, direction le fablab de la silicon valley, ou une machine prevu a cet effet decoupe nos plan effectué. Vous pouvoir voir ici ce travail plutot eblouissant, du 
+  <a href=https://www.youtube.com/watch?v=cO1AD-aDM-o> découpage laser.  </a></p>
+  
   <p><em>--------------------------------------------------------4.Assemenblage---------------------------------------------------------------</em><p>
    <img src=../Ressources/boite33.PNG>
+  <p> Enfin l'asssemblgee, dont vous pouvez voir le resultat ci dessus. Actuellemnt retenu avec de simpe morceaux de scotch, en attendant de remplir cette boite de notre montage et d'etre certain que tout va bien...</p>
+  
  </li>
   
     
