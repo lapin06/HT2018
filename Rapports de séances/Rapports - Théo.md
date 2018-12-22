@@ -72,11 +72,14 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   <li><ul><h3> Conception de notre boite à feutre</h3></ul>
   
   <p> Nous nous retrouvons aujourd'hui a la Fablab de la Telecom Valley sur le site des Templier pour réaliser notre boite un feutre. Je rappelle que le but de cette boite et de ressembler a un pot a feutre tout à fait classique, mais qui doit en realiter cacher tout notre premier assemblage que vous pouvez retrouver dans Séance 1 de mon rapport précédent. Suite au test effectué durant les séances précédentes je peux donc commencer à dresser un plan de notre Boite, en parallèle de ca mon Binome dresse également un autre plan pour que nous puissons choisir le plus facile à réaliser. Ainsi que le pot le plus naturel, non suspect. Passons a la réalisation.</p>
-  
+  <br>
   <p><em>----------------------------------------------1.Planification----------------------------------------------------------</em></p>
+   <img src=../Ressources/boite11.PNG>
   <p><em>----------------------------------------------2.Modélisation-----------------------------------------------------------</em></p>
+   <img src=../Ressources/boite22.PNG>
   <p><em>----------------------------------------------3.Découpage Laser--------------------------------------------------------</em></p>
   <p><em>----------------------------------------------4.Assemenblage------------------------------------------------------------</em><p>
+   <img src=../Ressources/boite33.PNG>
  </li>
   
     
