@@ -60,7 +60,7 @@ Ainsi le positionnement des capteurs dans la boites est remise en question:
     </li>
     <p> La securité du fonctionnement du tour  mais aussi concerver le secret étant primordial. Nous choisissons donc la methode 2 , a savoir dissimuler les capteur dans la paroi, à nous de bien les camoufler. </p>
 <li>   
-  <ul><h3> Modifiction de la fonction 1-Lecture_Capteur pour la préparation du Bluetooth</h3></ul
+  <ul><h3> Modifiction de la fonction 1-Lecture_Capteur pour la préparation du Bluetooth</h3></ul>
     <p> Arès reflexions sur les capteurs, il faut à présent penser à la structure logique de notre tour ( son dérouelment).Je decide donc de preparer les codes pour faires le liens entre les deux cartes arduino. En effet la carte arduino dans la boite à feutre va envoyer une lettre (fait par le programme précédent) par bluetooth à l'autre carte. En consequence l'autre Carte (Carte dans la boite du lapin) devra agir selon la réponse. Ceci m'amène donc à créer un code avec une succetion de "if" selon chaque action du spectateur.
 Le code semble etre pret, même si non complet, la connection des Bluetooths sera pris en charge par mon binome.
     </p></li>
@@ -69,13 +69,14 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   <br>
   <br>
  <h2> Séance Bonus Vacance - 21/12/18 - Nos premières créations <h2>
-  <li><ul><h3> Conception de notre boite à feutre</h3></ul> 
+  <li><ul><h3> Conception de notre boite à feutre</h3></ul>  </li>
+  
   <p> Nous nous retrouvons aujourd'hui a la Fablab de la Telecom Valley sur le site des Templier pour réaliser notre boite un feutre. Je rappelle que le but de cette boite et de ressembler a un pot a feutre tout à fait classique, mais qui doit en realiter cacher tout notre premier assemblage que vous pouvez retrouver dans Séance 1 de mon rapport précédent. Suite au test effectué durant les séances précédentes je peux donc commencer à dresser un plan de notre Boite, en parallèle de ca mon Binome dresse également un autre plan pour que nous puissons choisir le plus facile à réaliser. Ainsi que le pot le plus naturel, non suspect. Passons a la réalisation.</p>
   <p><em>----------------------------------------------1.Planification----------------------------------------------------------</em></p>
   <p><em>----------------------------------------------2.Modélisation-----------------------------------------------------------</em></p>
   <p><em>----------------------------------------------3.Découpage Laser--------------------------------------------------------</em></p>
   <p><em>----------------------------------------------4.Assemenblage------------------------------------------------------------</em><p>
-  </li>
+ 
   
     
     
