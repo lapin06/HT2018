@@ -45,8 +45,7 @@ Afin de mieux nous organiser, j'ai d2couper le travail à effectuer en plusieur 
      
      
 <li>   <ul><h3>Etudes des comportements des Capteurs et mise en situation</h3></ul></li>
-    <p> Suite a une mise en situation des 4 feutres et des 4 marqueurs nous remarquons quelques imprevus. En effet, si les capteurs sont plongés dans de l'oscurité ou en exposition à la lumiere, la distance de détéction du feutre n'est pas la même. De plus, tout les capteurs ne sont pas sensible exactement de la même maniere.Enfin, la taille des capteur est plus imposante que prevu du à la carte a puce, etc...
-    <img src=../Ressources/Capteur_Etapes.PNG>
+    <p> Suite a une mise en situation des 4 feutres et des 4 marqueurs nous remarquons quelques imprevus. En effet, si les capteurs sont plongés dans de l'oscurité ou en exposition à la lumiere, la distance de détéction du feutre n'est pas la même. De plus, tout les capteurs ne sont pas sensible exactement de la même maniere.Enfin, la taille des capteur est plus imposante que prevu du à la carte a puce, etc...    <img src=../Ressources/Capteur_Etapes.PNG>
       <p><em>-------------------------------------------- Distance de detection des capteurs ---------------------------------------------------</em></p>
 Ainsi le positionnement des capteurs dans la boites est remise en question:
 <li>
@@ -93,7 +92,7 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   
   <br>
   <br>
- <h2> Séance Bonus Vacance  2/2 - 21/12/18 - Le lapin, un beau parleur </h2>
+ <h2> Séance Bonus Vacance  2/2 - 28/12/18 - Le lapin, un beau parleur </h2>
  
  <li><ul><h3> Ecriture du Scripte relatif au text du lapin</h3></ul>
  <p> Je commence par prendre mon stylo pour rediger le texte que le lapin prononcera si tout fonctionne. Ce texte comporte de nombreuses conctraintes que nous n'avons pas forcément lors ce que nous faisons un tour par nous même. Il faut prendre en compte le timing qui peut varier d'une personne à l'autre avec ses actions donc le tour sera différents selon le spectateur qui est le seul a tout faire.</p>
