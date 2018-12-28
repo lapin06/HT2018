@@ -68,7 +68,7 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
     
   <br>
   <br>
- <h2> Séance Bonus Vacance - 21/12/18 - Nos premières créations </h2>
+ <h2> Séance Bonus Vacance - 21/12/18 - Notre première création </h2>
   <li><ul><h3> Conception de notre boite à feutre</h3></ul>
   
   <p> Nous nous retrouvons aujourd'hui a la Fablab de la Telecom Valley sur le site des Templier pour réaliser notre boite un feutre. Je rappelle que le but de cette boite et de ressembler a un pot a feutre tout à fait classique, mais qui doit en realiter cacher tout notre premier assemblage que vous pouvez retrouver dans Séance 1 de mon rapport précédent. Suite au test effectué durant les séances précédentes je peux donc commencer à dresser un plan de notre Boite, en parallèle de ca mon Binome dresse également un autre plan pour que nous puissons choisir le plus facile à réaliser. Ainsi que le pot le plus naturel, non suspect. Passons a la réalisation.</p>
@@ -88,9 +88,11 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   
   <p><em>--------------------------------------------------------4.Assemenblage---------------------------------------------------------------</em><p>
    <img src=../Ressources/boite33.PNG>
-  <p> Enfin l'asssemblgee, dont vous pouvez voir le resultat ci dessus. Actuellemnt retenu avec de simpe morceaux de scotch, en attendant de remplir cette boite de notre montage et d'etre certain que tout va bien...</p>
+  <p> Enfin l'asssemblgee, dont vous pouvez voir le resultat ci dessus. Actuellemnt retenu avec de simpe morceaux de scotch, en attendant de remplir cette boite de notre montage et d'etre certain que tout fonctionne...</p>
   
- </li>
-  
+ 
+ <li><ul><h3> Ecriture du Scripte relatif au text du lapin</h3></ul>
+ <p> Je commence par prendre mon stylo pour rediger le texte que le lapin prononcera si tout fonctionne. Ce texte comporte de nombreuses conctraintes que nous n'avons pas forcément lorsceque nous faisons un tour par nous même. Il faut prendre en compte le timing qui peut varier d'une personne à l'autre avec ses actions donc le tour sera différents selon le spectateur qui est le seul a tout faire... L'humour va devoir etre travaillez d'une autre manière. Un robot faisant une blague peut etre un succés ou au contraire un enorme raté. Il faut prendre en compte que le spectateur fair quatre fois la meme action donc il faut veillez à ne pas avoir un texte rebarbartif. L'idéal est d'incorporer le magicien dans le tour de cette maniere ce tour à vraiement une utilité, un interet professionel sinon celui-ci n'est qu'un jouet. Il faut donc prevoir l'interaction avec le magicien, les rires eventuels du public etc...Tout ceci de maniere subtil pour que le spectateur ne comprennent pas qu'il y ai des capteur qui informe le lapin de la situation, le but etant de jouer sur la psycologie des spectatuer pour pouvoir leur <strong> faire croire que l'on ne sait rien alors que l'on sait tout </strong>. Le but etant de creer un vrai tour de mentalime puissant,d'un niveau professionel tel l'original "color pen prediction" donnant ainsi envie au spectateur d'en voir encore plus.Vous pouvez retrouver le scripte dans la dossier document: "Script lapin"</p>
+  </li>
     
     
