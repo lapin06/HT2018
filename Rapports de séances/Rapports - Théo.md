@@ -59,7 +59,7 @@ Ainsi le positionnement des capteurs dans la boites est remise en question:
     </li>
     <p> La securité du fonctionnement du tour  mais aussi concerver le secret étant primordial. Nous choisissons donc la methode 2 , a savoir dissimuler les capteur dans la paroi, à nous de bien les camoufler. </p>
 <li>   
-  <ul><h3> Modifiction de la fonction 1-Lecture_Capteur pour la préparation du Bluetooth</h3></ul>
+e  <ul><h3> Modifiction de la fonction 1-Lecture_Capteur pour la préparation du Bluetooth</h3></ul>
     <p> Arès reflexions sur les capteurs, il faut à présent penser à la structure logique de notre tour ( son dérouelment).Je decide donc de preparer les codes pour faires le liens entre les deux cartes arduino. En effet la carte arduino dans la boite à feutre va envoyer une lettre (fait par le programme précédent) par bluetooth à l'autre carte. En consequence l'autre Carte (Carte dans la boite du lapin) devra agir selon la réponse. Ceci m'amène donc à créer un code avec une succetion de "if" selon chaque action du spectateur.
 Le code semble etre pret, même si non complet, la connection des Bluetooths sera pris en charge par mon binome.
     </p></li>
@@ -94,7 +94,7 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   <br>
  <h2> Séance Bonus Vacance  2/2 - 28/12/18 - Le lapin, un beau parleur </h2>
  
- <li><ul><h3> Ecriture du Scripte relatif au text du lapin</h3></ul>
+ <li><ul><h3> Ecriture du Scripte relatif au texte du lapin</h3></ul>
  <p> Je commence par prendre mon stylo pour rediger le texte que le lapin prononcera si tout fonctionne. Ce texte comporte de nombreuses conctraintes que nous n'avons pas forcément lors ce que nous faisons un tour par nous même. Il faut prendre en compte le timing qui peut varier d'une personne à l'autre avec ses actions donc le tour sera différents selon le spectateur qui est le seul a tout faire.</p>
   <p>L'humour va devoir être travaillé d'une autre manière. Un robot faisant une blague peut être un succés ou au contraire un enorme raté. Il faut prendre en compte que le spectateur fait quatre fois la même action donc il faut veiller à ne pas avoir un texte rébarbartif. L'idéal est d'incorporer le magicien dans le tour, en le faisant dialoguer avec le lapin, de cette maniere ce tour à vraiement une utilité, un interet professionel sinon celui-ci n'est qu'un jouet. Il faut donc prevoir l'interaction avec le magicien, les rires eventuels du public etc...</p>
   <p>Tout ceci de maniere subtil pour que le spectateur ne comprennent pas qu'il y ai des capteur qui informe le lapin de la situation, le but etant de jouer sur la psycologie des spectatuer pour pouvoir leur <strong> faire croire que l'on ne sait rien alors que l'on sait tout </strong>. Le but etant de creer un vrai tour de mentalime puissant,d'un niveau professionel tel l'original "color pen prediction" donnant ainsi envie au spectateur d'en voir encore plus.Vous pouvez retrouver le scripte dans la dossier document: "Script lapin"</p>
