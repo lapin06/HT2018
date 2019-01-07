@@ -60,8 +60,8 @@ Nous avons pensé à une possibilité et nous demanderont la faisabilité de cel
  
  <ul><h3> Boite feutre et capteurs </h3>
  <p> Après avoir fait la boite des feutres, j'ai réfléchis à un moyen de placer les capteurs pour qu'il y ai le moins d'interférences possibles. A deux nous avons trouvé la solution de les mette "débout" le long de la boite. J'ai donc pris les mésures nécessaires. J'ai également indiqué l'endroit ou nous devront percer la boite afin de faire tenir les capteurs. Vous pouvez voir le résultats ci-dessous:
-  <img src= ../Ressources/dessin_capteurs_boite.JPG>
-  <img src= ../Ressources/position_capteurs.JPG> </p>
+  <img src= ../Ressources/dessin_capteurs_boite.jpg.JPG>
+  <img src= ../Ressources/position_capteurs.jpg.JPG> </p>
  
  <p> Avant la prochaine séance, nous voulons apparailler les bluetooth correctement ainsi que percer la boite pour mettres les capteurs et les feutres. De mon coté je commencerai le code du servomoteur.
 Nous attendons encore le module de communication pour pouvoir enregistrer nos voix.</p> </li>
