@@ -53,3 +53,15 @@ Nous avons pensé à une possibilité et nous demanderont la faisabilité de cel
  <p> Nous avons essayé de connecter les bluetooth entre eux, mais nous n'avons pas réussi à brancher le bluetooth "maitre" ( les fils ne rentraient pas) donc nous verrons la prochaine fois si on trouve une autre solution. 
  Pour ma part, je vais avancer sur le code des phrases en anglais dans le cas où nous n'avons pas d'autres solutions pour la communication </p>
   </li>
+<h1>Séance 3 : 07/01/19 : Bluetooth et boite feutre</h1>
+<li>
+<ul><h3> Connexion des bluetooth </h3>
+ <p> Lors de cette séance nous avons essayé de connecter les bluetooths entre eux ( En forçant les fils rentrent ). Mon binôme s'est occupé du bluetooth maitre quant à moi je m'occupais d'initiliser l'esclave, j'ai eu des problèmes de téléversements, les commandes AT ne répondaient pas. Le problème a été résolu petit à petit, il fallait résoudre quelques soucis comme la vitesse de communication entre l'ordinateur et la carte qui devait être initialisée dans un ordre précis. Nous avons pu trouver l'esclave avec le maitre, le maitre s'appareillait bien mais l'esclave non. On se verra dans la semaine pour résoudre ce problème. </p>
+ 
+ <ul><h3> Boite feutre et capteurs </h3>
+ <p> Après avoir fait la boite des feutres, j'ai réfléchis à un moyen de placer les capteurs pour qu'il y ai le moins d'interférences possibles. A deux nous avons trouvé la solution de les mette "débout" le long de la boite. J'ai donc pris les mésures nécessaires. J'ai également indiqué l'endroit ou nous devront percer la boite afin de faire tenir les capteurs. Vous pouvez voir le résultats ci-dessous:
+  <img src= ../Ressources/dessin_capteurs_boite.JPG>
+  <img src= ../Ressources/position_capteurs.JPG> </p>
+ 
+ <p> Avant la prochaine séance, nous voulons apparailler les bluetooth correctement ainsi que percer la boite pour mettres les capteurs et les feutres. De mon coté je commencerai le code du servomoteur.
+Nous attendons encore le module de communication pour pouvoir enregistrer nos voix</p>
