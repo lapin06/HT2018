@@ -106,7 +106,7 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   <li><ul><h3> Connection des Bluetooths maitre-esclaves</h3></ul>
   <p>...</p>
   
-   <ul><h3> Bouton pressoir et LED</h3></ul>
+  <li><ul><h3> Bouton pressoir d'activation et LED de controle</h3></ul>
   <p>...</p>
   
   </li>
