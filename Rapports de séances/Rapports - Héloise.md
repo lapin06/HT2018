@@ -64,4 +64,4 @@ Nous avons pensé à une possibilité et nous demanderont la faisabilité de cel
   <img src= ../Ressources/position_capteurs.JPG> </p>
  
  <p> Avant la prochaine séance, nous voulons apparailler les bluetooth correctement ainsi que percer la boite pour mettres les capteurs et les feutres. De mon coté je commencerai le code du servomoteur.
-Nous attendons encore le module de communication pour pouvoir enregistrer nos voix</p>
+Nous attendons encore le module de communication pour pouvoir enregistrer nos voix.</p> </li>
