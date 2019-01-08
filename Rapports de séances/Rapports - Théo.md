@@ -73,8 +73,7 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   <br>
   <p><em>--------------------------------------------------------1.Planification--------------------------------------------------------------</em></p>
    <img src=../Ressources/boite11.PNG>
-   <p> Voici le plan de la maquette à réaliser. Nous sommes ici a échelle réelle (2 carreaux= 1 centimètre). Chaque composant a été mesuré et placé soigneusement selon sa taille et son utilisation pour maximiser la place.Nous ne connaissons toujours pas la batterie que nous allons choisir donc dans le doute non prenons un grand espace vide (relatif) si besoin.</p> 
-   
+   <p> Voici le plan de la maquette à réaliser. Nous sommes ici a échelle réelle (2 carreaux= 1 centimètre). Chaque composant a été mesuré et placé soigneusement selon sa taille et son utilisation pour maximiser la place.Nous ne connaissons toujours pas la batterie que nous allons choisir donc dans le doute non prenons un grand espace vide (relatif) si besoin.</p>    
   <p><em>--------------------------------------------------------2.Modélisation---------------------------------------------------------------</em></p>
    <img src=../Ressources/boite22.PNG>
    <p>Il est a présent temps de modeliser ceci grace a un lociel de generateur de boite cependant dans notre cas il y a une petite subtilité. Notre boite devant contenir les feutre nous devons donc l'ouvrir en créant un recipiant pour acceuillir les feutres. Nous créons donc deux boite l'une imbriqué dans l'autre comme vous pouvez le voir dans le resultat final</p>
@@ -105,7 +104,7 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   <h2> Séance 3 - 07/01/19 - Bluetooths et LED </h2>
   <li><ul><h3> Connection des Bluetooths maitre-esclaves</h3></ul>
   <p>...</p>
-  <img src=../"Capteur et B.jpg">
+  <img src=../Capteur et B.jpg>
   
   <li><ul><h3> Bouton pressoir d'activation et LED de controle</h3></ul>
   <p>...</p>
