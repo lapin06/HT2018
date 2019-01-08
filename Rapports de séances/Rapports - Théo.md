@@ -104,7 +104,7 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   <h2> Séance 3 - 07/01/19 - Bluetooths et LED </h2>
   <li><ul><h3> Connection des Bluetooths maitre-esclaves</h3></ul>
   <p>...</p>
-  <img src=../Ressources/CB.jpg>
+  <img src=../Ressources/CB2.jpg>
   
   <li><ul><h3> Bouton pressoir d'activation et LED de controle</h3></ul>
   <p>...</p>
