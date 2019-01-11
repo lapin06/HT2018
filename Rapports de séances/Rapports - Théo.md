@@ -113,4 +113,7 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   <p> Suite au retard technique de ma camarade j'avance de mon coté pour gagner du temps. J'éffectue les branchements ci-dessus, me permettant de pour voir connecter la boite a feutre en bluetooth. De plus celle ci sera activable quand nous le souhaitons grace a un bonton pressoir. Ainsi pas besoin d'ouvrir la boite et autre quand nous voulons lancer le tour. L'avantage d'avoir choisi un bouton pressoir plutot qu'un bouton on/off est la rappidité et la facilité de l'activé. En effet si celui-ci depasse pas besoin de reflechir un milième de seconde. En effet, la pression sur le bouton doit de faire de manière rapide et sans regarder  pour que ceci soit discret. Puisque le but étant de faire comme s'il sagissait d'un pot ordinaire. </p>
   <p> La sécurité avant tout! Je choisis donc de rajouter une led a chaque boite. Ceci dans le but d'être sur que les deux boites sont opperationelles. Un fois le bouton presser , les deux LEDs s'activeront simulatenement à l'arrière des deux boites pour que seul le magicien puisse voir que tout fonctionne...Pour la boite à feutre tout fonctionne, en attente des bluetooth pour pourvoir activé la led de l'autre boite et faire parler le lapin</p>
   </li>
-    
+   
+<img src=../Ressources/C1.JPG>  
+<img src=../Ressources/C2.JPG>  
+<img src=../Ressources/C3.JPG>
