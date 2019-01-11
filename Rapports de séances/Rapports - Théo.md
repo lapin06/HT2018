@@ -104,16 +104,22 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   <h2> Séance 3 - 07/01/19 - Bluetooths et LED </h2>
   <li><ul><h3> Connection des Bluetooths maitre-esclave</h3></ul>
   <p>Nous connectons les deux bluetooths au montage respectif, le maitre sur le montage de la boite au marqueur et l'esclave sur la boite du lapin. Suite a un problème de fonctionnement du bluetooth "esclave", nous ne pouvons pas connecter ces deux entre eux. En fin de séance le problème a été resolu.De mon coté tout semble fonctionner avec le bluetooth maitre. Ainsi nous rattraperons se retard hors séance...</p>
-  <p>Travail hors séance complementaire:  </p>
+  <p>Travail hors séance complementaire:  Nous arrivons enfin a conecter les deux bluetooth entre eux! Cependant quand nous envyons un message du maitre a l'esclave celui ci ressoit un caractère spécial : "?". Ainsi je supose qu'il s'agit du erreur de communication entre les bluetooth tel la vitesse de dialogue, cependant celle-ci semble etre la même.  </p>
  
   
   <li><ul><h3> Bouton poussoir d'activation et LED de controle</h3></ul>
    <img src=../Ressources/CB2.jpg>
-  <p>-----------------------------------------Montage boite feutre - avec bluetooth, resistance et led-----------------------------------</p>
+  <p>-----------------------------------------Montage boite feutre - avec bluetooth, bouton et led-----------------------------------</p>
   <p> Suite au retard technique de ma camarade j'avance de mon coté pour gagner du temps. J'éffectue les branchements ci-dessus, me permettant de pour voir connecter la boite a feutre en bluetooth. De plus celle ci sera activable quand nous le souhaitons grace a un bonton pressoir. Ainsi pas besoin d'ouvrir la boite et autre quand nous voulons lancer le tour. L'avantage d'avoir choisi un bouton pressoir plutot qu'un bouton on/off est la rappidité et la facilité de l'activé. En effet si celui-ci depasse pas besoin de reflechir un milième de seconde. En effet, la pression sur le bouton doit de faire de manière rapide et sans regarder  pour que ceci soit discret. Puisque le but étant de faire comme s'il sagissait d'un pot ordinaire. </p>
   <p> La sécurité avant tout! Je choisis donc de rajouter une led a chaque boite. Ceci dans le but d'être sur que les deux boites sont opperationelles. Un fois le bouton presser , les deux LEDs s'activeront simulatenement à l'arrière des deux boites pour que seul le magicien puisse voir que tout fonctionne...Pour la boite à feutre tout fonctionne, en attente des bluetooth pour pourvoir activé la led de l'autre boite et faire parler le lapin</p>
   </li>
    
-<img src=../Ressources/C1.jpg>  
-<img src=../Ressources/C2.jpg>  
+   <li><ul><h3>Studio d'enregistrement pour la voix du lapin</h3></ul>
+  <p> Le dispositif de stockage par carte SD pour la communication du lapin vient d'arriver! Commençons par enregistrer les paroles du lapin, la voix sera en réalité simplement celle de mon binome et notre studio d'enregistrement un simple smartphone. </p>
+<img src=../Ressources/C1.jpg> 
+  <p>------------------------------------------Enregistrement de la voix----------------------------------------------------------------</p>
+  <p>Après reflexions, nous choisissons de prendre une voix aigu pour donner au lapin un aire prétentieux, enfantin et humoristique. Nous aurions egalement pu prendre une voix tres grave pour lui donner un style dépréssif, de fumeur , tel un vieux magicien. Comme prévu dans le script nous découpons l'enregistrement en plusieurs séquence pour faire passer l'enregistrement selon les actions du spectateurs...</p>
+  
+<li><ul><h3>Assemblage final de la boite a feutre et premier test</h3></ul>  
 <img src=../Ressources/C3.jpg>
+  <p>------------------------------------------------------Assemblage et perfectionnement-----------------------------------------------------</p>
