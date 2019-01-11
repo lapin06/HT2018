@@ -114,6 +114,6 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   <p> La sécurité avant tout! Je choisis donc de rajouter une led a chaque boite. Ceci dans le but d'être sur que les deux boites sont opperationelles. Un fois le bouton presser , les deux LEDs s'activeront simulatenement à l'arrière des deux boites pour que seul le magicien puisse voir que tout fonctionne...Pour la boite à feutre tout fonctionne, en attente des bluetooth pour pourvoir activé la led de l'autre boite et faire parler le lapin</p>
   </li>
    
-<img src=../Ressources/C1.JPG>  
-<img src=../Ressources/C2.JPG>  
-<img src=../Ressources/C3.JPG>
+<img src=../Ressources/C1.jpg>  
+<img src=../Ressources/C2.jpg>  
+<img src=../Ressources/C3.jpg>
