@@ -5,6 +5,8 @@
 #define TX 11
 SoftwareSerial BlueT(RX,TX);
 
+const int led=8;
+const int bouton=13;
 
 const int rouge=6;
 const int bleu=3;
@@ -27,17 +29,29 @@ void setup() {
   pinMode(bleu,INPUT);
   pinMode(vert,INPUT);
   pinMode(jaune,INPUT);
+
+  pinMode(led,OUTPUT);
+  pinMode(bouton,INPUT);
+
+  digitalWrite(led,HIGH);
   
   Serial.begin(9600);
-  Serial.println("PRET");
+  Serial.println("EN ATTENTE");
   BlueT.begin(9600);
 }
 
   
 void loop() { 
+  if (digitalRead(bouton)==LOW){
+    while(digitalRead(bouton)==HIGH){
+
+  Serial.println("PRET");
+  digitalWrite(led,LOW);
+  delay(900);
+  digitalWrite(led, HIGH);
+  
   delay(5000);
   BlueT.print("PRET");
-
   while (total<3){
   
   //Si le programme att car rien ne ce passe
@@ -89,10 +103,11 @@ void loop() {
        Serial.println(a);
        Serial.println("vous pouvez changer rapidement si vous voulez ?");
        delay(5000);
-       BlueT.print(a);
+       if(digitalRead(rouge)==HIGH){
+        BlueT.print(a);
        
-       Serial.println("Je sais pas si vous avez changer mais bon continuons");
-       //verification choix non deja pris juste avant
+        Serial.println("Je sais pas si vous avez changer mais bon continuons");
+         //verification choix non deja pris juste avant
         String stockr2=a;
                 if (stockr==stockr2){
                  Serial.println("petit coquin tu as deja prit ce feutre");
@@ -106,7 +121,11 @@ void loop() {
                 stockr=stockr2;}
         //tant qu'il a le marqueur rouge on attend...attention s'il decide d'en prendre un autre apres le rouge, nous verrons ici qu'il en a prit deux!
         while((digitalRead(rouge)==HIGH)&&(digitalRead(vert)==LOW)&&(digitalRead(jaune)==LOW)&&(digitalRead(bleu)==HIGH)){
-       a="r";}
+        a="r";}
+       }
+       else{
+        total=total-1;
+       }
   }
 
 
@@ -215,9 +234,9 @@ void loop() {
    
     }
     }
-    
+    }
 
-    
+  }
 }
   
     
