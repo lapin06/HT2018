@@ -52,14 +52,14 @@ void loop() {
   
   delay(5000);
   BlueT.print("PRET");
-  while (total<3){
+  while (total<5){
   
   //Si le programme att car rien ne ce passe
-  if((digitalRead(jaune)==LOW)&& (digitalRead(vert)==LOW)&&(digitalRead(rouge)==LOW)&& (digitalRead(bleu)==HIGH)){
+  if((digitalRead(jaune)==LOW)&& (digitalRead(vert)==LOW)&&(digitalRead(rouge)==LOW)&& (digitalRead(bleu)==LOW)){
     delay(1000);
     Serial.println("attend");
     attente=attente+1;
-    if (attente==10){
+    if (attente==100){
       Serial.println("jattend prennez un nouveau feutre");
       BlueT.print("ATTEND");
       attente=0;
@@ -73,18 +73,19 @@ void loop() {
   else{
 
      //verifions que deux marqueur ou plus non pas été pris, pas un petit spectateur coquin
-     if((((digitalRead(jaune)==HIGH))&&((digitalRead(vert)==HIGH)||(digitalRead(rouge)==HIGH)||(digitalRead(bleu)==LOW))) 
-        ||(((digitalRead(bleu)==LOW))&&((digitalRead(vert)==HIGH)||(digitalRead(rouge)==HIGH)||(digitalRead(jaune)==HIGH)))
-        ||(((digitalRead(rouge)==HIGH))&&((digitalRead(vert)==HIGH)||(digitalRead(jaune)==HIGH)||(digitalRead(bleu)==LOW)))
-        ||(((digitalRead(vert)==HIGH))&&((digitalRead(jaune)==HIGH)||(digitalRead(rouge)==HIGH)||(digitalRead(bleu)==LOW)))){
+     if((((digitalRead(jaune)==HIGH))&&((digitalRead(vert)==HIGH)||(digitalRead(rouge)==HIGH)||(digitalRead(bleu)==HIGH))) 
+        ||(((digitalRead(bleu)==HIGH))&&((digitalRead(vert)==HIGH)||(digitalRead(rouge)==HIGH)||(digitalRead(jaune)==HIGH)))
+        ||(((digitalRead(rouge)==HIGH))&&((digitalRead(vert)==HIGH)||(digitalRead(jaune)==HIGH)||(digitalRead(bleu)==HIGH)))
+        ||(((digitalRead(vert)==HIGH))&&((digitalRead(jaune)==HIGH)||(digitalRead(rouge)==HIGH)||(digitalRead(bleu)==HIGH)))){
     Serial.println("deux");
     BlueT.print("DEUX");
+    total=total+1;
     
         //tant qu'ils ne les a pas reposer tous sanf 1 attend...
-        while((((digitalRead(jaune)==HIGH))&&((digitalRead(vert)==HIGH)||(digitalRead(rouge)==HIGH)||(digitalRead(bleu)==LOW))) 
-        ||(((digitalRead(bleu)==LOW))&&((digitalRead(vert)==HIGH)||(digitalRead(rouge)==HIGH)||(digitalRead(jaune)==HIGH)))
-        ||(((digitalRead(rouge)==HIGH))&&((digitalRead(vert)==HIGH)||(digitalRead(jaune)==HIGH)||(digitalRead(bleu)==LOW)))
-        ||(((digitalRead(vert)==HIGH))&&((digitalRead(jaune)==HIGH)||(digitalRead(rouge)==HIGH)||(digitalRead(bleu)==LOW)))){
+        while((((digitalRead(jaune)==HIGH))&&((digitalRead(vert)==HIGH)||(digitalRead(rouge)==HIGH)||(digitalRead(bleu)==HIGH))) 
+        ||(((digitalRead(bleu)==HIGH))&&((digitalRead(vert)==HIGH)||(digitalRead(rouge)==HIGH)||(digitalRead(jaune)==HIGH)))
+        ||(((digitalRead(rouge)==HIGH))&&((digitalRead(vert)==HIGH)||(digitalRead(jaune)==HIGH)||(digitalRead(bleu)==HIGH)))
+        ||(((digitalRead(vert)==HIGH))&&((digitalRead(jaune)==HIGH)||(digitalRead(rouge)==HIGH)||(digitalRead(bleu)==HIGH)))){
        a="2";
        }
         }
@@ -120,7 +121,7 @@ void loop() {
                 BlueT.print("OKR");
                 stockr=stockr2;}
         //tant qu'il a le marqueur rouge on attend...attention s'il decide d'en prendre un autre apres le rouge, nous verrons ici qu'il en a prit deux!
-        while((digitalRead(rouge)==HIGH)&&(digitalRead(vert)==LOW)&&(digitalRead(jaune)==LOW)&&(digitalRead(bleu)==HIGH)){
+        while((digitalRead(rouge)==HIGH)&&(digitalRead(vert)==LOW)&&(digitalRead(jaune)==LOW)&&(digitalRead(bleu)==LOW)){
         a="r";}
        }
        else{
@@ -130,7 +131,7 @@ void loop() {
 
 
   
-      if(digitalRead(bleu)==LOW){
+      if(digitalRead(bleu)==HIGH){
        delay(300);
        a="b";
        Serial.println(a);
@@ -147,7 +148,7 @@ void loop() {
                 BlueT.print("OKB");
                 stockb=stockb2;}
                 
-      while((digitalRead(bleu)==LOW)&&(digitalRead(vert)==LOW)&&(digitalRead(rouge)==LOW)&&(digitalRead(jaune)==LOW)){
+      while((digitalRead(bleu)==HIGH)&&(digitalRead(vert)==LOW)&&(digitalRead(rouge)==LOW)&&(digitalRead(jaune)==LOW)){
       a="b";
   }
 
@@ -177,7 +178,7 @@ void loop() {
                 }
                 
           
-      while((digitalRead(vert)==HIGH)&&(digitalRead(bleu)==HIGH)&&(digitalRead(rouge)==LOW)&&(digitalRead(jaune)==LOW)){
+      while((digitalRead(vert)==HIGH)&&(digitalRead(bleu)==LOW)&&(digitalRead(rouge)==LOW)&&(digitalRead(jaune)==LOW)){
       a="v";}
   }
 
@@ -206,7 +207,7 @@ void loop() {
                 stockj=stockj2;}
       
       }
-      while((digitalRead(jaune)==HIGH)&&(digitalRead(bleu)==HIGH)&&(digitalRead(rouge)==LOW)&&(digitalRead(vert)==LOW)){
+      while((digitalRead(jaune)==HIGH)&&(digitalRead(bleu)==LOW)&&(digitalRead(rouge)==LOW)&&(digitalRead(vert)==LOW)){
       a="j";
   }
 
@@ -216,6 +217,8 @@ void loop() {
   total=total+1;
   attente=0;
   Serial.println(total);
+  Serial.println("nouveau feutre");
+  BlueT.print("NEW");
   delay(800);
 
 
@@ -224,14 +227,14 @@ void loop() {
     }
     
     
-    }
-    if(total>2){
-    Serial.println("Montrons notre prediction!");
+    
+    if(total>3){
+    Serial.println("Ouverture boite!");
     BlueT.print("FIN");
-    while (total>2){
+    while (total>3){
       a="prediction";
       delay;
-   
+   }
     }
     }
     }
