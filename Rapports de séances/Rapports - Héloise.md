@@ -100,6 +100,7 @@ void loop (){
 voici le cablage:
  <img src = ../Ressources/schema_MP3.png>
 Le premier code trouvé est plutot compliqué à comprendre mais je ne le laisse pas de coté vous pouvez le voir à l'addresse suivante:
+ 
 <a href="https://www.hackster.io/javier-munoz-saez/arduino-mp3-player-catalex-2effef">CODE 1</a>
  En allant sur youtube, j'ai trouvé un tuto plutot simple pour faire fonctionner le module, j'ai donc suivis les étapes à la lettre, écris le code relatif... mais cela ne fonctionne pas! Je ne comprends pas d'ou l'erreur provient. Il faut que je test d'autre code pour un trouver un qui fonctionne et que je comprends bien. C'est donc la dessus que je passerai mes prochains temps libres hors séances car il faut absolument que cela fonctionne. je vous met en lien la vidéo que j'ai trouvé avec le code et les étapes à suivre: 
 <a href="https://www.youtube.com/watch?v=rdKk-1MRMqY">VIDEO CODE</a> </p>
