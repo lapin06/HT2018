@@ -98,6 +98,9 @@ void loop (){
   <h4> Communication lapin </h4>
   <p> Ca y est notre commande du module serial MP3 permettant de jouer des musiques avec une carte SD reliée à l'arduino est arrivé! JE peux enfin terminer la partie comminication qui est un élément clé du tour. J'ai pu trouver chez moi une mini carte SD ainsi qu'un adaptateur. Il ne manque plus que le code. En réalisant des recherches j'ai trouvé plusieurs tuto nous expliquant comment faire marcher ce module.
 voici le cablage:
- <img src = 
-LE premier code trouvé est plutot compliqué à comprendre mais je ne le laisse pas de coté vous pouvez le voir à l'addresse suivante: < a href="https://www.hackster.io/javier-munoz-saez/arduino-mp3-player-catalex-2effef">
- En allant sur youtube, j'ai trouvé un tuto plutot simple pour faire fonctionner le module, j'ai donc suivis les étapes à la lettre, écris le code relatif... mais cela ne fonctionne pas! Je ne comprends pas d'ou l'erreur provient. Il faut que je test d'autre code pour un trouver un qui fonctionne et que je comprends bien. C'est donc la dessus que je passerai mes prochains temps libres hors séances car il faut absolument que cela fonctionne. je vous met en lien la vidéo que j'ai trouvé avec le code et les étapes à suivre: <a href="https://www.youtube.com/watch?v=rdKk-1MRMqY"> </p>
+ 
+LE premier code trouvé est plutot compliqué à comprendre mais je ne le laisse pas de coté vous pouvez le voir à l'addresse suivante: 
+                                                                                                                 
+ <a href="https://www.hackster.io/javier-munoz-saez/arduino-mp3-player-catalex-2effef">CODE</a>
+ En allant sur youtube, j'ai trouvé un tuto plutot simple pour faire fonctionner le module, j'ai donc suivis les étapes à la lettre, écris le code relatif... mais cela ne fonctionne pas! Je ne comprends pas d'ou l'erreur provient. Il faut que je test d'autre code pour un trouver un qui fonctionne et que je comprends bien. C'est donc la dessus que je passerai mes prochains temps libres hors séances car il faut absolument que cela fonctionne. je vous met en lien la vidéo que j'ai trouvé avec le code et les étapes à suivre: 
+<a href="https://www.youtube.com/watch?v=rdKk-1MRMqY">VIDEO CODE</a> </p>
