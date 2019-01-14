@@ -114,12 +114,18 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   <p> La sécurité avant tout! Je choisis donc de rajouter une led a chaque boite. Ceci dans le but d'être sur que les deux boites sont opperationelles. Un fois le bouton presser , les deux LEDs s'activeront simulatenement à l'arrière des deux boites pour que seul le magicien puisse voir que tout fonctionne...Pour la boite à feutre tout fonctionne, en attente des bluetooth pour pourvoir activé la led de l'autre boite et faire parler le lapin</p>
   </li>
    
-   <li><ul><h3>Studio d'enregistrement pour la voix du lapin</h3></ul>
+   <li><ul><h3>Studio d'enregistrement pour la voix du lapin - Hors séance </h3></ul>
   <p> Le dispositif de stockage par carte SD pour la communication du lapin vient d'arriver! Commençons par enregistrer les paroles du lapin, la voix sera en réalité simplement celle de mon binome et notre studio d'enregistrement un simple smartphone. </p>
 <img src=../Ressources/C1.jpg> 
-  <p>------------------------------------------Enregistrement de la voix----------------------------------------------------------------</p>
-  <p>Après reflexions, nous choisissons de prendre une voix aigu pour donner au lapin un aire prétentieux, enfantin et humoristique. Nous aurions egalement pu prendre une voix tres grave pour lui donner un style dépréssif, de fumeur , tel un vieux magicien. Comme prévu dans le script nous découpons l'enregistrement en plusieurs séquence pour faire passer l'enregistrement selon les actions du spectateurs...</p>
+  <p>---------------------------------------------Enregistrement de la voix---------------------------------------------------------------</p>
+  <p>Après reflexions, nous choisissons de prendre une voix aigu pour donner au lapin un aire prétentieux, enfantin et humoristique. Nous aurions également pu prendre une voix tres grave pour lui donner un style dépréssif, de fumeur , tel un vieux magicien. Comme prévu dans le script nous découpons l'enregistrement en plusieurs séquence pour faire passer l'enregistrement selon les actions du spectateurs...</p>
   
-<li><ul><h3>Assemblage final de la boite a feutre et premier test</h3></ul>  
+<li><ul><h3>Assemblage final de la boite a feutre et premier test - Hors séance </h3></ul>  
+  <p>Nous continuons donc à pofiner la boite à feutre par étape :</p>
 <img src=../Ressources/C3.jpg>
-  <p>------------------------------------------------------Assemblage et perfectionnement-----------------------------------------------------</p>
+  <p>------------------------------------------------------Assemblage et perfectionnement------------------------------------------------</p>
+  <p> <li><ul>Etape 1: Perçage et ponçage des troue pour la disposition des cateurs </ul>
+    <ul> Etape 2: Mise en place des compartiments pour les feutres </ul>
+    <ul>Etape 3: Ajout d'une fente pour mettre une regle ou autre pour simuler une veritable boite a feutre </ul>
+    </li>
+    Une fois tout ses étapes faite je m'occupe de verifié que les capteurs fonctions bien dans la boite,c'est a dire que les parrois ne pertubent pas les capteurs. Vous pouvez voir ici, le bon fonctionnement de la boite! Afin de pofiner la boite mon biinome se charge de peindre la boite puis nous la decorerons telle une boite d'enfant.</p>
