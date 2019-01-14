@@ -55,13 +55,49 @@ Nous avons pensé à une possibilité et nous demanderont la faisabilité de cel
   </li>
 <h1>Séance 3 : 07/01/19 : Bluetooth et boite feutre</h1>
 <li>
-<ul><h3> Connexion des bluetooth </h3>
+ <ul><h3> Connexion des bluetooth </h3></ul>
  <p> Lors de cette séance nous avons essayé de connecter les bluetooths entre eux ( En forçant les fils rentrent ). Mon binôme s'est occupé du bluetooth maitre quant à moi je m'occupais d'initiliser l'esclave, j'ai eu des problèmes de téléversements, les commandes AT ne répondaient pas. Le problème a été résolu petit à petit, il fallait résoudre quelques soucis comme la vitesse de communication entre l'ordinateur et la carte qui devait être initialisée dans un ordre précis. Nous avons pu trouver l'esclave avec le maitre, le maitre s'appareillait bien mais l'esclave non. On se verra dans la semaine pour résoudre ce problème. </p>
  
- <ul><h3> Boite feutre et capteurs </h3>
+ <ul><h3> Boite feutre et capteurs </h3></ul>
  <p> Après avoir fait la boite des feutres, j'ai réfléchis à un moyen de placer les capteurs pour qu'il y ai le moins d'interférences possibles. A deux nous avons trouvé la solution de les mette "débout" le long de la boite. J'ai donc pris les mésures nécessaires. J'ai également indiqué l'endroit ou nous devront percer la boite afin de faire tenir les capteurs. Vous pouvez voir le résultats ci-dessous:
   <img src= ../Ressources/dessin_capteurs_boite.jpg.JPG>
   <img src= ../Ressources/position_capteurs.jpg.JPG> </p>
  
  <p> Avant la prochaine séance, nous voulons apparailler les bluetooth correctement ainsi que percer la boite pour mettres les capteurs et les feutres. De mon coté je commencerai le code du servomoteur.
 Nous attendons encore le module de communication pour pouvoir enregistrer nos voix.</p> </li>
+
+<h1>Séance 4 : 14/01/19 : finalisation de la boite feutre</h1>
+<li>
+ <ul><h3> Travail hors séances </h3></ul>
+ <h4> boite feutre </h4>
+ <p> Nous avons fini la boite de feutre! Etape par étape nous avons finalisé cette boite en commençant par percer les fameux trous pour les capteurs. Ensuite nous avons positionné les capteurs et fait plusieurs test pour voir si tout allait bien. L'étape suivante consistée à réaliser des compartiments dans la boite afin que chaque feutre ai son propre espace pour ne pas que les capteurs interfèrent ou que les feutres aillent sur le mauvais capteur. Afin de rendre la boite plus naturelle nous avons fait un trou dans la boite pour pouvoir mettre une règle dedans. J'ai peint la boite de feutre en noir. Nous avons ensuite réalisé notre propre studio d'enregistrement pour le lapin. Un peu de miel et de lait et hop c'est parti pour prendre une voix aigue ( notre but était de le rendre enfantin et narcissique). 
+Pour finir, Mon binome travaillait sur la connexion des deux bluetooth car il y avait toujours un problème avec le blutooth esclave pendant que je travaillais sur la boite du lapin. 
+  <img src= ../Ressources/perçage.JPG>
+  <img src= ../Ressources/capteurs_trous.JPG> </p>
+ 
+ <h4> boite du lapin et servomoteur </h4>
+ <p> J'ai donc réfléchis au design de la boite du lapin car l'objectif et simple: Lorsque c'est la fin du tour le servomoteur, positionné à l'interieur en haut de la boite du lapin, qui relie avec un crochet les deux parties de la boite, tourne pour enlever le crochet et les deux cotés de la boite tombent pour laisser place au lapin. Le code du servomoteur etait plutot simple car nous lui demandons seulement une rotation de environ 9 degrès ( les mesures seront plus précises plus tard ). Vous pouvez donc voir le code ci-dessous:
+#include<Servo.h>;
+Servo servo;
+
+void setup(){
+  servo.attach(2,544,2400);
+}
+void loop (){
+ servo.write(0);
+  delay(2000);
+  servo.write(180);
+  delay(2000);
+ }
+  ce code sera inséré au code des capteurs. Il fallait cependant que je réfléchisse à la répartition du poid car les deux cotés de la boite doivent tomber vers l'extérieur. plusieurs otpions : soit des poids apparant en dehors de la boite pour forcer les cotés à tomber, mais cela ferait pression sur le servomoteur et donc cette idée est secondaire. La deuxième option est de jouer sur le design de la boite pour faire basculer automatiquement les deux cotés. Avec du papier, j'ai donc fait un premier essai de cette boite. Le premier essai était plutot concluant. 
+  <img src = ../Ressources/boite_lapin.JPG> </p>
+  
+  <ul><h3> Durant la séance </h3></ul>
+  <h4> finalisation boite et blutooth </h4>
+  <p> Je me suis occupée de finaliser la boite feutres en réalisant les derniers collages ( les compartiments). Ensuite nous avons réussi à mettre en relation les deux bluetooth, en testant le programme des capteurs avec la boite et les bluetooth, tout fonctionne. </p>
+  <h4> Communication lapin </h4>
+  <p> Ca y est notre commande du module serial MP3 permettant de jouer des musiques avec une carte SD reliée à l'arduino est arrivé! JE peux enfin terminer la partie comminication qui est un élément clé du tour. J'ai pu trouver chez moi une mini carte SD ainsi qu'un adaptateur. Il ne manque plus que le code. En réalisant des recherches j'ai trouvé plusieurs tuto nous expliquant comment faire marcher ce module.
+voici le cablage:
+ <img src = 
+LE premier code trouvé est plutot compliqué à comprendre mais je ne le laisse pas de coté vous pouvez le voir à l'addresse suivante: < a href="https://www.hackster.io/javier-munoz-saez/arduino-mp3-player-catalex-2effef"<Serial MP3 CODE>
+ En allant sur youtube, j'ai trouvé un tuto plutot simple pour faire fonctionner le module, j'ai donc suivis les étapes à la lettre, écris le code relatif... mais cela ne fonctionne pas! Je ne comprends pas d'ou l'erreur provient. Il faut que je test d'autre code pour un trouver un qui fonctionne et que je comprends bien. C'est donc la dessus que je passerai mes prochains temps libres hors séances car il faut absolument que cela fonctionne. je vous met en lien la vidéo que j'ai trouvé avec le code et les étapes à suivre: <a href="https://www.youtube.com/watch?v=rdKk-1MRMqY"<VIDEO MP3> </p>
