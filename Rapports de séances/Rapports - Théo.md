@@ -129,3 +129,17 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
     <ul>Etape 3: Ajout d'une fente pour mettre une regle ou autre pour simuler une veritable boite a feutre </ul>
     </li>
     Une fois tout ses étapes faite je m'occupe de verifié que les capteurs fonctions bien dans la boite,c'est a dire que les parrois ne pertubent pas les capteurs. Vous pouvez voir ici, le bon fonctionnement de la boite! Afin de pofiner la boite mon biinome se charge de peindre la boite puis nous la decorerons telle une boite d'enfant.</p>
+  
+  
+  <br>
+  <br>
+  <h2> Séance 3 - 14/01/19 - Finalisation bluetooth et recherche de batterie </h2>
+  
+  <li><ul>1er Test avec bluetooth operationel </ul>
+  <p> Après un temps de compréhension de l'utilisation des temps de communications entre bluetooths, et l'utilisayion du "/n/t", nous arrivons enfin a faire communiquer les deux bluetooths. On remarque ainsi avec le code que j'avais effectué au préalable que tout fonctionne comme prevu ormi la possibilité de changé de feutre une fois pris qui est a revoir par securité.
+Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la boite arduino: fonctionnement.</p>
+  <li><ul>Preparation code boite a lapin </ul>
+  <p> Alors que mon binome continue a s'approprier le dispositif de communication je lui prepare alors le structure du code selon les messages recu du bluetooth. Vous pouvez donc retrouver le squelette de ce programme dans le dossier code. J'incorpore la </p>
+  <li><ul>Dertermination tention batterie - Hors séance</ul>
+  <li><ul>preparation Bonus - posibilité de faire l'original colo pern prediction </ul>
+  <p>
