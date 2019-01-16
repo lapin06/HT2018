@@ -147,7 +147,7 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   <li><ul>1.Fabriquer boite lapin</ul>
     <ul>2.Faire fonctionner le dispositif de communication et se l'approprier</ul>
     <ul>3.Trouver les bonnes batteries selon leur tension, ampérage...</ul>
-    <ul>4.Fixer chaque élément dans chaque boite</ul<
+    <ul>4.Fixer chaque élément dans chaque boite</ul>
       </li>
     Ainsi je me rend compte que pour la fin de la séance je ne peux pas avancer alors avec le soutien de mon binome, je realise la version classique du color pen prediction simplement avec notre téléphone. En effet cette fois ci une fois un marqueur choisi une led s'allumera comme vous pouvez le voir ci dessous et ainsi le magicien pourra lui meme faire le tour.</p>
       <p> J'insere donc un deuxieme bouton pressoir a la boite a feutre. En cas d'activation, le tour ne sera plus avec la peluche mais bien avec le telephone. Le code en lui même reste simple. Le plus dur a faire risque d'appareiller un deuxieme bluetooth esclave sur ce même maitre....A suivre</p>
