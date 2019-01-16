@@ -135,7 +135,7 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
   <br>
   <h2> Séance 4 - 14/01/19 - Finalisation bluetooth et recherche de batterie </h2>
   
-  <li><ul>1er Test avec bluetooth operationel </ul>
+  <li><ul><h3>1er Test avec bluetooth operationel <h3></ul>
   <p> Après un temps de compréhension de l'utilisation des temps de communications entre bluetooths, et l'utilisayion du "/n/t", nous arrivons enfin a faire communiquer les deux bluetooths. On remarque ainsi avec le code que j'avais effectué au préalable que tout fonctionne comme prevu ormi la possibilité de changé de feutre une fois pris qui est a revoir par securité.
 Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la boite arduino: fonctionnement.</p>
   
