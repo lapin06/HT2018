@@ -11,7 +11,8 @@
   <li><h4> Documents </h4>
     <ul><li>planning du projet: mit à jour toutes les semaines, concernant notre avancement dans le projet ( si nous avons respecté le planning)</li></ul>
     <ul><li>le cahier des charges, de notre Création Color Rabbit Prédiction</li></ul>
-    <ul><li> Scripte du lapin</li></ul></li>
+    <ul><li> Scripte du lapin</li></ul>
+    <ul><li> Enregistrements</li></ul></li>
   
   <li><h4> Les Rapports de séances</h4>
   <ul><li>Rapport - Heloise</li></ul>
@@ -29,4 +30,4 @@
   
 </br>
 <h3> 2. L'histoire : </h3>
-<p>
+<p> Inspiré du tour original color pen prediction , proposé par la société americain murphys magic et vendu à l'échelle mondiale. Un veritable Best Seller depuis 5 ans , nous allons vous proposer ici notre version de ce tour, Le color rabbit prediction! Nous proposons ici un version ou le magicien ne fait aucune action sur le tour, tout est fait par une petite pelucche (le lapin). Ceci permetd d'avoir de nombreux avantages, permettant de transformer une prestation d'un magicien seul pour passer a un duo plein de folie. Pour d'avantage d'explication nous vous invitons a consulter notre cahier des charges </p> 
