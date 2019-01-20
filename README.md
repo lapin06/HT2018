@@ -25,6 +25,7 @@
   <ul> <li> Boite a feutre </li></ul>
   <ul><li> Boite a LAPIN </li></ul>
   </li>
+  </li>
   
 </br>
 <h3> 2. L'histoire : </h3>
