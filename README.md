@@ -6,7 +6,7 @@
 
 
 
-<h3> Sommaire : </h3>
+<h3>  1. Sommaire : </h3>
 <ul>
   <li><h4> Documents </h4>
     <ul><li>planning du projet: mit à jour toutes les semaines, concernant notre avancement dans le projet ( si nous avons respecté le planning)</li></ul>
@@ -19,10 +19,11 @@
     <p> Dans ce répertoire vous pourrez suivre notre progression grâce au rapports de séances rédigés chacun par un des membres du binôme</p></li>
   
   <li><h4> Ressources </h4>
-    <ul><li><p> Dans les ressources vous pouvez avoir acces aux différents images (ou autres) qui apparaitront dans les rapports de séances </p></li></ul></li>
+   <p> Dans les ressources vous pouvez avoir acces aux différents images (ou autres) qui apparaitront dans les rapports de séances </p>
     
   <li><h4> CODE </h4>
   <ul> <li> Boite a feutre </li></ul>
   <ul><li> Boite a LAPIN </li></ul>
   </li>
   
+<h3> 2. L'histoire : </h3>
