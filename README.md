@@ -9,9 +9,9 @@
 <h3> Sommaire : </h3>
 <ul>
   <li><h4> Documents </h4>
-    <ul>planning du projet: mit à jour toutes les semaines, concernant notre avancement dans le projet ( si nous avons respecté le planning)</ul>
-    <ul>le cahier des charges, de notre Création Color Rabbit Prédiction</ul>
-  <ul> Scripte du lapin</ul></li>
+    <ul><li>planning du projet: mit à jour toutes les semaines, concernant notre avancement dans le projet ( si nous avons respecté le planning)</li></ul>
+    <ul><li>le cahier des charges, de notre Création Color Rabbit Prédiction</li></ul>
+    <ul><li> Scripte du lapin</li></ul></li>
   
   <li><h4> Les Rapports de séances</h4>
     <li>Rapport - Heloise</li>
