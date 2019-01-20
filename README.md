@@ -1,4 +1,4 @@
-# Color Rabbit Prediction - FAURE Héloise & LEMAIRE Théo
+<red># Color Rabbit Prediction - FAURE Héloise & LEMAIRE Théo</red>
 
   <h2>Le lapin mentaliste qui prédit vos choix</h2>
 
