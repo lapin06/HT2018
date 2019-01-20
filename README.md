@@ -1,5 +1,5 @@
 # Color Rabbit Prediction - FAURE Héloise & LEMAIRE Théo
-<br/>
+
   <h2>Lapin mentaliste qui prédit vos choix</h2>
 
   <img src=Ressources/20-3.jpg>
@@ -27,7 +27,6 @@
   <ul><li> Boite a LAPIN </li></ul>
   </li>
   </ul>
-  
-</br>
+  <br/>
 <h3> 2. L'histoire : </h3>
 <p> Inspiré du tour original color pen prediction , proposé par la société americain murphys magic et vendu à l'échelle mondiale. Un veritable Best Seller depuis 5 ans , nous allons vous proposer ici notre version de ce tour, Le color rabbit prediction! Nous proposons ici un version ou le magicien ne fait aucune action sur le tour, tout est fait par une petite pelucche (le lapin). Ceci permetd d'avoir de nombreux avantages, permettant de transformer une prestation d'un magicien seul pour passer a un duo plein de folie. Pour d'avantage d'explication nous vous invitons a consulter notre cahier des charges </p> 
