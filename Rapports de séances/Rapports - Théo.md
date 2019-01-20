@@ -131,7 +131,7 @@ Le code semble etre pret, même si non complet, la connection des Bluetooths ser
     Une fois tout ses étapes faite je m'occupe de verifié que les capteurs fonctions bien dans la boite,c'est a dire que les parrois ne pertubent pas les capteurs. Vous pouvez voir ici, le bon fonctionnement de la boite! Afin de pofiner la boite mon biinome se charge de peindre la boite puis nous la decorerons telle une boite d'enfant.</p>
   
   
-  <br>
+  <br/>
   <br>
   <h2> Séance 4 - 14/01/19 - Finalisation bluetooth et recherche de batterie </h2>
   
@@ -141,7 +141,8 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   
   <li><ul><h3>Preparation code boite a lapin</h3> </ul>
   <p> Alors que mon binome continue à s'approprier le dispositif de communication je lui prépare alors le structure du code selon les messages recu du bluetooth. Vous pouvez donc retrouver le squelette de ce programme dans le dossier code: 2-LAPIN. J'incorpore egalement la led de controle comme dans la boite a feutre afin de verifier si chacune des boites est operationelle quand on lance le tour. Vous pouvez donc retrouver cette methode a la suite du message obtenu par le bluetooth : "PRET". Je laisse donc soin a mon binome de completer  sa partie si son dispositif avance. Je vais aussi me pencher sur son dispsitif pour un gain de temps. </p>
-  
+  <img src=../Ressources/20-2.jpg>
+  <p>-------------------------------------------------Test communication avec boite lapin--------------------------------------------------</p>
 <li><ul><h3>Preparation Bonus - posibilité de faire l'original colo pen prediction<h3> </ul>
   <p> Par estimation de notre projet en fonction du temps restant le travail a finir est :
   <li><ul>1.Fabriquer boite lapin</ul>
