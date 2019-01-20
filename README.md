@@ -1,9 +1,12 @@
 # Color Rabbit Prediction 
+<br/>
+<img src=../Ressources/20-3.jpg>
+
   <h2>Lapin mentaliste qui prédit vos choix</h2>
 
-<h1> dans les différents répertoires ... </h1>
+<h3> Sommaire : </h3>
 <ul>
-  <li><h3> Documents </h3></li>
+  <li><h4> Documents </h4></li>
     <p> <strong>le planning du projet</strong>, qui est mit à jour toutes les semaines, concernant notre avancement dans le projet ( si nous avons respecté le planning)
    <p>
     <strong> le cahier des charges</strong> de notre tour de magie </p>
