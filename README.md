@@ -1,5 +1,4 @@
-# Color Rabbit Prediction 
-<p> by FAURE Héloise & LEMAIRE Théo</p>
+# Color Rabbit Prediction - FAURE Héloise & LEMAIRE Théo
 <br/>
 
 <img src=../Ressources/20-3.jpg>
