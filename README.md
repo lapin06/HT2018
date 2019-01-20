@@ -14,15 +14,15 @@
     <ul><li> Scripte du lapin</li></ul></li>
   
   <li><h4> Les Rapports de séances</h4>
-    <li>Rapport - Heloise</li>
-    <li>Rapport - Théo </li>
+  <ul><li>Rapport - Heloise</li></ul>
+  <ul><li>Rapport - Théo </li></ul>
     <p> Dans ce répertoire vous pourrez suivre notre progression grâce au rapports de séances rédigés chacun par un des membres du binôme</p></li>
   
   <li><h4> Ressources </h4>
-    <p> Dans les ressources vous pouvez avoir acces aux différents images (ou autres) qui apparaitront dans les rapports de séances </p></li>
+    <ul><li><p> Dans les ressources vous pouvez avoir acces aux différents images (ou autres) qui apparaitront dans les rapports de séances </p></li></ul></li>
     
   <li><h4> CODE </h4>
-  <li> Boite a feutre </li>
-  <li> Boite a LAPIN </li>
+  <ul> <li> Boite a feutre </li></ul>
+  <ul><li> Boite a LAPIN </li></ul>
   </li>
   
