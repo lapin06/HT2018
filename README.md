@@ -26,4 +26,6 @@
   <ul><li> Boite a LAPIN </li></ul>
   </li>
   
+</br>
 <h3> 2. L'histoire : </h3>
+<p>
