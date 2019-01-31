@@ -104,3 +104,26 @@ Le premier code trouvé est plutot compliqué à comprendre mais je ne le laisse
 <a href="https://www.hackster.io/javier-munoz-saez/arduino-mp3-player-catalex-2effef">CODE 1</a>
  En allant sur youtube, j'ai trouvé un tuto plutot simple pour faire fonctionner le module, j'ai donc suivis les étapes à la lettre, écris le code relatif... mais cela ne fonctionne pas! Je ne comprends pas d'ou l'erreur provient. Il faut que je test d'autre code pour un trouver un qui fonctionne et que je comprends bien. C'est donc la dessus que je passerai mes prochains temps libres hors séances car il faut absolument que cela fonctionne. je vous met en lien la vidéo que j'ai trouvé avec le code et les étapes à suivre: 
 <a href="https://www.youtube.com/watch?v=rdKk-1MRMqY">VIDEO CODE</a> </p>
+
+<h1>Travail Hors séances : 31/01/19 : Communication et lapin </h1>
+<li>
+ <ul><h3> Communication Serial MP3 </h3></ul>
+ <p> Ca y est notre lapin peut enfin parler ! Maintenant qu"il peut parler il ne s'arretera pas de si tôt! J'ai réussi à faire fonctionner le programme ( le premier que j'avais annoncé plus haut ). Sûrement un problème de branchement ou simplement que je n'avais pas bien compris le code. La démonstartion en vidéo est disponible sur notre chaine youtube. Le seul soucis qu'il fallait régler et que le programme ne pouvait lire que seulement une chanson à la fois, et nous , nous avons besoin de pouvoir lire plusieurs fichiers audios en fonction de ce qu'il choisit. "En fonction de" j'ai donc résolu ce problème en traduisant cette phrase par des boucles " if ". Si le moniteur serie lit " 1" alors il va jouer telle chanson, si le moniteur lit "2" il jouera alors une autre chanson. J'ai également brancher des hauts parleurs et avec un modifieur de watt pour pouvoir bien entendre sans les écouteurs. Tout est presque pret. Prochaine étape c'est d'incorporer le code, donc les enregistrements audio dans le code de la carte du lapin. 
+  Le bluetooth esclave recevra et lira une information, par exemple OKV ( donc choix du feutre vert ) et donc dans la boucle " if (OKV) " on lira l'enregitrement audio associé. je n'ai pas les enregristrements audio (d'ailleurs on les garde en surprise donc pas de démonstration de voix!) donc je vais me contenter d'ajouter le code sans ceci pour l'instant.
+  Tout prend forme petit à petit...
+ image des cablages: 
+ <img src= ../Ressources/Serial_MP3_cablage.JPG></p>
+ <br>
+ <ul><h3> Notre assistant le lapin est prêt pour son show ! </h3></ul>
+ <p> ABRACADABRA et hop notre vedette est enfin parmi nous ! J'ai donc fais les magasins pour acheter à notre lapin sa tenue de scène très spéciale... Après avoir fait les essayages en live, celui-ci était plutôt content de ses habits ! Chapeau ok.. t-shirt ok.. pantalon ok.. chaussettes?? NON !! impossible de trouver en magasin les chaussettes qu'il voulait ... VERTES en même temps, qu'elle idée de lui mettre en tête d'avoir des chaussettes vertes c'est cool. Ce n'était pas très malin de notre part. Je ne voulais pas le décevoir alors j'ai décidé d'acheter un tissu vert et des coudres moi-même ! le pauvre il ne s'imagine pas ce qui lui attend...</p>
+  <br>
+  <p>J'ai donc passé ma journée à retoucher ses vétements car oui il fallait pratiquemet tous les retoucher, monsieur lapin est très exigeant et a une morphologie bien particulière... c'est parti pour faire des trous dans son bonnet pour faire passer ses oreilles, un trou dans le pantalon pour faire passer sa petite queue toute ronde, et surtout couper les jambes du pantalon !! Mais ce pantalon n'était pas une mince affaire car il s'éffiloche quand on le coupe.. il a donc fallu que je retrousse mes manches et que je m'applique davantage pour lui faire des ourlets! Vous pouvez voir la vidéo avec/sans ourlets sur notre chaine youtube pour comprendre pourquoi cela a était nécessaire. sur la photo ci-dessous, à droite SANS ourlets à gauche AVEC: 
+ <img src= ../Ressources/ourlets.JPG></p>
+  <br> 
+  <p>C'est à peine si j'ose vous parler de mes talents de couturière si je vous montre les chaussettes que j'ai fais. Mais l'essentiel est que les chaussettes sont à sa taille et qu'elles lui plaisent. ouf!  
+   <img src= ../Ressources/chaussettes_coutures.JPG>
+   <img src= ../Ressources/Chaussettes.JPG> </p>
+ <br>
+ <p> Ca y est notre vedette est prète et elle hésite pas à prendre la pause... 
+  <img src= ../Ressources/face.JPG>
+  <img src= ../Ressources/profil.JPG> </p>
