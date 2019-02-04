@@ -156,13 +156,14 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
     <ul>4.Fixer chaque élément dans chaque boite</ul>
       </li>
     Ainsi je me rend compte que pour la fin de la séance je ne peux pas avancer alors avec le soutien de mon binome, je realise la version classique du color pen prediction simplement avec notre téléphone. En effet cette fois ci une fois un marqueur choisi une led s'allumera comme vous pouvez le voir ci dessous et ainsi le magicien pourra lui meme faire le tour.</p>
-      <p> J'insere donc un deuxieme bouton poussoir à la boite à feutre. En cas d'activation, le tour ne sera plus avec la peluche mais bien avec le telephone. Le code en lui même reste simple. Le plus dur à faire risque d'appareiller un deuxieme bluetooth esclave sur ce même maitre....A suivre</p>
+      
       <img src=../Ressources/20-1.jpg>
   <p> ---------------------------------------------Préparation si besoin du tour original -------------------------------------------------</p>
-  
-  
+  <p> J'insere donc un deuxieme bouton poussoir à la boite à feutre. En cas d'activation, le tour ne sera plus avec la peluche mais bien avec le telephone. Le code en lui même reste simple. Le plus dur à faire risque d'appareiller un deuxieme bluetooth esclave sur ce même maitre....A suivre</p>
   
   <br/>
+  <br>
+  </br>
   <h2> Séance 5 - 04/02/2019 - Independence des boites et preparation de la boite à lapin </h2>
 <li><ul><h3>Recherche des batteries</h3></ul></li>
 <p> Pour rendre les deux boites independantes je me lance dans la recherches des batteries des deux boites. Les principales caracteristiques qui nous intéresses pour nos batteries sont la tension, l'ampérage. Aprés mesure a l'aide d'un Amperemètre et d'un Voltmètre je determine les caracteristiques de chacun des composants.</p>
@@ -174,16 +175,17 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
       
  
   <li> Boite a feutre:
-  https://www.ebay.fr/itm/PACK-2-PILE-BATTERIE-18650-RECHARGEABLE-LI-ION-3-7V-5200MAH-AVEC-CONNECTEUR-PCB-/283066320442?hash=item41e811463a
+  https://www.ebay.fr/itm/PACK-2-PILE-BATTERIE-18650-RECHARGEABLE-LI-ION-3-7V-5200MAH-AVEC-CONNECTEUR-PCB-/283066320442?hash=item41e811463a     
       https://www.ebay.fr/itm/PACK-2-PILE-BATTERIE-18650-RECHARGEABLE-LI-ION-7-4V-4500MAH-AVEC-CONNECTEUR-PCB-/273366948985?hash=item3fa5f09c79</li>
   <p>--------------------------------------------Batterie boite à feutre --------------------------------------------------------------------</p>
   <li> Boite à lapin:
-  <img src:../Ressources/baterie2.png></li>
+  <img src=../Ressources/batterie2.png></li>
   <p>----------------------------------------------Batterie Boite à Lapin-----------------------------------------------------------------</p>
    
    
 <li><ul><h3>Preparation boite lapin</h3></ul></li>
 <p> Mon binome à reussi faire parler notre lapin! Ainsi elle peut completer mon code squelette que j'avais fait au préalable et nous allons pouvoir tester l'assemblage de nos deux travaux! Mais avant certaines finalisations je m'attaque la boite à Lapin. Après plusieurs version de boite, plusieurs semaine de reflexionns, plusieurs maquettes, nous avons enfin choisit notre model de boite à lapin! Les principaux critères pour le choix étaient; le disgn, les dimensions pour les transports, l'effet visuel de l'ouverture, l'originalité, la securité pour les poinds de bascule et evité la casse du servo moteur lors de l'ouvertur etc...Ainsi le model choisit est...</p>
+<img src=../Ressources/boitelapin.png>
 
 <li><ul><h3>Approfondissement de la partie Bonus</h3></ul></li>
   
