@@ -1,89 +1,150 @@
-//LAPIN
+//LAPIN avec sa voix
 #include<SoftwareSerial.h>
-#define RX 2
-#define TX 3
-SoftwareSerial BlueT(RX, TX);
+#define RX 5
+#define TX 6
+SoftwareSerial mySerial(RX,TX);
+
+#define Arduino_RX 10
+#define Arduino_TX 11
+SoftwareSerial BlueT(Arduino_RX, Arduino_TX);
 
 const int led=4;
+char data="A";  
+static int8_t Send_buf[8] = {0};
 
+#define CMD_PLAY_WITHVOLUME 0X22
+#define CMD_SEL_DEV 0X09 //SELECT STORAGE DEVICE, DATA IS REQUIRED 
+#define DEV_TF 0X02 //HELLO,IM THE DATA REQUIRED                                  
+#define CMD_PLAY_WITHFOLDER 0X0F//DATA IS NEEDED, 0x7E 06 0F 00 01 02 EF;(play the song with the directory \01\002xxxxxx.mp3 
+
+void sendCommand(int8_t command, int16_t dat) { 
+  delay(20); 
+  Send_buf[0] = 0x7e; //starting byte 
+  Send_buf[1] = 0xff; //version 
+  Send_buf[2] = 0x06; //the number of bytes of the command without starting byte and ending byte 
+  Send_buf[3] = command; // 
+  Send_buf[4] = 0x00;//0x00 = no feedback, 0x01 = feedback 
+  Send_buf[5] = (int8_t)(dat >> 8);//datah 
+  Send_buf[6] = (int8_t)(dat); //datal 
+  Send_buf[7] = 0xef; //ending byte 
+  for(uint8_t i=0; i<8; i++){ 
+    mySerial.write(Send_buf[i]) ; 
+  } 
+} 
 void setup() {
+
  Serial.begin(9600);
  Serial.println("Bonjour, helo");
  BlueT.begin(38400);
- pinMode(led, OUTPUT);
  
+ pinMode(led, OUTPUT);
  digitalWrite(led,LOW);
  Serial.println("LOW");
  delay(900);
- digitalWrite(led,HIGH);
- 
-  // put your setup code here, to run once:
 
+ digitalWrite(led,HIGH);
+
+ Serial.begin(9600);
+  mySerial.begin(9600);
+  delay(500); 
+  sendCommand(CMD_SEL_DEV, DEV_TF);//select the TF card   
+  delay(200); 
 }
 
 void loop() {
-  
-  while(BlueT.available()){
-    Serial.print(char(BlueT.read()));}
-    while(Serial.available()){
-      BlueT.write(char(Serial.read()));
+
+while(BlueT.available()){
+  Serial.print(char(BlueT.read()));
+  }
+while(Serial.available()){
+  BlueT.write(char(Serial.read()));
   
   if (BlueT.read() == "PRET") {
     digitalWrite(led,LOW);
     delay(900);
     digitalWrite(led,HIGH);
-    //BONJOUR TOUT LE MONDE ! je suis magicduino je suis ici pour vous eblouir, monsieur ou madame j'espere que vous etes ouvert d'esprit car je vais lire dans votre esprit. Je sais que je peux faire peur avec ma
-    // petite voix de robots mais n'aillez crainte...je suis bien meilleur qu'eu(merci c'est gentil pour nous)Derien. Pour commencez veuillez prendre le dessin en noir et blanc  et montrer le de maniere elegante
-    //Wouaou vous faites une super belle assistante, vous etes libre ce soir ? (wow calmos magicduino) "sifflement" , bon repornons. Pour commencer veuillez choisir un feutre avec elegence.
+    sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00102);
+    Serial.println("pret");   
   }
+
   
   if (BlueT.read()=="ATTEND"){
-    //vous avez le droit de vous depecher si vous voulez
+    sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00101);
+    Serial.println("Attend");
   }
-  
+
   if (BlueT.read()=="DEUX"){
-    //VOUS AVEZ DONC CHOISIT UN FEUTRE, EUU ATTENDAIT JE SENS QUELQUE CHOSE
-    //VOUS ESSAYEZ DE ME DUPER VOUS AVEZ PRIX DEUX FEUTRES! je suis un lapin mais je suis pas stupide je m'appelle pas helo ou theo
+    sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00103);
+    Serial.println("Deux");
   }
 
-  
   if (BlueT.read()=="DEJAR"){
-    //maitenant que vous avez choisi un feutre vous allez...euu attendez a MOINS QUE VOUS SOYEZ UN PEU BEBTE VOUS VEZ DEJA colorié alors reposé le et prenez en un autre
+    sendCommand(CMD_PLAY_WITHVOLUME, 0X0F007);
+    Serial.println("dejaR");
   }
+
   if (BlueT.read()=="DEJAB"){
-    //c'est un tres bon choix pour colorié , mais dommage que vous l'aillez deja pris ! alors reporsez moi ce stylo je ne suis pas debile.
-  }
+    sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00108);
+    Serial.println("dejaB");
+    }
+
   if (BlueT.read()=="DEJAV"){
-    //Vous allez a present prendre le feutre et leveé le bras en l'aire , allez-y , oui allez-y et mainteant faite un tour sur vous meme, vraiment, voila c'était juste pour vou spunir car vous avez deja pris ce feutre!!!
-    //reposez le et prenez en un autre !
+    sendCommand(CMD_PLAY_WITHVOLUME, 0X0F002);
+    Serial.println("dejaV");
   }
+
   if (BlueT.read()=="DEJAJ"){
-    //j'imagine que c'est bon vous avez choisi un feutre , je ne vois rien dans cette boite...bon maintenant je vais vous demander gentillement de le remettre a sa place parceque vous etes vous aussi un escro vous avez deja pris ce feutre !!!
+    sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00109); 
+    Serial.println("dejaJ");
   }
 
 
-  if (BlueT.read()=="r"){
-  }
-  if (BlueT.read()=="v"){
-  }
-  if (BlueT.read()=="j"){
-  }
-  if (BlueT.read()=="b"){
-  }
-
-  
   if (BlueT.read()=="OKR"){
+    sendCommand(CMD_PLAY_WITHVOLUME, 0X0F005); 
+    Serial.println("r");
   }
-  if (BlueT.read()=="OKB"){
-  }
+
   if (BlueT.read()=="OKV"){
+    sendCommand(CMD_PLAY_WITHVOLUME, 0X0F006); 
+    Serial.println("v");
   }
+
   if (BlueT.read()=="OKJ"){
+    sendCommand(CMD_PLAY_WITHVOLUME, 0X0F004); 
+    Serial.println("j");
+  }
+
+  if (BlueT.read()=="OKB"){
+    sendCommand(CMD_PLAY_WITHVOLUME, 0X0F003);
+    Serial.println("b");
   }
 
   
+  if (BlueT.read()=="r"){
+    sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00106);
+    Serial.println("changerR");
+  }
+
+  if (BlueT.read()=="b"){
+    sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00104);
+    Serial.println("changerB");
+  }
+
+  if (BlueT.read()=="v"){
+    sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00107);
+    Serial.println("changerV");
+  }
+
+  if (BlueT.read()=="j"){
+    sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00105); 
+    Serial.println("changerJ");
+  }
+
   if (BlueT.read()=="FIN"){
+    sendCommand(CMD_PLAY_WITHVOLUME, 0X0F001);
+    Serial.println("fin");
   }
-  }
+
+ }
+
 }
-      // put your main code here, to run repeatedly:
