@@ -156,15 +156,26 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
     <ul>4.Fixer chaque élément dans chaque boite</ul>
       </li>
     Ainsi je me rend compte que pour la fin de la séance je ne peux pas avancer alors avec le soutien de mon binome, je realise la version classique du color pen prediction simplement avec notre téléphone. En effet cette fois ci une fois un marqueur choisi une led s'allumera comme vous pouvez le voir ci dessous et ainsi le magicien pourra lui meme faire le tour.</p>
-      <p> J'insere donc un deuxieme bouton pressoir a la boite a feutre. En cas d'activation, le tour ne sera plus avec la peluche mais bien avec le telephone. Le code en lui même reste simple. Le plus dur a faire risque d'appareiller un deuxieme bluetooth esclave sur ce même maitre....A suivre</p>
+      <p> J'insere donc un deuxieme bouton poussoir à la boite à feutre. En cas d'activation, le tour ne sera plus avec la peluche mais bien avec le telephone. Le code en lui même reste simple. Le plus dur à faire risque d'appareiller un deuxieme bluetooth esclave sur ce même maitre....A suivre</p>
       <img src=../Ressources/20-1.jpg>
   <p> ---------------------------------------------Préparation si besoin du tour original -------------------------------------------------</p>
   
+  <br/>
   
   <h2> Séance 4 - 14/01/19 - Finalisation bluetooth et Bonus </h2>
-<li><ul><h3>Calcul tension batterie boite a feutre </h3></ul></li>
-<li><ul><h3>boite </h3></ul></li>
-<li><ul><h3>Calcul tension batterie boite a feutre </h3></ul></li>
+<li><ul><h3>Recherche des batteries</h3></ul></li>
+<p> Pour rendre les deux boites independantes je me lance dans la recherches des batteries des deux boites. Les principales caracteristiques qui nous intéresses pour nos batteries sont la tension, l'ampérage. Aprés mesure a l'aide d'un Amperemètre et d'un Voltmètre je determine les caracteristiques de chacun des composants.</p>
+<li><li>Capteurs Boite:  3-5V --- 0,01A</li>
+    <li>Bluetooth HC05:  3,5-5V --- 0,3A</li>
+    <li> etc...</li>
+    </li>
+<p> Au final on a: 
+  <li> Boite a feutre:</li>
+  <li> Boite à lapin:</li>
+  </pâ
+   
+<li><ul><h3>Preparation boite lapin</h3></ul></li>
+<li><ul><h3>Approfondissement de la partie Bonus</h3></ul></li>
   
   
-  <p>
+ 
