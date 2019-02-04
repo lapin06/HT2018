@@ -144,7 +144,7 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   <p>---------------------------------------------------------------------------------------------------------------------------------------</p>
   
   <li><ul><h3>Preparation code boite a lapin</h3> </ul>
-  <p> Alors que mon binome continue à s'approprier le dispositif de communication je lui prépare alors le structure du code selon les messages recu du bluetooth. Vous pouvez donc retrouver le squelette de ce programme dans le dossier code: 2-LAPIN. J'incorpore egalement la led de controle comme dans la boite a feutre afin de verifier si chacune des boites est operationelle quand on lance le tour. Vous pouvez donc retrouver cette methode a la suite du message obtenu par le bluetooth : "PRET". Je laisse donc soin a mon binome de completer  sa partie si son dispositif avance. Je vais aussi me pencher sur son dispsitif pour un gain de temps. </p>
+  <p> Alors que mon binome continue à s'approprier le dispositif de communication je lui prépare alors le structure du code selon les messages recu du bluetooth. Vous pouvez donc retrouver le squelette de ce programme dans le dossier code: 2-LAPIN. J'incorpore également la led de controle comme dans la boite à feutre afin de verifier si chacune des boites est operationelle quand on lance le tour. Vous pouvez donc retrouver cette methode à la suite du message obtenu par le bluetooth : "PRET". Je laisse donc soin à mon binome de completer  sa partie si son dispositif avance. Je vais aussi me pencher sur son dispsitif pour un gain de temps. </p>
   <img src=../Ressources/20-2.jpg>
   <p>------------------------------------------------Test communication avec boite lapin ------------------------------------------------</p>
   <br/>
@@ -160,21 +160,31 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
       <img src=../Ressources/20-1.jpg>
   <p> ---------------------------------------------Préparation si besoin du tour original -------------------------------------------------</p>
   
-  <br/>
   
-  <h2> Séance 4 - 14/01/19 - Finalisation bluetooth et Bonus </h2>
+  
+  <br/>
+  <h2> Séance 5 - 04/02/2019 - Independence des boites et preparation de la boite à lapin </h2>
 <li><ul><h3>Recherche des batteries</h3></ul></li>
 <p> Pour rendre les deux boites independantes je me lance dans la recherches des batteries des deux boites. Les principales caracteristiques qui nous intéresses pour nos batteries sont la tension, l'ampérage. Aprés mesure a l'aide d'un Amperemètre et d'un Voltmètre je determine les caracteristiques de chacun des composants.</p>
-<li><li>Capteurs Boite:  3-5V --- 0,01A</li>
-    <li>Bluetooth HC05:  3,5-5V --- 0,3A</li>
-    <li> etc...</li>
-    </li>
-<p> Au final on a: 
-  <li> Boite a feutre:</li>
-  <li> Boite à lapin:</li>
-  </pâ
+   <li><ul> <li>Capteurs Boite:  3-5V --- 0,01A</li>
+    <li>Bluetooth HC05:  3,5-5V --- 0,3A</li></ul>
+    <p> etc... Ainsi il est possible de prendre une petite batterie qui serait capable de rentrer dans notre boite a feutre comme prévu. Après recherche , j'ai finalement choisit les batteries suivante:
+
+     
+      
+ 
+  <li> Boite a feutre:
+  https://www.ebay.fr/itm/PACK-2-PILE-BATTERIE-18650-RECHARGEABLE-LI-ION-3-7V-5200MAH-AVEC-CONNECTEUR-PCB-/283066320442?hash=item41e811463a
+      https://www.ebay.fr/itm/PACK-2-PILE-BATTERIE-18650-RECHARGEABLE-LI-ION-7-4V-4500MAH-AVEC-CONNECTEUR-PCB-/273366948985?hash=item3fa5f09c79</li>
+  <p>--------------------------------------------Batterie boite à feutre --------------------------------------------------------------------</p>
+  <li> Boite à lapin:
+  <img src:../Ressources/baterie2.png></li>
+  <p>----------------------------------------------Batterie Boite à Lapin-----------------------------------------------------------------</p>
+   
    
 <li><ul><h3>Preparation boite lapin</h3></ul></li>
+<p> Mon binome à reussi faire parler notre lapin! Ainsi elle peut completer mon code squelette que j'avais fait au préalable et nous allons pouvoir tester l'assemblage de nos deux travaux! Mais avant certaines finalisations je m'attaque la boite à Lapin. Après plusieurs version de boite, plusieurs semaine de reflexionns, plusieurs maquettes, nous avons enfin choisit notre model de boite à lapin! Les principaux critères pour le choix étaient; le disgn, les dimensions pour les transports, l'effet visuel de l'ouverture, l'originalité, la securité pour les poinds de bascule et evité la casse du servo moteur lors de l'ouvertur etc...Ainsi le model choisit est...</p>
+
 <li><ul><h3>Approfondissement de la partie Bonus</h3></ul></li>
   
   
