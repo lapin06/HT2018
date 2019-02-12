@@ -173,7 +173,7 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
      
       
  
-  <li> Boite a feutre:
+  <li> Boite a feutre: Il nous faut une petite batterie! une toute petite batterie!
   https://www.ebay.fr/itm/PACK-2-PILE-BATTERIE-18650-RECHARGEABLE-LI-ION-3-7V-5200MAH-AVEC-CONNECTEUR-PCB-/283066320442?hash=item41e811463a     
       https://www.ebay.fr/itm/PACK-2-PILE-BATTERIE-18650-RECHARGEABLE-LI-ION-7-4V-4500MAH-AVEC-CONNECTEUR-PCB-/273366948985?hash=item3fa5f09c79</li>
   <p>--------------------------------------------Batterie boite à feutre --------------------------------------------------------------------</p>
@@ -189,6 +189,26 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   <img src=../Ressources/b3.PNG>
 
 <li><ul><h3>Approfondissement de la partie Bonus</h3></ul></li>
+
+
+<br/>
+
+<h2> Séance 5 - 11/02/19 - Communication et assemblage </h2>
+
+<li><ul><h3> Interaction et communiaction des deux boites </h3></ul></li>
+<p>Suite à un problème de cable du module bluetooth HC06 nous mettons du temps à mettre en marche notre fabuleux tour en marche. Suite a cela nous recontrons quelques autres petits problèmes techniques avant la mise en marche de la communication. Comme par exemple le message bluetooth à envoyer, les problèmes du au dispositif mp3, etc... Après avoir reglé tout ses problèmes et le travail approfondit de mon binome, nous arrivons a lancer le tour comme prévu. En effet, une fois apres avoir appuyé discretement derriere la boite a feutre la led s'active pour confimer l'allumage, la boite à lapin reçoit l'information. Et celle-ci commence a presenter notre le tour! <p>
+  <p> A présent il faut voir si la suite fonctionne bien. En effet si a chaque feutre tout se passe bien et si nous arrivons à enchener plusieur messages sans les intereferer. (A FAIRE JEUDI) </p>
+  
+  <li><ul><h3> Les petites boites </h3></ul></li>
+  <ul><h5>finition de la petite boite a feutre </h5></ul>
+  <p> Je me lance alors, dans le perfectionnement de la petite boite à feutre. Je reprend donc tout les cablage et les retaillent chaque cable de chaque composant pour les adapter à la boite.  Aussi bien pour les capteurs, bluetooth,  led... Je fais egalement des perçages dans la boite pour la LED et Le(s) bouton(s). PHOTO</p>
+  
+  <p> Pour la grande boite, nous nous lançons dans les collages du socle de la boite a lapin ou se trouvera la carte, le bluetooth et autres composants auditifs. PHOTO  </p>
+<p> Suite a un probleme technique nous somme contraint de refaire notre petite estrade de la boite: PHOTO </p>
+
+
+
+  <li><ul><h3> A finir </h3></ul></li>
   
   
  
