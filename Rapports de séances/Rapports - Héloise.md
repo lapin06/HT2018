@@ -140,3 +140,31 @@ sur la photo ci-dessous, à droite SANS ourlets à gauche AVEC:
  <br> En me creusant un peu plus la tête, j'ai finis par trouver une solution en combiant les deux otpions: un dossier "01" avec les neufs premiers audios ( 001,002,...,009) et en dehors du dossier les enregistrements de 010 à 016 . J'ai donc utilisé l'option 2 "lire le fichier" pour les neufs premiers audio et pour les autres enregistrements, j'ai utilisé la lecture des fichiers dans l'ordre. EUREKA cela fonctionne! Vous pouvez donc voir le code principal des enregistrements en clickant sur ce lien: <a href = ""> MP3_CODE<a/>.
  <br> 
  le code final est le code du lapin modifié, vous pouvez le voir en clickant sur le lien: <a href ="https://github.com/lapin06/HT2018/blob/master/CODE/2-LAPIN.ino" >Lapin_CODE </a>
+<br>
+ <h1> Séance 6: 11/02/19 : jumulage des codes avec bluetooth - Boite lapin</h1>
+ <li>
+ <ul><h3> Jumulage des codes </h3></ul>
+  <p> Ca y est comme les deux codes fonctionnes individuelment on peut les faires intéragir grâce aux bluetooth. Pendant cette s'éance on a tout mis en place pour que le code contenant les audios et le code des capteurs soient en harmonie. Après de nombreux essais pour connecter les bluetooth nous avons mis en relation les codes pour que, dès qu'une lettre est envoyée, le code du lapin sache quel audio jouer. Cela est traduis en code mot à mot: "si le bluetooth lit x lettre, alors il joue tel audio". Nous avons donc retravailler un peu les codes chacun de notre coté pour que cela fonctionne bien. A la fin de la séance nous avons réussi à jouer l'audio correspondant à la lettre lu par le bluetooth. </p>
+  <br>
+  <li>
+ <ul><h3> boite lapin (hors séance)</h3></ul>
+   <p> Nous sommes allé au FABLAB pour confectionner la boite du lapin. Comme les dimensions de certains cotés étaient plus grand que la planche de la découpeuse laser nous avons mit du temps à couper les parties et les remettre ensemble. Nous avons eu seulement le temps de faire le socle de la boite ( la où va se trouver la carte arduino avec tous les fils et la led qui sert d'indication de démarrage du code). <p>
+   <br>
+   <p>Nous retournerons au FABLAB jeudi pour faire les deux autres boites qui confectionne la boite du lapin. En effet celuici n'aura pas la seule est unique boite que nous avons modélisé avec du papier. Pour question d'estétisme la boite du lapin est dévisé en trois parties: le socle, l'estrade et la boite contenant le lapin. Tout cela car lorsque les cotés de la boite tomberont, pour pouvoir voir le lapin il faut que les cotés soient plus bas que le lapin ( d'où l'estrade). Les cotés de la boite du lapin vont simplement tenir sur l'estrade avec des attaches et le servo moteur tiendra les deux parties. </p>
+<br>
+   <h1> Travail hors séance : 14/02/19 : fin jumulage des codes avec bluetooth - 2 dernières Boites du lapin </h1>
+   <p> Aujourd'hui nous sommes donc allé au FABLAB pour finaliser la boite du lapin ( donc l'estrade et la boite lapin). Nous avons pensé à faire des trous dans l'estrade pour pouvoir mettre les hauts parleurs. Vous pouvez donc voir le résultat ci-dessous: </p>
+    <img src= ../Ressources/boites_lapin.JPG></p>
+   <img src= ../Ressources/boite_lapin_faceJPG></p>
+ <br>
+ <p> Nous avons également fini les jumulages des codes ( car il fallait changer les lettres que l'on envoie, bien tout réorganiser et surtout tout essayer pour voir si TOUS les cas fonctionnent. En effet tout fonctionne! J'ai donc de mon coté ajouté le servo moteur, une petite musique de fin lorsque le lapin apparait ( on vous garde la surprise ! ) et une led qui clignote à deux secondes d'intervalle des lorsqu'on rentre dans la boucle du bluetooth ( while blueT aivailable ) Je vous invite à aller voir le code final du lapin à l'adresse suivante : <a href ="https://github.com/lapin06/HT2018/blob/master/CODE/2-LAPIN.ino" >Lapin_CODE_final </a> </p>
+ <br>
+ <h3> Ce qu'il reste à faire pendant les vacances : </h3>
+ <ol>
+  <li> Faire les trous dans les boites du lapin pour les relier et pour faire passer les fils </li>
+  <li> Coller les parois de la boite du lapin </li>
+  <li> Peindre la boite </li>
+  <li> Installer le servomoteur ( choisir le bon emplacement, bien le fixer, le protéger, trouver un crochet et une boucle pour tenir les extrémités de la boite du haut etc...)
+  <li> Trouver des poids pour aider la boite à basculer </li>
+  <li> reprendre certaine parties du code des capteurs </li>
+ </ol>
