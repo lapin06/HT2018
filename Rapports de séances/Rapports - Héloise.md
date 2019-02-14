@@ -144,7 +144,7 @@ sur la photo ci-dessous, à droite SANS ourlets à gauche AVEC:
  <h1> Séance 6: 11/02/19 : jumulage des codes avec bluetooth - Boite lapin</h1>
  <li>
  <ul><h3> Jumulage des codes </h3></ul>
-  <p> Ca y est comme les deux codes fonctionnes individuelment on peut les faires intéragir grâce aux bluetooth. Pendant cette s'éance on a tout mis en place pour que le code contenant les audios et le code des capteurs soient en harmonie. Après de nombreux essais pour connecter les bluetooth nous avons mis en relation les codes pour que, dès qu'une lettre est envoyée, le code du lapin sache quel audio jouer. Cela est traduis en code mot à mot: "si le bluetooth lit x lettre, alors il joue tel audio". Nous avons donc retravailler un peu les codes chacun de notre coté pour que cela fonctionne bien. A la fin de la séance nous avons réussi à jouer l'audio correspondant à la lettre lu par le bluetooth. </p>
+  <p> Ca y est comme les deux codes fonctionnent individuelement on peut les faire intéragir grâce aux bluetooths. Pendant cette séance on a tout mis en place pour que le code contenant les audios et le code des capteurs soient en harmonie. Après de nombreux essais pour connecter les bluetooth nous avons mis en relation les codes pour que, dès qu'une lettre est envoyée, le code du lapin sache quel audio jouer. Cela est traduis en code mot à mot: "si le bluetooth lit x lettre, alors il joue tel audio". Nous avons donc retravailler un peu les codes chacun de notre coté pour que cela fonctionne bien. A la fin de la séance nous avons réussi à jouer l'audio correspondant à la lettre lu par le bluetooth. </p>
   <br>
   <li>
  <ul><h3> boite lapin (hors séance)</h3></ul>
@@ -155,7 +155,7 @@ sur la photo ci-dessous, à droite SANS ourlets à gauche AVEC:
    <h1> Travail hors séance : 14/02/19 : fin jumulage des codes avec bluetooth - 2 dernières Boites du lapin </h1>
    <p> Aujourd'hui nous sommes donc allé au FABLAB pour finaliser la boite du lapin ( donc l'estrade et la boite lapin). Nous avons pensé à faire des trous dans l'estrade pour pouvoir mettre les hauts parleurs. Vous pouvez donc voir le résultat ci-dessous: </p>
     <img src= ../Ressources/boites_lapin.JPG></p>
-   <img src= ../Ressources/boite_lapin_faceJPG></p>
+   <img src= ../Ressources/boite_lapin_face.JPG></p>
  <br>
  <p> Nous avons également fini les jumulages des codes ( car il fallait changer les lettres que l'on envoie, bien tout réorganiser et surtout tout essayer pour voir si TOUS les cas fonctionnent. En effet tout fonctionne! J'ai donc de mon coté ajouté le servo moteur, une petite musique de fin lorsque le lapin apparait ( on vous garde la surprise ! ) et une led qui clignote à deux secondes d'intervalle des lorsqu'on rentre dans la boucle du bluetooth ( while blueT aivailable ) Je vous invite à aller voir le code final du lapin à l'adresse suivante : <a href ="https://github.com/lapin06/HT2018/blob/master/CODE/2-LAPIN.ino" >Lapin_CODE_final </a> </p>
  <br>
