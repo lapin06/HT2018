@@ -8,9 +8,12 @@ SoftwareSerial mySerial(RX,TX);
 #define Arduino_TX 11
 SoftwareSerial BlueT(Arduino_RX, Arduino_TX);
 
-const int led=4;
+#include<Servo.h>;
+Servo servo;
+const int led_rouge=2;
 char data="A";  
 static int8_t Send_buf[8] = {0};
+
 
 #define CMD_PLAY_WITHVOLUME 0X22
 #define CMD_SEL_DEV 0X09 //SELECT STORAGE DEVICE, DATA IS REQUIRED 
@@ -33,118 +36,125 @@ void sendCommand(int8_t command, int16_t dat) {
 } 
 void setup() {
 
+ servo.attach(2,544,2400);
+ 
+ pinMode(led_rouge,OUTPUT);
+ digitalWrite(led_rouge,HIGH);
+ 
  Serial.begin(9600);
+ mySerial.begin(9600);
+ delay(500); 
+ sendCommand(CMD_SEL_DEV, DEV_TF);//select the TF card   
+ delay(200);
+ 
+
  Serial.println("Bonjour, helo");
  BlueT.begin(38400);
- 
- pinMode(led, OUTPUT);
- digitalWrite(led,LOW);
- Serial.println("LOW");
- delay(900);
-
- digitalWrite(led,HIGH);
-
- Serial.begin(9600);
-  mySerial.begin(9600);
-  delay(500); 
-  sendCommand(CMD_SEL_DEV, DEV_TF);//select the TF card   
-  delay(200); 
 }
 
 void loop() {
 
 while(BlueT.available()){
-  Serial.print(char(BlueT.read()));
+data=BlueT.read();
+Serial.println(char(data));
+  if (data == 'P') {
+    Serial.print("P");
+    digitalWrite(led_rouge,LOW);
+    delay(2000);
+    digitalWrite(led_rouge,HIGH);
+    sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00102);    
   }
-while(Serial.available()){
-  BlueT.write(char(Serial.read()));
   
-  if (BlueT.read() == "PRET") {
-    digitalWrite(led,LOW);
-    delay(900);
-    digitalWrite(led,HIGH);
-    sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00102);
-    Serial.println("pret");   
-  }
-
-  
-  if (BlueT.read()=="ATTEND"){
+ if (data == 'A') {
+    Serial.print("A");
     sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00101);
-    Serial.println("Attend");
   }
 
-  if (BlueT.read()=="DEUX"){
+ if (data == '2') {
+    Serial.print("2");
     sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00103);
-    Serial.println("Deux");
   }
 
-  if (BlueT.read()=="DEJAR"){
+  if (data == 'z') {
+    Serial.print("z");
     sendCommand(CMD_PLAY_WITHVOLUME, 0X0F007);
-    Serial.println("dejaR");
   }
 
-  if (BlueT.read()=="DEJAB"){
+  if (data == 'y') {
+    Serial.println("y");
     sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00108);
-    Serial.println("dejaB");
     }
 
-  if (BlueT.read()=="DEJAV"){
+  if (data == 'w') {
+    Serial.println("w");
     sendCommand(CMD_PLAY_WITHVOLUME, 0X0F002);
-    Serial.println("dejaV");
   }
 
-  if (BlueT.read()=="DEJAJ"){
+  if (data == 'x') {
+    Serial.println("x");
     sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00109); 
-    Serial.println("dejaJ");
   }
 
 
-  if (BlueT.read()=="OKR"){
+ if (data == 'R') {
+    Serial.println("R");
     sendCommand(CMD_PLAY_WITHVOLUME, 0X0F005); 
-    Serial.println("r");
+    
   }
 
-  if (BlueT.read()=="OKV"){
+ if (data == 'V') {
+    Serial.println("V");
     sendCommand(CMD_PLAY_WITHVOLUME, 0X0F006); 
-    Serial.println("v");
+  
   }
 
-  if (BlueT.read()=="OKJ"){
+  if (data == 'J') {
+    Serial.println("J");
     sendCommand(CMD_PLAY_WITHVOLUME, 0X0F004); 
-    Serial.println("j");
+   
   }
 
-  if (BlueT.read()=="OKB"){
+  if (data == 'B') {
+    Serial.println("B");
     sendCommand(CMD_PLAY_WITHVOLUME, 0X0F003);
-    Serial.println("b");
+    
   }
 
   
-  if (BlueT.read()=="r"){
+ if (data == 'c') {
+    Serial.println("c");
     sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00106);
-    Serial.println("changerR");
+    
   }
 
-  if (BlueT.read()=="b"){
-    sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00104);
-    Serial.println("changerB");
+  if (data == 'h') {
+     Serial.println("h");
+     sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00104);
+   
   }
 
-  if (BlueT.read()=="v"){
+  if (data == 'a') {
+    Serial.println("a");
     sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00107);
-    Serial.println("changerV");
+    
   }
 
-  if (BlueT.read()=="j"){
-    sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00105); 
-    Serial.println("changerJ");
+  if (data == 'n') {
+   Serial.println("n");
+   sendCommand(CMD_PLAY_WITHFOLDER, 0X0F00105); 
+    
   }
 
-  if (BlueT.read()=="FIN"){
-    sendCommand(CMD_PLAY_WITHVOLUME, 0X0F001);
-    Serial.println("fin");
+  if (data == 'F') {
+    Serial.println("F");
+    sendCommand(CMD_PLAY_WITHVOLUME, 0X0F001);//play the first song with volume 15 class 
+    
+    servo.write(0);
+    delay(2000);
+    servo.write(180);
+    delay(2000);
+    
+    sendCommand(CMD_PLAY_WITHVOLUME, 0X0F008);
   }
-
- }
-
+}
 }
