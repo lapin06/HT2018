@@ -210,5 +210,9 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
 
   <li><ul><h3> A finir </h3></ul></li>
   
+  <img src=../Ressources/lap.jpg>
+  <img src=../Ressources/face.jpg>
+  <img src=../Ressources/dans.jpg>
+  <img src=../Ressources/soud.jpg>
   
  
