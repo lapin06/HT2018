@@ -184,7 +184,7 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
     <p> etc... Ainsi il est possible de prendre une petite batterie qui serait capable de rentrer dans notre boite a feutre comme prévu. Après recherche , j'ai finalement choisit les batteries suivante:
  
   <li> Boite a feutre: Il nous faut une petite batterie! une toute petite batterie!</li>
-  <img src: ../Ressources/batt.jpg>
+  <img src= ../Ressources/batt.jpg>
   <p>--------------------------------------------Batterie boite à feutre --------------------------------------------------------------------</p>
   <li> Boite à lapin:
   <img src=../Ressources/batterie2.jpg></li>
