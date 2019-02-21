@@ -29,6 +29,12 @@ Afin de mieux nous organiser, j'ai d2couper le travail à effectuer en plusieur 
   </li>
 
 
+
+
+
+
+
+
 <br>
 <br>
 <br>
@@ -160,22 +166,27 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   <p> ---------------------------------------------Préparation si besoin du tour original -------------------------------------------------</p>
   <p> J'insere donc un deuxieme bouton poussoir à la boite à feutre. En cas d'activation, le tour ne sera plus avec la peluche mais bien avec le telephone. Le code en lui même reste simple. Le plus dur à faire risque d'appareiller un deuxieme bluetooth esclave sur ce même maitre....A suivre</p>
   
+  
+  
+  
+  
+  
+  
   <br/>
   <br>
   </br>
   <h2> Séance 5 - 04/02/2019 - Independence des boites et preparation de la boite à lapin </h2>
+  
 <li><ul><h3>Recherche des batteries</h3></ul></li>
 <p> Pour rendre les deux boites independantes je me lance dans la recherches des batteries des deux boites. Les principales caracteristiques qui nous intéresses pour nos batteries sont la tension, l'ampérage. Aprés mesure a l'aide d'un Amperemètre et d'un Voltmètre je determine les caracteristiques de chacun des composants.</p>
    <li><ul> <li>Capteurs Boite:  3-5V --- 0,01A</li>
     <li>Bluetooth HC05:  3,5-5V --- 0,3A</li></ul>
     <p> etc... Ainsi il est possible de prendre une petite batterie qui serait capable de rentrer dans notre boite a feutre comme prévu. Après recherche , j'ai finalement choisit les batteries suivante:
-
-     
-      
  
   <li> Boite a feutre: Il nous faut une petite batterie! une toute petite batterie!
   https://www.ebay.fr/itm/PACK-2-PILE-BATTERIE-18650-RECHARGEABLE-LI-ION-3-7V-5200MAH-AVEC-CONNECTEUR-PCB-/283066320442?hash=item41e811463a     
-      https://www.ebay.fr/itm/PACK-2-PILE-BATTERIE-18650-RECHARGEABLE-LI-ION-7-4V-4500MAH-AVEC-CONNECTEUR-PCB-/273366948985?hash=item3fa5f09c79</li>
+  ou 
+  https://www.ebay.fr/itm/PACK-2-PILE-BATTERIE-18650-RECHARGEABLE-LI-ION-7-4V-4500MAH-AVEC-CONNECTEUR-PCB-/273366948985?hash=item3fa5f09c79</li>
   <p>--------------------------------------------Batterie boite à feutre --------------------------------------------------------------------</p>
   <li> Boite à lapin:
   <img src=../Ressources/batterie2.jpg></li>
@@ -185,10 +196,15 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
 <li><ul><h3>Preparation boite lapin</h3></ul></li>
 <p> Mon binome à reussi faire parler notre lapin! Ainsi elle peut completer mon code squelette que j'avais fait au préalable et nous allons pouvoir tester l'assemblage de nos deux travaux! Mais avant certaines finalisations je m'attaque la boite à Lapin. Après plusieurs version de boite, plusieurs semaine de reflexionns, plusieurs maquettes, nous avons enfin choisit notre model de boite à lapin! Les principaux critères pour le choix étaient; le disgn, les dimensions pour les transports, l'effet visuel de l'ouverture, l'originalité, la securité pour les poinds de bascule et evité la casse du servo moteur lors de l'ouvertur etc...Ainsi le model choisit est...</p>
 <img src=../Ressources/boitelapin.png>
+<p>------------------------------------------------------- Quelques idées -----------------------------------------------------------------</p>
 <p> Je suis donc reparti dans la modelisation d'une nouvelle boite, en effctuant les mêmes étapes que la première en plus complexe cette fois-ci avec l'ouverture a bascule de la boite .
   <img src=../Ressources/b3.PNG>
+  <p>------------------------------------------------ Modeliastion boite à encoches pour notre lapin ---------------------------------------</p>
 
-<li><ul><h3>Approfondissement de la partie Bonus</h3></ul></li>
+
+
+
+
 
 
 <br/>
@@ -197,22 +213,30 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
 
 <li><ul><h3> Interaction et communiaction des deux boites </h3></ul></li>
 <p>Suite à un problème de cable du module bluetooth HC06 nous mettons du temps à mettre en marche notre fabuleux tour. Suite a cela nous recontrons quelques autres petits problèmes techniques avant la mise en marche de la communication. Comme par exemple le message bluetooth à envoyer, les problèmes du au dispositif mp3, etc... Après avoir reglé tout ses problèmes et le travail approfondit de mon binome, nous arrivons a lancer le tour comme prévu. En effet, une fois apres avoir appuyé discretement derriere la boite a feutre la led s'active pour confimer l'allumage, la boite à lapin reçoit l'information. Et celle-ci commence a presenter notre le tour! <p>
-  <p> A présent il faut voir si la suite fonctionne bien. En effet si a chaque feutre tout se passe bien et si nous arrivons à enchener plusieur messages sans les intereferer. (A FAIRE JEUDI) </p>
+  <p> A présent il faut voir si la suite fonctionne bien. En effet si a chaque feutre tout se passe bien et si nous arrivons à enchener plusieur messages sans les intereferer.</p>
   
   <li><ul><h3> Les petites boites </h3></ul></li>
   <ul><h5>finition de la petite boite a feutre </h5></ul>
-  <p> Je me lance alors, dans le perfectionnement de la petite boite à feutre. Je reprend donc tout les cablage et les retaillent chaque cable de chaque composant pour les adapter à la boite.  Aussi bien pour les capteurs, bluetooth,  led... Je fais egalement des perçages dans la boite pour la LED et Le(s) bouton(s). PHOTO</p>
-  
-  <p> Pour la grande boite, nous nous lançons dans les collages du socle de la boite a lapin ou se trouvera la carte, le bluetooth et autres composants auditifs. PHOTO  </p>
-<p> Suite a un probleme technique nous somme contraint de refaire notre petite estrade de la boite: PHOTO </p>
-
-
-
-  <li><ul><h3> A finir </h3></ul></li>
-  
-  <img src=../Ressources/lap.jpg>
+  <p> Je me lance alors, dans le perfectionnement de la petite boite à feutre. Je reprend donc tout les cablage et les retaillent chaque cable de chaque composant pour les adapter à la boite.  Aussi bien pour les capteurs, bluetooth,  led... Je fais egalement des perçages dans la boite pour la LED et Le(s) bouton(s).</p>
   
   <img src=../Ressources/face.jpg>
+  <p> --------------------------------------------------- Faces de la boite à feutre ( exterieur et interieur ) ----------------------------</p>
+  
+  <p> Je décide de garder le bouton poussoir et le faire sortir un minimum par discrétion et de même pour la LED. En effet, même si ces deux seront derrière les boites nous ne sommes pad a l'abbrit d'un spectateur curieux...</p>
+  
+  
+  
+  <h2>Séance Bonus Vacances 1/3 - 14/02/2019 -  Premiere présentation du Tour et decoupe laser boite lapin </h2>
+  <li><ul><h3> Le casse - tête </h3></ul></li>
+  <p>Après deux après-midi au fab lab nous parvenons à decouper toute nos boites. Pour la grande boite, nous nous lançons dans les collages du socle de la boite a lapin ou se trouvera la carte, le bluetooth et autres composants auditifs. Suite à  un probleme technique nous somme contraint de refaire notre petite estrade de la boite. Mais finalement nous y arrivons. Une fois chez moi je me lance alors dans l'assemblage de cette boite. ET c'est alors que les problemes commencent ...</p>
+<img src=../Ressources/lap.jpg>
+<p>-------------------------------------------------------------Boite à lapin assemblé-----------------------------------------------------<p>
+<li><ul><h3> La premiere présentation, la victoire est encore loin... </h3></ul></li>
+  
+
+<h2>Séance Bonus Vacances 2/3 - 22/02/2019 - Quelques problèmes...</h2>
+  <li><ul><h3> probleme petite boite *2 </h3></ul></li>
+  
   
   <img src=../Ressources/dans.jpg>
   
