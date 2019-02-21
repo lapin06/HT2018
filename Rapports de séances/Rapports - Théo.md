@@ -193,10 +193,10 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
 
 <br/>
 
-<h2> Séance 5 - 11/02/19 - Communication et assemblage </h2>
+<h2> Séance 6 - 11/02/19 - Communication et assemblage </h2>
 
 <li><ul><h3> Interaction et communiaction des deux boites </h3></ul></li>
-<p>Suite à un problème de cable du module bluetooth HC06 nous mettons du temps à mettre en marche notre fabuleux tour en marche. Suite a cela nous recontrons quelques autres petits problèmes techniques avant la mise en marche de la communication. Comme par exemple le message bluetooth à envoyer, les problèmes du au dispositif mp3, etc... Après avoir reglé tout ses problèmes et le travail approfondit de mon binome, nous arrivons a lancer le tour comme prévu. En effet, une fois apres avoir appuyé discretement derriere la boite a feutre la led s'active pour confimer l'allumage, la boite à lapin reçoit l'information. Et celle-ci commence a presenter notre le tour! <p>
+<p>Suite à un problème de cable du module bluetooth HC06 nous mettons du temps à mettre en marche notre fabuleux tour. Suite a cela nous recontrons quelques autres petits problèmes techniques avant la mise en marche de la communication. Comme par exemple le message bluetooth à envoyer, les problèmes du au dispositif mp3, etc... Après avoir reglé tout ses problèmes et le travail approfondit de mon binome, nous arrivons a lancer le tour comme prévu. En effet, une fois apres avoir appuyé discretement derriere la boite a feutre la led s'active pour confimer l'allumage, la boite à lapin reçoit l'information. Et celle-ci commence a presenter notre le tour! <p>
   <p> A présent il faut voir si la suite fonctionne bien. En effet si a chaque feutre tout se passe bien et si nous arrivons à enchener plusieur messages sans les intereferer. (A FAIRE JEUDI) </p>
   
   <li><ul><h3> Les petites boites </h3></ul></li>
