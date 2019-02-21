@@ -183,10 +183,8 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
     <li>Bluetooth HC05:  3,5-5V --- 0,3A</li></ul>
     <p> etc... Ainsi il est possible de prendre une petite batterie qui serait capable de rentrer dans notre boite a feutre comme prévu. Après recherche , j'ai finalement choisit les batteries suivante:
  
-  <li> Boite a feutre: Il nous faut une petite batterie! une toute petite batterie!
-  https://www.ebay.fr/itm/PACK-2-PILE-BATTERIE-18650-RECHARGEABLE-LI-ION-3-7V-5200MAH-AVEC-CONNECTEUR-PCB-/283066320442?hash=item41e811463a     
-  ou 
-  https://www.ebay.fr/itm/PACK-2-PILE-BATTERIE-18650-RECHARGEABLE-LI-ION-7-4V-4500MAH-AVEC-CONNECTEUR-PCB-/273366948985?hash=item3fa5f09c79</li>
+  <li> Boite a feutre: Il nous faut une petite batterie! une toute petite batterie!</li>
+  <img src: ../Ressources/batt.jpg>
   <p>--------------------------------------------Batterie boite à feutre --------------------------------------------------------------------</p>
   <li> Boite à lapin:
   <img src=../Ressources/batterie2.jpg></li>
@@ -208,6 +206,7 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
 
 
 <br/>
+<br/>
 
 <h2> Séance 6 - 11/02/19 - Communication et assemblage </h2>
 
@@ -225,6 +224,15 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   <p> Je décide de garder le bouton poussoir et le faire sortir un minimum par discrétion et de même pour la LED. En effet, même si ces deux seront derrière les boites nous ne sommes pad a l'abbrit d'un spectateur curieux...</p>
   
   
+  
+  
+  
+  
+  
+  
+  
+  <br/>
+  <br/>
   
   <h2>Séance Bonus Vacances 1/3 - 14/02/2019 -  Premiere présentation du Tour et decoupe laser boite lapin </h2>
   <li><ul><h3> Le casse - tête </h3></ul></li>
