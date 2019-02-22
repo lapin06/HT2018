@@ -170,12 +170,13 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   
   
   
-  
+  <p>-------------------------------------------------------------------------------------------------------------------------</p>
+  <p>-------------------------------------------------------------------------------------------------------------------------</p>
   
   
   <br/>
-  <br>
-  </br>
+  <br/>
+ 
   <h2> Séance 5 - 04/02/2019 - Independence des boites et preparation de la boite à lapin </h2>
   
 <li><ul><h3>Recherche des batteries</h3></ul></li>
