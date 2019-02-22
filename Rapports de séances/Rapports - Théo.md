@@ -170,8 +170,8 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   
   
   <br/>
-  <p>---------------------------------------------------------------------------------------------------------------------------------</p>
-  <p>---------------------------------------------------------------------------------------------------------------------------------</p>
+  <p>--------------------------------------------------------------------------------------------------------------------------------------</p>
+  <p>--------------------------------------------------------------------------------------------------------------------------------------</p>
   
   
   
@@ -251,9 +251,14 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
 
 <h2>Séance Bonus Vacances 2/3 - 21/02/2019 - Quelques problèmes...</h2>
   <li><ul><h3> Les problemes de la petite boite </h3></ul></li>
-  <li><ul><h3> La lecture </h3></ul></li>
+  <li><ul><h4> La lecture </h4></ul></li>
+  <p> Je me rend très vite compte qu'il y a un problème avec notre boite à feutre et les capteurs, concernant la détection de feutres. En effet un simple mouvement de boite peut parfois entrainer la deterction ou non d'un feutre... Ainsi la detection devient trop aléatoire et donc trop dangereuse... Ainsi je décide de donner un petit coup de pouce au capteur en créant de rampes pour conduire directements les feutres dans un positionnement optimal pour leur détections. </p>
   <img src=../Ressources/dans.jpg>
-  <li><ul><h5> La compression </h5></ul></li>
-  <img src=../Ressources/soud.jpg>
-  
+ <p> --------------------------------------------------------------Rampe de détéection-------------------------------------------------------</p>
+ <p> Ainsi peut importe la manière dont le spectateur dispose le feutre celui-ci sera detecté grâce à cette rampe. Même s'il est vrai qu'a cause de cette rampe le placement des feutre dans la boite devient moins naturel moins desordoné, trop carré... Ceci donne un aire suspcet à la boite à feutre... Mais pour le moment nous n'avons pas d'autre choix... Car nous devons être sur de la detection sinon tout tombe à l'eau et le lapin ne saura plus quoi dire</p>
  
+  <li><ul><h4> La compression </h4></ul></li>
+  <p> Nous somme confronté à un problème majeur...Le manque de place. Nous le savons notre boiteà feutre est déjà volumineuse et pourtant tou ne semble pas rentrer dans la boite alors qu'il n'y a pas encore la batterie.  En effet la carte et la plaquettes sont a l'etroit...Sans oublié la grande quandtité de fils vu le nombre de composant. etc...
+  Ainsi je me lance dans la decoupe de file pour optimiser l'escape de stockage. dans un premier temps je m'occupe de fixer la led et le bouton poussoir et de souder ceci; </p>
+  <img src=../Ressources/soud.jpg>
+ <p>------------------------------------------Ma première prise en main d'un fer à souder !!!-----------------------------------------------</p>
