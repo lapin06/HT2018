@@ -1,4 +1,4 @@
-<h1><strong>     -----------------------   RAPPORT - THEO LEMAIRE   --------------------------- </strong>  </h1>
+<h1><strong>     ---------------------   RAPPORT - THEO LEMAIRE   --------------------- </strong>  </h1>
 
 
 <br/>
