@@ -261,4 +261,8 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   <p> Nous somme confronté à un problème majeur...Le manque de place. Nous le savons notre boiteà feutre est déjà volumineuse et pourtant tou ne semble pas rentrer dans la boite alors qu'il n'y a pas encore la batterie.  En effet la carte et la plaquettes sont a l'etroit...Sans oublié la grande quandtité de fils vu le nombre de composant. etc...
   Ainsi je me lance dans la decoupe de file pour optimiser l'escape de stockage. dans un premier temps je m'occupe de fixer la led et le bouton poussoir et de souder ceci; </p>
   <img src=../Ressources/soud.jpg>
- <p>------------------------------------------Ma première prise en main d'un fer à souder !!!-----------------------------------------------</p>
+ <p>----------------------------------------Ma première prise en main d'un fer à souder !!!--------------------------------------------</p>
+ <p> Et j'enchaine en decoupant, denudant et soudant de cables pour elminimer au maximum de quantité de cable mais pas trop car en effet il faut pouvoir garder une certaine accecibilité au composant. C'est pour ça que la tache devient diffcile...Pour l'instant je n'ai pas encore reussi a fermer la boite sans la tenir...A suivre</p>
+ 
+ <h2> Séance Bonus Vacances 3/3 - 22/02/2019 - Code et Décoration </h2>
+ <p> ...</p>
