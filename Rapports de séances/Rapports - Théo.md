@@ -1,6 +1,7 @@
-<h1><strong>     ------------------------   Rapport - Théo   ---------------------------- </strong>  </h1>
+<h1><strong>     -----------------------   RAPPORT - THEO LEMAIRE   --------------------------- </strong>  </h1>
 
 
+<br/>
 <h2> Séance 1 - 10/12/18 - Commencement du projet </h2>
 <li>   
   <ul><h3>Les préparatifs:</h3></ul>
