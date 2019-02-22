@@ -186,7 +186,7 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   <li> Boite a feutre: Il nous faut une petite batterie! une toute petite batterie!</li>
   <img src= ../Ressources/batt.jpg>
   <p>--------------------------------------------Batterie boite à feutre --------------------------------------------------------------------</p>
-  <li> Boite à lapin:
+  <li> Boite à lapin:5V suffiront et pour la place ne vous inquietez pas !
   <img src=../Ressources/batterie2.jpg></li>
   <p>----------------------------------------------Batterie Boite à Lapin-----------------------------------------------------------------</p>
    
@@ -235,19 +235,23 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   <br/>
   
   <h2>Séance Bonus Vacances 1/3 - 14/02/2019 -  Premiere présentation du Tour et decoupe laser boite lapin </h2>
+  
+  <li><ul><h3> La premiere présentation, la victoire est encore loin... </h3></ul></li>
+<p> Nous nous lançons pour notre première présentation du tour complet. Et c'est a ce moment la que l'on comprend que le travail est loin d'être fini. En effet, l'inteligence  que j'ai créé pour notre boite à feutre a quelques limites. Je n'arrive pas complètemment a realiser mes pensées. Je continu donc a chercher comment un spectateur peut choisir de reposer un feutre une fois choisit sans que tout le programme ne se détruise pas. En effet même dans la version classque le magicien ne propose pas au spectateur de savoir s'il veut changer de feutre nous non avant de colorier. Alord qu'ici, le fait de pouvoir proposer de changer de feutre serait vraiment un renfocement de l'effet. Je continue donc ma reflexion...</p>
+
   <li><ul><h3> Le casse - tête </h3></ul></li>
   <p>Après deux après-midi au fab lab nous parvenons à decouper toute nos boites. Pour la grande boite, nous nous lançons dans les collages du socle de la boite a lapin ou se trouvera la carte, le bluetooth et autres composants auditifs. Suite à  un probleme technique nous somme contraint de refaire notre petite estrade de la boite. Mais finalement nous y arrivons. Une fois chez moi je me lance alors dans l'assemblage de cette boite. ET c'est alors que les problemes commencent ...</p>
 <img src=../Ressources/lap.jpg>
 <p>-------------------------------------------------------------Boite à lapin assemblé-----------------------------------------------------<p>
-<li><ul><h3> La premiere présentation, la victoire est encore loin... </h3></ul></li>
+  <p> Hélas pour moi cet assemblage n'a pas été si simple. La fixation faite a l'aide des charnières entrainé une ouverture entre les deux boites du haut. Ceci alors que nous desiront qu'elles restent collé pour ne pas dévoiler le lapin... Pour combler ce defaut j'ai dont decoupé des encauches de la tailles des charnières pour compler cet espace. De plus suite a la très grande precisiton de la machine à decoupe il n'y a aucun jeu entre l'élévateur et la boite d'ouverture. Ainsi j'ai donc du poncer les parrois pour faciliter l'ouverture. On notera au passage que comme prévu, la boite s'ouvre parfaite sans ajout de poid sur les cotés. De plus l'ouverture est très rapide... Par peur de casse du bois ou du servo moteur, il est nécéssaire d'ajouter des bande de mousse pour amortir les parois pendant la chute. </p>
+
   
 
 <h2>Séance Bonus Vacances 2/3 - 22/02/2019 - Quelques problèmes...</h2>
-  <li><ul><h3> probleme petite boite *2 </h3></ul></li>
-  
-  
+  <li><ul><h3> Les problemes de la petite boite </h3></ul></li>
+  <li><ul><h3> La lecture </h3></ul></li>
   <img src=../Ressources/dans.jpg>
-  
+  <li><ul><h5> La compression </h5></ul></li>
   <img src=../Ressources/soud.jpg>
   
  
