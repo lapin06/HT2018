@@ -1,4 +1,4 @@
-
+<h1>      ---------------------------------------   Rapport - Théo   --------------------------------------   </h1>
 
 
 <h2> Séance 1 - 10/12/18 - Commencement du projet </h2>
@@ -247,7 +247,7 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
 
   
 
-<h2>Séance Bonus Vacances 2/3 - 22/02/2019 - Quelques problèmes...</h2>
+<h2>Séance Bonus Vacances 2/3 - 21/02/2019 - Quelques problèmes...</h2>
   <li><ul><h3> Les problemes de la petite boite </h3></ul></li>
   <li><ul><h3> La lecture </h3></ul></li>
   <img src=../Ressources/dans.jpg>
