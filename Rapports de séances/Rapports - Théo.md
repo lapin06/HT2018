@@ -265,4 +265,5 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
  <p> Et j'enchaine en decoupant, denudant et soudant de cables pour elminimer au maximum de quantité de cable mais pas trop car en effet il faut pouvoir garder une certaine accecibilité au composant. C'est pour ça que la tache devient diffcile...Pour l'instant je n'ai pas encore reussi a fermer la boite sans la tenir...A suivre</p>
  
  <h2> Séance Bonus Vacances 3/3 - 22/02/2019 - Code et Décoration </h2>
+ <img src=../Ressources/peind.jpg>
  <p> ...</p>
