@@ -254,7 +254,7 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   <li><ul><h4> La lecture </h4></ul></li>
   <p> Je me rend très vite compte qu'il y a un problème avec notre boite à feutre et les capteurs, concernant la détection de feutres. En effet un simple mouvement de boite peut parfois entrainer la deterction ou non d'un feutre... Ainsi la detection devient trop aléatoire et donc trop dangereuse... Ainsi je décide de donner un petit coup de pouce au capteur en créant de rampes pour conduire directements les feutres dans un positionnement optimal pour leur détections. </p>
   <img src=../Ressources/dans.jpg>
- <p> --------------------------------------------------------------Rampe de détéection-------------------------------------------------------</p>
+ <p> ------------------------------------------------------------Rampe de détéection-----------------------------------------------------</p>
  <p> Ainsi peut importe la manière dont le spectateur dispose le feutre celui-ci sera detecté grâce à cette rampe. Même s'il est vrai qu'a cause de cette rampe le placement des feutre dans la boite devient moins naturel moins desordoné, trop carré... Ceci donne un aire suspcet à la boite à feutre... Mais pour le moment nous n'avons pas d'autre choix... Car nous devons être sur de la detection sinon tout tombe à l'eau et le lapin ne saura plus quoi dire</p>
  
   <li><ul><h4> La compression </h4></ul></li>
@@ -265,5 +265,12 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
  <p> Et j'enchaine en decoupant, denudant et soudant de cables pour elminimer au maximum de quantité de cable mais pas trop car en effet il faut pouvoir garder une certaine accecibilité au composant. C'est pour ça que la tache devient diffcile...Pour l'instant je n'ai pas encore reussi a fermer la boite sans la tenir...A suivre</p>
  
  <h2> Séance Bonus Vacances 3/3 - 22/02/2019 - Code et Décoration </h2>
+ <li><ul><h3> Un peu de couleur!></h3></ul>
  <img src=../Ressources/peind.jpg>
+  <p>------------------------------------------------Un Premier jet de peinture--------------------------------------------------------</p>
+  
+  <p> En passant les details, apres quelques heures de peintures, de retouches, etc... Voici un premier resultat de l'avancement de la boite à lapin actuel. Nous avons eu l'idée de rajouter de un rideau de scene sur l'avant et ecrire "MAGIC" ou "MAGIC RABBIT" sur le socle et éventuellement incorporer des led pour le disgn. Ceci étant voir car le temps nous est compté. </p>
+  </li>
+  
+  
  <p> ...</p>
