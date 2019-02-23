@@ -245,7 +245,7 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   <p>Après deux après-midi au fab lab nous parvenons à decouper toute nos boites. Pour la grande boite, nous nous lançons dans les collages du socle de la boite a lapin ou se trouvera la carte, le bluetooth et autres composants auditifs. Suite à  un probleme technique nous somme contraint de refaire notre petite estrade de la boite. Mais finalement nous y arrivons. Une fois chez moi je me lance alors dans l'assemblage de cette boite. ET c'est alors que les problemes commencent ...</p>
 <img src=../Ressources/lap.jpg>
 <p>-------------------------------------------------------------Boite à lapin assemblé-----------------------------------------------------<p>
-  <p> Hélas pour moi cet assemblage n'a pas été si simple. La fixation faite à l'aide des charnières a  entrainé une ouverture (une fente) entre les deux boites du haut alors que nous desiront qu'elles restent collé pour ne pas dévoiler le lapin... Pour combler ce défaut j'ai dont decoupé des encauches de la tailles des charnières pour compler cet espace. De plus suite a la très grande precisiton de la machine à decoupe il n'y a aucun jeu entre l'élévateur et la boite d'ouverture. Ainsi j'ai donc du poncer les parrois pour faciliter l'ouverture. On notera au passage que comme prévu, la boite s'ouvre parfaite sans ajout de poid sur les cotés. De plus l'ouverture est très rapide... Par peur de casse du bois ou du servo moteur, il est nécéssaire d'ajouter des bande de mousse pour amortir les parois pendant la chute. </p>
+  <p> Hélas pour moi cet assemblage n'a pas été si simple. La fixation faite à l'aide des charnières a  entrainé une ouverture (une fente) entre les deux boites du haut alors que nous desiront qu'elles restent collé pour ne pas dévoiler le lapin... Pour combler ce défaut j'ai dont decoupé des encauches de la tailles des charnières pour compler cet espace. De plus suite a la très grande precisiton de la machine à decoupe il n'y a aucun jeu entre l'élévateur et la boite d'ouverture. Ainsi j'ai donc du poncer les parrois pour faciliter l'ouverture. On notera au passage que comme prévu, la boite s'ouvre parfaite sans ajout de poid sur les cotés. De plus l'ouverture est très rapide... Par peur de casse du bois ou du servo moteur, il est nécéssaire d'ajouter des bande de mousse pour amortir les parois pendant la chute. Enfin, par erreur de notre par les troues pour les enceintes sont trop petits 40mm au lieu de 46mm de diamètre, je décide donc de poncer les troues pour les agrandir </p>
 
   
  <br\>
@@ -271,13 +271,12 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
  
  
  <br\>
- <h2> Séance Bonus Vacances 3/3 - 22/02/2019 - Code et Décoration </h2>
+ <h2> Séance Bonus Vacances 3/3 - 23/02/2019 - Code et Décoration </h2>
  <li><ul><h3> Un peu de couleur!</h3></ul>
  <img src=../Ressources/peind.jpg>
   <p>------------------------------------------------Un Premier jet de peinture--------------------------------------------------------</p>
   
   <p> En passant les details, apres quelques heures de peintures, de retouches, etc... Voici un premier resultat de l'avancement de la boite à lapin actuel. Nous avons eu l'idée de rajouter de un rideau de scene sur l'avant et ecrire "MAGIC" ou "MAGIC RABBIT" sur le socle et éventuellement incorporer des led pour le disgn. Ceci étant voir car le temps nous est compté. </p>
   </li>
-  
-  
- <p> ...</p>
+  <li><ul><h3> Code boite a feutre V4 </h3><ul>
+ <p> J'ajoute à la version 3 les extraits manquant que nous avons constaté lors de notre première représentation. Les codes manquants étant la possibilitée de changer de feutre. IL ne reste plus qu'a tester ce lundi si tout marche comme prevu ou s'il est nécéssaire de continuer les recherches.</p>
