@@ -199,7 +199,7 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
 <p>------------------------------------------------------- Quelques idées -----------------------------------------------------------------</p>
 <p> Je suis donc reparti dans la modelisation d'une nouvelle boite, en effctuant les mêmes étapes que la première en plus complexe cette fois-ci avec l'ouverture a bascule de la boite .
   <img src=../Ressources/b3.PNG>
-  <p>------------------------------------------------ Modeliastion boite à encoches pour notre lapin ---------------------------------------</p>
+  <p>------------------------------------------- Modeliastion boite à encoches pour notre lapin ------------------------------------------</p>
 
 
 
@@ -221,7 +221,7 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   <p> Je me lance alors, dans le perfectionnement de la petite boite à feutre. Je reprend donc tout les cablage et les retaillent chaque cable de chaque composant pour les adapter à la boite.  Aussi bien pour les capteurs, bluetooth,  led... Je fais egalement des perçages dans la boite pour la LED et Le(s) bouton(s).</p>
   
   <img src=../Ressources/face.jpg>
-  <p> --------------------------------------------------- Faces de la boite à feutre ( exterieur et interieur ) ----------------------------</p>
+  <p> --------------------------------------------- Faces de la boite à feutre ( exterieur et interieur ) ----------------------------------</p>
   
   <p> Je décide de garder le bouton poussoir et le faire sortir un minimum par discrétion et de même pour la LED. En effet, même si ces deux seront derrière les boites nous ne sommes pad a l'abbrit d'un spectateur curieux...</p>
   
@@ -244,11 +244,11 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   <li><ul><h3> Le casse - tête </h3></ul></li>
   <p>Après deux après-midi au fab lab nous parvenons à decouper toute nos boites. Pour la grande boite, nous nous lançons dans les collages du socle de la boite a lapin ou se trouvera la carte, le bluetooth et autres composants auditifs. Suite à  un probleme technique nous somme contraint de refaire notre petite estrade de la boite. Mais finalement nous y arrivons. Une fois chez moi je me lance alors dans l'assemblage de cette boite. ET c'est alors que les problemes commencent ...</p>
 <img src=../Ressources/lap.jpg>
-<p>-------------------------------------------------------------Boite à lapin assemblé-----------------------------------------------------<p>
+<p>-------------------------------------------------------------Boite à lapin assemblée-----------------------------------------------------<p>
   <p> Hélas pour moi cet assemblage n'a pas été si simple. La fixation faite à l'aide des charnières a  entrainé une ouverture (une fente) entre les deux boites du haut alors que nous desiront qu'elles restent collé pour ne pas dévoiler le lapin... Pour combler ce défaut j'ai dont decoupé des encauches de la tailles des charnières pour compler cet espace. De plus suite a la très grande precisiton de la machine à decoupe il n'y a aucun jeu entre l'élévateur et la boite d'ouverture. Ainsi j'ai donc du poncer les parrois pour faciliter l'ouverture. On notera au passage que comme prévu, la boite s'ouvre parfaite sans ajout de poid sur les cotés. De plus l'ouverture est très rapide... Par peur de casse du bois ou du servo moteur, il est nécéssaire d'ajouter des bande de mousse pour amortir les parois pendant la chute. Enfin, par erreur de notre par les troues pour les enceintes sont trop petits 40mm au lieu de 46mm de diamètre, je décide donc de poncer les troues pour les agrandir </p>
 
   
- <br\>
+ </br>
 
 <h2>Séance Bonus Vacances 2/3 - 21/02/2019 - Quelques problèmes...</h2>
   <li><ul><h3> Les problemes de la petite boite </h3></ul></li>
@@ -270,7 +270,7 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
  
  
  
- <br\>
+ </br>
  <h2> Séance Bonus Vacances 3/3 - 23/02/2019 - Code et Décoration </h2>
  <li><ul><h3> Un peu de couleur!</h3></ul>
  <img src=../Ressources/peind.jpg>
