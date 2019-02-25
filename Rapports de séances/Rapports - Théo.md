@@ -278,11 +278,20 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   
   <p> En passant les details, apres quelques heures de peintures, de retouches, etc... Voici un premier resultat de l'avancement de la boite à lapin actuel. Nous avons eu l'idée de rajouter de un rideau de scene sur l'avant et ecrire "MAGIC" ou "MAGIC RABBIT" sur le socle et éventuellement incorporer des led pour le disgn. Ceci étant voir car le temps nous est compté. </p>
   </li>
-  <li><ul><h3> Code boite a feutre V4 </h3><ul>
+  <li><ul><h3> Code boite a feutre V4 </h3></ul>
  <p> J'ajoute à la version 3 les extraits manquant que nous avons constaté lors de notre première représentation. Les codes manquants étant la possibilitée de changer de feutre. IL ne reste plus qu'a tester ce lundi si tout marche comme prevu ou s'il est nécéssaire de continuer les recherches.</p>
   </li>
   
   </br>
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <h2> Séance 7 - 25/02/2019 - La réunion de nos travaux </h2>
   <li><ul><h3>Système d'ouverture de la boite a lapin </h3></ul>
     <p> Nous realisé l'attaque motorité de la boite du lapin permettant l'ouverture et la fermeture de la boite. En effet, à l'aide d'un servo moteur que nous fixons minutieusement à la parois interieur superieur de la boite. Auquel nous vissons, un tige metalique que l'on courbe, tel un crochet. De l'autre coté, sur deuxieme porte de la boite se trouve un ecrou qui servira de maintient lorsque le crochet sera aggripé dedans et une fois le servo activé, le corchet se lebère de la tigee et ainsi les deux potres de la boites sont libres ( et donc tombe sous l'effet de leurs poids). Voici une image plus comprénsible du mecanisme: [IMAGE A METTRE].
