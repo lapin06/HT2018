@@ -280,7 +280,7 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   </li>
   <li><ul><h3> Code boite a feutre V4 </h3><ul>
  <p> J'ajoute à la version 3 les extraits manquant que nous avons constaté lors de notre première représentation. Les codes manquants étant la possibilitée de changer de feutre. IL ne reste plus qu'a tester ce lundi si tout marche comme prevu ou s'il est nécéssaire de continuer les recherches.</p>
-  
+  </li>
   
   </br>
   <h2> Séance 7 - 25/02/2019 - La réunion de nos travaux </h2>
