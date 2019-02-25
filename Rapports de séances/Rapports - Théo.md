@@ -299,7 +299,7 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   </p>
   <p> Ainsi nous réalisons apres un quelques temps que le systeme n'est pas completement stable ( risque de bascule sur les cotés). Ainsi j'ai l'idée d'inserer de la mousse dans les fentes du bas pour stabiliser le tout mais egalement pour tenter de ralentir la chute de la boite qui semble etre très rapide et qui pourrait entrainer un risque de casse du servo moteur </p>
       
-  <li><ul><h3>Les problèmes de la boite à lapin </h3>
+  <li><ul><h3>Les problèmes de la boite à feutre </h3>
   <li><ul><h4> Poblème de place </h4></ul>
     <p>Comme dis précédement nous rencontrons des problèmes pour l'aménagement de notre boite a feutre, en effet, tout les composants ne rentrent pas. Ceci est lié a deux problemes, le premier, le fait que le cable d'alimentations + carte face une longeure trop grande pour notre boite. Deuxièmement, la taille de notre batterie. Pour parer ce premiers problème je pense donc utiliser ma carte micro (nano) pour gagner de la place en therme de longeur! Pour le deuxieme problemes des recherches sont en cours d'executions</p></li>
   <li><ul><h4> Un simple bouton poussoir</h4></ul>
