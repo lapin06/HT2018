@@ -182,7 +182,7 @@ sur la photo ci-dessous, à droite SANS ourlets à gauche AVEC:
   <br>
   Aujourd'hui j'ai travaillé sur la rotation du servomoteur pour qu'il se détache de la vis et laisse tomber la boite. Il faut cependant pouvoir le faire tourner quand on le veut pour avoir accès à la boite et aussi pour pouvoir refermer et ouvrir quand on le veut. J'ai donc repris le code bouton_led où on mémorise l'état du bouton qui fonctionne dèslors comme un interruteur normal. EN m'espirant du code que l'on avait donc déjà écris, j'ai codé en fonction du servomoteur, j'ai laissé la led pour pouvoir comparer et éviter de trop chercher d'ou proviennent les erreurs. j'ai eu un petit soucis pendant un moment , en effet, le servomoteur ne peut pas faire un angle de 800 degrès... Néanmoins j'ai corrigé cette erreur, et cela fonctionne donc. 
   <br>
-  Le code juste ici : < a href= "https://github.com/lapin06/HT2018/blob/master/CODE/Bouton_Servomoteur.ino">Bouton_servo_CODE</a>
+  Le code juste ici <a href ="https://github.com/lapin06/HT2018/blob/master/CODE/Bouton_Servomoteur.ino" >Bouton_Servo_CODE </a> 
   <br>
   Je vous invite à jeter un oeil à la vidéo en clickant sur le lien : <a href ="https://www.youtube.com/watch?v=Ne8aIHIhjrA">Servomoteur_bouton </a> </p>
   Je vous mets également en image les deux états du servomoteur et de la led: 
