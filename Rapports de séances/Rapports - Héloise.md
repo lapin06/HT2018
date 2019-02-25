@@ -168,3 +168,19 @@ sur la photo ci-dessous, à droite SANS ourlets à gauche AVEC:
   <li> Trouver des poids pour aider la boite à basculer </li>
   <li> reprendre certaine parties du code des capteurs </li>
  </ol>
+ <br>
+ <h1> Séance 7: 25/02/19 : boite lapin et servomoteur -</h1>
+ <li>
+ <ul><h3> Boite lapin </h3></ul>
+  <p> Notre boite pour le lapin est terminée. Nous ne pouvions pas réaliser les finitions de la boite ensemble cette semaien car mon binôme habite à Toulon! Nous avons donc décidé de le laisser terminer la boite ( meme si je devais le faire comme indiqué dans le planning ) cependant il m'était impossible de la transporter sur ma moto... Il a donc pu finir de tout coller, d'assembler, de fixer certaines parties et de la peindre. Cependant il lui manquait certain composant pour les bonnes mesures ( amplificateurs watt, servomoteur et enceintes ) j'ai donc du lui faire des dessins avec les bonnes mesures pour qu'il puisse avoir les bonnes dimensions de perçage comme je vous le monte ci-dessous: 
+   <br> 
+   Aujourd'hui nous avons fixé le cerveau moteur et fixé la vis dans la boite du lapin. J'ai vérifié si tous les composants fonctionnaient et j'ai réfléchis à un disposition dans la boite. Il reste donc à remplir la boite du lapin et tout fixer à l'intérieur.
+   Je dois également trouver de la mousse pour ralentir la chute des deux cotés de la boite car celle-ci pourrait l'endommager. </p>
+  <br>
+  <h3> Servomoteur </h3>
+  <p> Pendant les vacances je me suis chargée de trouver une vis qui rentre dans le cerveua moteur, une vis avec un pas de 3mm. Ces vis sont généralement utilisées dans les ordinateurs et il est très difficiles d'en trouver dans des magasins normaux de bricolage en prenant en compte que cette vis doit etre tordue pour faire office de crochet. Je susi donc allé à Briconaute espérant trouver quelque chose qui s'apparente à un crochet. Comme je l'avais pensé, je n'ai pas trouvé de telles vis. J'ai cependant trouvé une solution en voyant qu'ils avaient de longue tige de métal avec un pas de vis de 3mm. J'ai acheté cette tige pour la couper et ensuite la tordre pour faire un crochet. Cela fonctionne très bien ! <img src= ../Ressources/crochet.JPG><p>
+  <br>
+  Aujourd'hui j'ai travaillé sur la rotation du servomoteur pour qu'il se détache de la vis et laisse tomber la boite. Il faut cependant pouvoir le faire tourner quand on le veut pour avoir accès à la boite et aussi pour pouvoir refermer et ouvrir quand on le veut. J'ai donc repris le code bouton_led où on mémorise l'état du bouton qui fonctionne dèslors comme un interruteur normal. EN m'espirant du code que l'on avait donc déjà écris, j'ai codé en fonction du servomoteur, j'ai laissé la led pour pouvoir comparer et éviter de trop chercher d'ou proviennent les erreurs. j'ai eu un petit soucis pendant un moment , en effet, le servomoteur ne peut pas faire un angle de 800 degrès... Néanmoins j'ai corrigé cette erreur, et cela fonctionne donc. Je vous invite à jeter un oeil à la vidéo en clickant sur le lien : <a href ="https://www.youtube.com/watch?v=Ne8aIHIhjrA" >Servomoteur_bouton </a> </p>
+  Je vous mets également en image les deux états du servomoteur et de la led: 
+  <img src=../Ressources/led_servo1.JPG>
+  <img src= ../Ressources/led_servo2.JPG>
