@@ -301,8 +301,8 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
       
   <li><ul><h3>Les problèmes de la boite à lapin </h3>
   <li><ul><h4> Poblème de place </h4></ul>
-    <p></p></li>
+    <p>Comme dis précédement nous rencontrons des problèmes pour l'aménagement de notre boite a feutre, en effet, tout les composants ne rentrent pas. Ceci est lié a deux problemes, le premier, le fait que le cable d'alimentations + carte face une longeure trop grande pour notre boite. Deuxièmement, la taille de notre batterie. Pour parer ce premiers problème je pense donc utiliser ma carte micro (nano) pour gagner de la place en therme de longeur! Pour le deuxieme problemes des recherches sont en cours d'executions</p></li>
   <li><ul><h4> Un simple bouton poussoir</h4></ul>
-    <p></p></li>
+    <p>Durant cette séance nous sommes fortement ralentit par notre bouton poussoir defectueux. En effets, plusieur problème, dans un premier temps une erreur de cablage nous fait perdre du temps . Puis dans un second temps on se rend compte que le bouton ne marche toujours pas...Je suppose donc qu'en fixans le bouton pressoir un peu de cole à du endomager le fonctionnement rendant ainsi le bouton en état LOW perpetuelement...Je me lance alors dans de nombreux test</p></li>
   </ul></li>
       
