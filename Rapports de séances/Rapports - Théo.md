@@ -299,10 +299,10 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   </p>
   <p> Ainsi nous réalisons apres un quelques temps que le systeme n'est pas completement stable ( risque de bascule sur les cotés). Ainsi j'ai l'idée d'inserer de la mousse dans les fentes du bas pour stabiliser le tout mais egalement pour tenter de ralentir la chute de la boite qui semble etre très rapide et qui pourrait entrainer un risque de casse du servo moteur </p>
       
-  <li><ul><h3>Les problèmes de la boite à lapin </h3></ul>
+  <li><ul><h3>Les problèmes de la boite à lapin </h3>
   <li><ul><h4> Poblème de place </h4></ul>
     <p></p></li>
   <li><ul><h4> Un simple bouton poussoir</h4></ul>
     <p></p></li>
-  </li>
+  </ul></li>
       
