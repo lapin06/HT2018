@@ -25,8 +25,9 @@
    <p> Dans les ressources vous pouvez avoir acces aux différents images (ou autres) qui apparaitront dans les rapports de séances </p>
     
   <li><h4> CODE </h4>
-  <ul> <li> Boite a feutre </li></ul>
-  <ul><li> Boite a LAPIN </li></ul>
+  <ul> <li>1.Boite à feutre </li></ul>
+  <ul><li> 2.Boite à lapin </li></ul>
+    <ul><li> 3.Test composants </li></ul>
   </li>
   </ul>
   <br/>
