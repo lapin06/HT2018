@@ -1,7 +1,7 @@
 
 <h1>Color Rabbit Prediction - FAURE Héloise & LEMAIRE Théo</h1>
-<h1>------------------------------------------------------------------------</h1>
-  <\t><\t><\t><\t><\t><p>Le lapin mentaliste qui prédit vos choix---------------------------------------</p>
+
+<h4>-------------------------------------Le lapin mentaliste qui prédit vos choix---------------------------------------</h4>
   </p>
 
   <img src=Ressources/20-3.jpg>
