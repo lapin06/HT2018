@@ -294,7 +294,9 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   
   <h2> Séance 7 - 25/02/2019 - La réunion de nos travaux </h2>
   <li><ul><h3>Système d'ouverture de la boite a lapin </h3></ul>
-    <p> Nous realisé l'attaque motorité de la boite du lapin permettant l'ouverture et la fermeture de la boite. En effet, à l'aide d'un servo moteur que nous fixons minutieusement à la parois interieur superieur de la boite. Auquel nous vissons, un tige metalique que l'on courbe, tel un crochet. De l'autre coté, sur deuxieme porte de la boite se trouve un ecrou qui servira de maintient lorsque le crochet sera aggripé dedans et une fois le servo activé, le corchet se lebère de la tigee et ainsi les deux potres de la boites sont libres ( et donc tombe sous l'effet de leurs poids). Voici une image plus comprénsible du mecanisme: [IMAGE A METTRE].
+    <p> Nous realisé l'attaque motorité de la boite du lapin permettant l'ouverture et la fermeture de la boite. En effet, à l'aide d'un servo moteur que nous fixons minutieusement à la parois interieur superieur de la boite. Auquel nous vissons, un tige metalique que l'on courbe, tel un crochet. De l'autre coté, sur deuxieme porte de la boite se trouve un ecrou qui servira de maintient lorsque le crochet sera aggripé dedans et une fois le servo activé, le corchet se lebère de la tigee et ainsi les deux potres de la boites sont libres ( et donc tombe sous l'effet de leurs poids). Voici une image plus comprénsible du mecanisme: 
+      <img src=../Ressources/chute.jpg>
+      <p>----------------------------------------Mécanisme ouverture boite : servo et tige--------------------------------------------------</p>
       
   </p>
   <p> Ainsi nous réalisons apres un quelques temps que le systeme n'est pas completement stable ( risque de bascule sur les cotés). Ainsi j'ai l'idée d'inserer de la mousse dans les fentes du bas pour stabiliser le tout mais egalement pour tenter de ralentir la chute de la boite qui semble etre très rapide et qui pourrait entrainer un risque de casse du servo moteur </p>
@@ -305,4 +307,20 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
   <li><ul><h4> Un simple bouton poussoir</h4></ul>
     <p>Durant cette séance nous sommes fortement ralentit par notre bouton poussoir defectueux. En effets, plusieur problème, dans un premier temps une erreur de cablage nous fait perdre du temps . Puis dans un second temps on se rend compte que le bouton ne marche toujours pas...Je suppose donc qu'en fixans le bouton pressoir un peu de cole à du endomager le fonctionnement rendant ainsi le bouton en état LOW perpetuelement...Je me lance alors dans de nombreux test</p></li>
   </ul></li>
-      
+      </br>
+      <br>
+      </br>
+  <h2>Séance Bonus - 28/02/2019 - Calibrage du déroulement et Remplissage boite a lapin</h2>
+  <li><ul><h3> Calibrage de "prévisions" </h3></ul>
+   <p> Alors que tout semble commencer a bien prendre forme, tout semble se coordoner entre les deux boites. Je me lance alors dans le calibrage des citations du lapin en prenant en compte le temps de réaction et d'action du spectateur en cas de changement de feutre qui depend d'un delay (environ 5 second de possibilité pour changer le feutre selon le text annoncé). De plus j'évalue également temps a mettre entre la prise du marqueur et le declanchément de l'enregistrement; Trop court est trop suspet , trop long est trop ennuyant, il faut mettre du rythme! </p>
+     <img src=../Ressources/enceinte.jpg>
+          <p<De même pour le démarage ainsi que pour la fin. Je remarque alors que l'on ne peut pas lancer un enregistrement et en même temps faire tourner le servo car après de multiples tentative d'inversion des actions je me rend compte que l'action d'un entrain l'arret de l'autre...Il n'est donc pas possible de lancer une musique de fin puis de déclancher l'ouverture de la boite nous devons d'avoir ouvrire puis lancer succintement la musique.</p> 
+          </li>        
+  <li><ul><h3> Une chute à haut risque !</h3></ul>
+  <p> Nous nous rendons très vite compte que notre ouverture final se fait bien, même trop bien... En effet, le poid naturel au extrémité étant tellement important que lors de l'ouverture les portesz prennent trop de vitesse et risque donc de casser... Ainsi je me lance dans un système pour essayer de maitriser cette chute. Une solution simple serait de faire chutter les portes sur de la mousse ce qui ralentirait celle-ci. Cependant une importante quantité de mousse est nécessaire, personnellement la chute ici reste trop rapide... </p>
+  <img src=../Ressources/ral.jpg>
+  <p>--------------------------------------Test Ralentisseur et amortisseur V1 -----------------------------------------------------</p>
+  <p> Je pense alors a d'autre système, tel des ressort pour faire ralentir la chute...Mais actuelement irréalisable (manque de materiel). J'elabore aussi un petite système de poid pour compenter le poid des extrémité des portes. Ceci ayant pour objectif unique de ralentir la chute. La réflexion est en cours...<p/>
+  
+  
+  
