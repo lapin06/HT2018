@@ -1,8 +1,9 @@
 
+<p><h1>----------------------------------------------------</h1>
+<h1>Color Rabbit Prediction - FAURE Héloise & LEMAIRE Théo</h1>
 <h1>----------------------------------------------------</h1>
-# Color Rabbit Prediction - FAURE Héloise & LEMAIRE Théo
-<h1>----------------------------------------------------</h1>
-  <h3> -------------------------------Le lapin mentaliste qui prédit vos choix---------------------------------------------</h3>
+  <h4> -------------------------------Le lapin mentaliste qui prédit vos choix---------------------------------------</h4>
+  </p>
 
   <img src=Ressources/20-3.jpg>
 
