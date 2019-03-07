@@ -188,3 +188,7 @@ sur la photo ci-dessous, à droite SANS ourlets à gauche AVEC:
   Je vous mets également en image les deux états du servomoteur et de la led: 
   <img src=../Ressources/led_servo1.JPG>
   <img src= ../Ressources/led_servo2.JPG>
+  <br>
+<h1> Séance 8: 04/03/19 : finitions</h1>
+ <li>
+ Lors de cette séance nous avons fait les finitions de la boite du lapin, en fixant correctement le servomoteur, j'ai fais les soudures pour le bouton permettant d'orienter le servomoteur, ainsi que pour la led qui indique le bon démarrage du code. Nous cherchions toujours une solution pour retenir les deux parties de la boite quand elles tombent car elles tombent à une trop grande vitesse et donc cela risque de casser. Nous avons trouvé la solution de mettre des éponges ( pour la mousse ) au niveau des attaches mais cela ne ralentissait pas assez les parties. Lundi nous avons pensé à une autre solution : prendre deux petits rectangles en carton avec de la mousse dessus pour les mettre de chaque coté des parties pour qu'elles tombent dessus. Cela fonctionne assez bien. Nous sommes plutot satisfait. Jeudi nous essayerons et filmerons tout le tour en entier. 
