@@ -6,7 +6,7 @@
   
   <img src=Ressources/video.PNG>
 <p>-------------------------------------------------------Bande annonce ------------------------------------------------------------</p>
-<a href=https://www.youtube.com/watch?v=ydAG7nx7Lwk> ======================================>  LIEN VIDEO <=================================== </p> </a></p>
+<a href=https://www.youtube.com/watch?v=ydAG7nx7Lwk> ====================================>  LIEN VIDEO <================================== </p> </a></p>
 <h3>  1. Sommaire : </h3>
 <ul>
   <li><h4> Documents </h4>
