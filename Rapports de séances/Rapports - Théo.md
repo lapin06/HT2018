@@ -327,7 +327,8 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
 </br>
 <h2> Séance 8 - 04/03/2019 - L'achevement  </h2>
 <li><ul><h3> Mise en place du système de chute</h3></ul>
-  <p> Comme convenue nous allons donc utiliser de la mousse mais un peu differement cette fois-ci. En effet, nous avons fabriqué deux deux bloques de mousse pour receptionner les portes tombante. Ainsi nous conservons la chute rapide qui reste impressionnante pour le spectateur et nous assurons aussi la sécurité, pour ne pas casser le materiel. Vous pouvez donc voir-ci la mise en place du tour avec ses protections: [IMAGE A METTRE]</p>
+  <p> Comme convenue nous allons donc utiliser de la mousse mais un peu differement cette fois-ci. En effet, nous avons fabriqué deux deux bloques de mousse pour receptionner les portes tombante. Ainsi nous conservons la chute rapide qui reste impressionnante pour le spectateur et nous assurons aussi la sécurité, pour ne pas casser le materiel. Vous pouvez donc voir-ci la mise en place du tour avec ses protections: 
+    <img src=../Ressources/5.PNG></p>
   <p>-----------------------------------------------------Protection anti-casse-------------------------------------------------------------<p/>
     <p> Nous stabilisons également le servo plus solidement , en fixant les files le long de la boite pour les dissimuler un maximum. Et nous effectuons également nos derniers teste du servo qui s'avèrent positif!</p>
   </li>
@@ -335,6 +336,11 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
    Le code de la partie bonus semble marcher comme voulu. En effet si un spectateur choisit un feutre le magicien reçoit l'informmation sur son téléphone. En effet un led s'allume comme vu précédement. On imagine donc certain dispositif pour camoufller le telephone tel le mettre dans un boite en carton que le magicne aurait sur sa tete pour faire semblant de se cacher les yeux a la base. ET qui en réalité va l'aider a tout voir indirectement. Par manque de temps le bonus ne sera pas finit...Je laisse cependant mes traces de recherches à bon entendeur magicien. </p>
    </li>
    
-   <li><ul><h3> La batterie, le risque de l'echec</h3></ul>
+   <li><ul><h3> La batterie, le risque de l'echec</h3></ul> 
+  <p> <img src=../Ressources/3.PNG> </p>
   <p> Les fournissuers de batteries ne possedents pas de batterie comme desiré. c'est  dire d'une taille suffisament petite pour rentrer dans notre boite a feutre...Ainsi nous allons defoir faire avec ce que nous avons... Le principe de ce tour est de ne surtout pas que le spectateur pense qu'il y ai de l'electronique dans notre boite a feutre. Or ici la batterie tropgrande risque de nous faire échouer...Le rendu de notre projet étant proche nous n'avons donc pas enormement de possibilité. Je décide de construire une boite sous la boite a feutre ou nous dissimulerons la batterie. La seul solutions pour ne pas donner un aire suspect a cette boite est de lui donner un role dans le tour... Notre créativité est donc mise a rude épreuve... A suivre </p>
-  <p> [IMAGE BOITE POUR BATTERIE] </p>
+
+
+
+<img src=../Ressources/999.jpg>
+<img src=../Ressources/1.PNG>
