@@ -338,9 +338,8 @@ Vous pouvez voir ci-dessous la demonstration complete du fonctionnement de la bo
    
    <li><ul><h3> La batterie, le risque de l'echec</h3></ul> 
   <p> <img src=../Ressources/3.PNG> </p>
-  <p> Les fournissuers de batteries ne possedents pas de batterie comme desiré. c'est  dire d'une taille suffisament petite pour rentrer dans notre boite a feutre...Ainsi nous allons defoir faire avec ce que nous avons... Le principe de ce tour est de ne surtout pas que le spectateur pense qu'il y ai de l'electronique dans notre boite a feutre. Or ici la batterie tropgrande risque de nous faire échouer...Le rendu de notre projet étant proche nous n'avons donc pas enormement de possibilité. Je décide de construire une boite sous la boite a feutre ou nous dissimulerons la batterie. La seul solutions pour ne pas donner un aire suspect a cette boite est de lui donner un role dans le tour... Notre créativité est donc mise a rude épreuve... A suivre </p>
+  <p> Les fournissuers de batteries ne possedents pas de batterie comme desiré. c'est  dire d'une taille suffisament petite pour rentrer dans notre boite a feutre...Ainsi nous allons defoir faire avec ce que nous avons... Le principe de ce tour est de ne surtout pas que le spectateur pense qu'il y ai de l'electronique dans notre boite a feutre. Or ici la batterie tropgrande risque de nous faire échouer...Le rendu de notre projet étant proche nous n'avons donc pas enormement de possibilité. Je décide de construire une boite sous la boite a feutre ou nous dissimulerons la batterie. La seul solutions pour ne pas donner un aire suspect a cette boite est de lui donner un role dans le tour... Notre créativité est donc mise a rude épreuve. </p>
 
 
 
-<img src=../Ressources/999.jpg>
 <img src=../Ressources/01.PNG>
